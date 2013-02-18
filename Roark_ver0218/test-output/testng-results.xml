@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="102328" started-at="2013-02-18T09:43:23Z" finished-at="2013-02-18T09:45:06Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="102328" started-at="2013-02-18T09:43:23Z" finished-at="2013-02-18T09:45:06Z">
+      <class name="roark.drivers.CBT_ParallelDriver">
+        <test-method status="PASS" signature="suiteDriver(java.lang.String)[pri:0, instance:roark.drivers.CBT_ParallelDriver@961317]" name="suiteDriver" duration-ms="102243" started-at="2013-02-18T15:13:23Z" data-provider="datasets" finished-at="2013-02-18T15:15:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[FIREFOX]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- suiteDriver -->
+        <test-method status="PASS" signature="suiteDriver(java.lang.String)[pri:0, instance:roark.drivers.CBT_ParallelDriver@961317]" name="suiteDriver" duration-ms="102290" started-at="2013-02-18T15:13:23Z" data-provider="datasets" finished-at="2013-02-18T15:15:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[FIREFOX]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- suiteDriver -->
+      </class> <!-- roark.drivers.CBT_ParallelDriver -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
