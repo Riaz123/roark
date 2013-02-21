@@ -3,6 +3,7 @@ package roark.jelenium;
 import java.io.File;
 import java.util.HashMap;
 import java.util.LinkedHashMap;
+import java.util.LinkedList;
 import java.util.List;
 import java.util.Map;
 import java.util.concurrent.TimeUnit;
@@ -26,7 +27,7 @@ public class TestSuite {
 	private Map<String, List<Map<String, String>>> locatorSets= new LinkedHashMap<String, List<Map<String, String>>>();
 	private Map<String, List<Map<String, String>>> testdataSets =new LinkedHashMap<String, List<Map<String, String>>>();
 	private String execBrowserName;
-	private Map<String, Map<String, String>> runTimeData = new LinkedHashMap<String, Map<String, String>>(); ;
+	private Map<String, Map<String, String>> runTimeData = new LinkedHashMap<String, Map<String, String>>(); 
 	public enum browserType{
 		FIREFOX, GOOGLECHROME,  SAFARI, INTERNETEXPLORER;
 	}
@@ -406,6 +407,39 @@ public class TestSuite {
 		}
 		
 		return rtDatavalue;
+	}
+
+
+	/**
+	 * @return the appIDList
+	 */
+	public List<String> getAppIDList() {
+		LinkedList<String> appIDsList = new LinkedList<String>();
+		try{
+			Map<String, List<TestcaseStep>> ctestcaseQue = this.getTestcaseQue();
+			if(ctestcaseQue.keySet().size()>0){
+				for(String tcID : ctestcaseQue.keySet()){
+					try{
+						List<TestcaseStep> tcSteps = ctestcaseQue.get(tcID);
+						for(TestcaseStep tcStep :tcSteps){
+							String appID = tcStep.getApplicationID().trim();
+							if(appIDsList.contains(appID)==false){
+								appIDsList.add(appID);
+							}
+						}
+					}catch(Exception e){
+						logger.error("Exception in adding ApplicationIDs for the suite");
+					}
+				}
+				
+			}else{
+				logger.error("The testsuite has zero testcases in the que");
+			}
+			
+		}catch(Exception e){
+			logger.error("Exception in getting applicationIDs list for the testsuite object");
+		}
+		return appIDsList;
 	}
 	
 

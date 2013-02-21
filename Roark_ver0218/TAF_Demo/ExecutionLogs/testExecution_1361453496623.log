@@ -1,0 +1,1232 @@
+2013-02-21 19:01:36,634 0    [pool-1-thread-1] INFO  roark.utilities.data.EnvironmentVariables  - DONE :: setFolderSettings
+2013-02-21 19:01:36,637 3    [pool-1-thread-1] INFO  roark.utilities.data.ExcelUtilities  - testsuiteFilepath::C:\Users\Bharath07\Documents\GitHub\roark\Roark_ver0218\TAF_Demo\TestSuite\TestSuite.xls
+2013-02-21 19:01:36,637 3    [pool-1-thread-3] INFO  roark.utilities.data.ExcelUtilities  - testsuiteFilepath::C:\Users\Bharath07\Documents\GitHub\roark\Roark_ver0218\TAF_Demo\TestSuite\TestSuite.xls
+2013-02-21 19:01:36,637 3    [pool-1-thread-2] INFO  roark.utilities.data.ExcelUtilities  - testsuiteFilepath::C:\Users\Bharath07\Documents\GitHub\roark\Roark_ver0218\TAF_Demo\TestSuite\TestSuite.xls
+2013-02-21 19:01:36,780 146  [pool-1-thread-2] INFO  roark.utilities.data.ExcelUtilities  - TestSuiteInfo added ::[TCVTiger116]
+2013-02-21 19:01:36,782 148  [pool-1-thread-2] INFO  roark.utilities.data.ExcelUtilities  - createTestSuiteByTestcaseType is done
+2013-02-21 19:01:36,782 148  [pool-1-thread-1] INFO  roark.utilities.data.ExcelUtilities  - TestSuiteInfo added ::[TCVTiger111]
+2013-02-21 19:01:36,783 149  [pool-1-thread-2] INFO  roark.utilities.data.ExcelUtilities  - reading Testcase ::TCVTiger116
+2013-02-21 19:01:36,786 152  [pool-1-thread-1] INFO  roark.utilities.data.ExcelUtilities  - createTestSuiteByExecutionQue is done
+2013-02-21 19:01:36,786 152  [pool-1-thread-1] INFO  roark.utilities.data.ExcelUtilities  - reading Testcase ::TCVTiger111
+2013-02-21 19:01:36,794 160  [pool-1-thread-3] INFO  roark.utilities.data.ExcelUtilities  - TestSuiteInfo added ::[TCVTiger116]
+2013-02-21 19:01:36,795 161  [pool-1-thread-1] INFO  roark.utilities.data.ExcelUtilities  - TestcaseID ::TCVTiger111
+2013-02-21 19:01:36,801 167  [pool-1-thread-3] INFO  roark.utilities.data.ExcelUtilities  - createTestSuiteByTestcaseType is done
+2013-02-21 19:01:36,801 167  [pool-1-thread-3] INFO  roark.utilities.data.ExcelUtilities  - reading Testcase ::TCVTiger116
+2013-02-21 19:01:36,803 169  [pool-1-thread-1] INFO  roark.utilities.data.ExcelUtilities  - Keyword is ExecuteTestComponent @stepID:1  in Testcase, ID:TCVTiger111
+2013-02-21 19:01:36,803 169  [pool-1-thread-1] INFO  roark.utilities.data.ExcelUtilities  - TestComponentID::VTigerLogin
+2013-02-21 19:01:36,804 170  [pool-1-thread-2] INFO  roark.utilities.data.ExcelUtilities  - TestcaseID ::TCVTiger116
+2013-02-21 19:01:36,809 175  [pool-1-thread-2] INFO  roark.utilities.data.ExcelUtilities  - Keyword is ExecuteTestComponent @stepID:1  in Testcase, ID:TCVTiger116
+2013-02-21 19:01:36,809 175  [pool-1-thread-2] INFO  roark.utilities.data.ExcelUtilities  - TestComponentID::VTigerLogin
+2013-02-21 19:01:36,809 175  [pool-1-thread-3] INFO  roark.utilities.data.ExcelUtilities  - TestcaseID ::TCVTiger116
+2013-02-21 19:01:36,817 183  [pool-1-thread-3] INFO  roark.utilities.data.ExcelUtilities  - Keyword is ExecuteTestComponent @stepID:1  in Testcase, ID:TCVTiger116
+2013-02-21 19:01:36,817 183  [pool-1-thread-3] INFO  roark.utilities.data.ExcelUtilities  - TestComponentID::VTigerLogin
+2013-02-21 19:01:36,819 185  [pool-1-thread-1] INFO  roark.utilities.data.ExcelUtilities  - tcoKeyword::Launch
+2013-02-21 19:01:36,824 190  [pool-1-thread-1] INFO  roark.utilities.data.ExcelUtilities  - Added a new Testcase - 
+TCVTiger111
+2013-02-21 19:01:36,824 190  [pool-1-thread-1] INFO  roark.utilities.data.ExcelUtilities  - Added a new TestcaseStep 
+1.1
+2013-02-21 19:01:36,826 192  [pool-1-thread-1] INFO  roark.utilities.data.ExcelUtilities  - tcoKeyword::Enter
+2013-02-21 19:01:36,826 192  [pool-1-thread-3] INFO  roark.utilities.data.ExcelUtilities  - tcoKeyword::Launch
+2013-02-21 19:01:36,829 195  [pool-1-thread-1] INFO  roark.utilities.data.ExcelUtilities  - Updating the Testcase - 
+TCVTiger111
+2013-02-21 19:01:36,829 195  [pool-1-thread-1] INFO  roark.utilities.data.ExcelUtilities  - Added a new TestcaseStep 
+1.2
+2013-02-21 19:01:36,831 197  [pool-1-thread-1] INFO  roark.utilities.data.ExcelUtilities  - tcoKeyword::Enter
+2013-02-21 19:01:36,832 198  [pool-1-thread-1] INFO  roark.utilities.data.ExcelUtilities  - Updating the Testcase - 
+TCVTiger111
+2013-02-21 19:01:36,832 198  [pool-1-thread-1] INFO  roark.utilities.data.ExcelUtilities  - Added a new TestcaseStep 
+1.3
+2013-02-21 19:01:36,834 200  [pool-1-thread-1] INFO  roark.utilities.data.ExcelUtilities  - tcoKeyword::SelectByLabel
+2013-02-21 19:01:36,834 200  [pool-1-thread-3] INFO  roark.utilities.data.ExcelUtilities  - Added a new Testcase - 
+TCVTiger116
+2013-02-21 19:01:36,835 201  [pool-1-thread-3] INFO  roark.utilities.data.ExcelUtilities  - Added a new TestcaseStep 
+1.1
+2013-02-21 19:01:36,835 201  [pool-1-thread-2] INFO  roark.utilities.data.ExcelUtilities  - tcoKeyword::Launch
+2013-02-21 19:01:36,835 201  [pool-1-thread-1] INFO  roark.utilities.data.ExcelUtilities  - Updating the Testcase - 
+TCVTiger111
+2013-02-21 19:01:36,835 201  [pool-1-thread-3] INFO  roark.utilities.data.ExcelUtilities  - tcoKeyword::Enter
+2013-02-21 19:01:36,835 201  [pool-1-thread-1] INFO  roark.utilities.data.ExcelUtilities  - Added a new TestcaseStep 
+1.4
+2013-02-21 19:01:36,836 202  [pool-1-thread-1] INFO  roark.utilities.data.ExcelUtilities  - tcoKeyword::ClickAndWait
+2013-02-21 19:01:36,836 202  [pool-1-thread-3] INFO  roark.utilities.data.ExcelUtilities  - Updating the Testcase - 
+TCVTiger116
+2013-02-21 19:01:36,836 202  [pool-1-thread-3] INFO  roark.utilities.data.ExcelUtilities  - Added a new TestcaseStep 
+1.2
+2013-02-21 19:01:36,836 202  [pool-1-thread-1] INFO  roark.utilities.data.ExcelUtilities  - Updating the Testcase - 
+TCVTiger111
+2013-02-21 19:01:36,837 203  [pool-1-thread-1] INFO  roark.utilities.data.ExcelUtilities  - Added a new TestcaseStep 
+1.5
+2013-02-21 19:01:36,837 203  [pool-1-thread-1] INFO  roark.utilities.data.ExcelUtilities  - tcoKeyword::VerifyElementPresent
+2013-02-21 19:01:36,838 204  [pool-1-thread-2] INFO  roark.utilities.data.ExcelUtilities  - Added a new Testcase - 
+TCVTiger116
+2013-02-21 19:01:36,838 204  [pool-1-thread-2] INFO  roark.utilities.data.ExcelUtilities  - Added a new TestcaseStep 
+1.1
+2013-02-21 19:01:36,837 203  [pool-1-thread-3] INFO  roark.utilities.data.ExcelUtilities  - tcoKeyword::Enter
+2013-02-21 19:01:36,838 204  [pool-1-thread-2] INFO  roark.utilities.data.ExcelUtilities  - tcoKeyword::Enter
+2013-02-21 19:01:36,838 204  [pool-1-thread-1] INFO  roark.utilities.data.ExcelUtilities  - Updating the Testcase - 
+TCVTiger111
+2013-02-21 19:01:36,839 205  [pool-1-thread-2] INFO  roark.utilities.data.ExcelUtilities  - Updating the Testcase - 
+TCVTiger116
+2013-02-21 19:01:36,840 206  [pool-1-thread-2] INFO  roark.utilities.data.ExcelUtilities  - Added a new TestcaseStep 
+1.2
+2013-02-21 19:01:36,839 205  [pool-1-thread-3] INFO  roark.utilities.data.ExcelUtilities  - Updating the Testcase - 
+TCVTiger116
+2013-02-21 19:01:36,840 206  [pool-1-thread-3] INFO  roark.utilities.data.ExcelUtilities  - Added a new TestcaseStep 
+1.3
+2013-02-21 19:01:36,840 206  [pool-1-thread-2] INFO  roark.utilities.data.ExcelUtilities  - tcoKeyword::Enter
+2013-02-21 19:01:36,839 205  [pool-1-thread-1] INFO  roark.utilities.data.ExcelUtilities  - Added a new TestcaseStep 
+1.6
+2013-02-21 19:01:36,840 206  [pool-1-thread-3] INFO  roark.utilities.data.ExcelUtilities  - tcoKeyword::SelectByLabel
+2013-02-21 19:01:36,841 207  [pool-1-thread-2] INFO  roark.utilities.data.ExcelUtilities  - Updating the Testcase - 
+TCVTiger116
+2013-02-21 19:01:36,841 207  [pool-1-thread-2] INFO  roark.utilities.data.ExcelUtilities  - Added a new TestcaseStep 
+1.3
+2013-02-21 19:01:36,841 207  [pool-1-thread-3] INFO  roark.utilities.data.ExcelUtilities  - Updating the Testcase - 
+TCVTiger116
+2013-02-21 19:01:36,842 208  [pool-1-thread-3] INFO  roark.utilities.data.ExcelUtilities  - Added a new TestcaseStep 
+1.4
+2013-02-21 19:01:36,842 208  [pool-1-thread-2] INFO  roark.utilities.data.ExcelUtilities  - tcoKeyword::SelectByLabel
+2013-02-21 19:01:36,842 208  [pool-1-thread-3] INFO  roark.utilities.data.ExcelUtilities  - tcoKeyword::ClickAndWait
+2013-02-21 19:01:36,843 209  [pool-1-thread-1] INFO  roark.utilities.data.ExcelUtilities  - Keyword is ExecuteTestComponent @stepID:2  in Testcase, ID:TCVTiger111
+2013-02-21 19:01:36,843 209  [pool-1-thread-1] INFO  roark.utilities.data.ExcelUtilities  - TestComponentID::VTigerCreateProduct
+2013-02-21 19:01:36,843 209  [pool-1-thread-2] INFO  roark.utilities.data.ExcelUtilities  - Updating the Testcase - 
+TCVTiger116
+2013-02-21 19:01:36,844 210  [pool-1-thread-2] INFO  roark.utilities.data.ExcelUtilities  - Added a new TestcaseStep 
+1.4
+2013-02-21 19:01:36,843 209  [pool-1-thread-3] INFO  roark.utilities.data.ExcelUtilities  - Updating the Testcase - 
+TCVTiger116
+2013-02-21 19:01:36,844 210  [pool-1-thread-3] INFO  roark.utilities.data.ExcelUtilities  - Added a new TestcaseStep 
+1.5
+2013-02-21 19:01:36,844 210  [pool-1-thread-2] INFO  roark.utilities.data.ExcelUtilities  - tcoKeyword::ClickAndWait
+2013-02-21 19:01:36,845 211  [pool-1-thread-3] INFO  roark.utilities.data.ExcelUtilities  - tcoKeyword::VerifyElementPresent
+2013-02-21 19:01:36,848 214  [pool-1-thread-2] INFO  roark.utilities.data.ExcelUtilities  - Updating the Testcase - 
+TCVTiger116
+2013-02-21 19:01:36,848 214  [pool-1-thread-3] INFO  roark.utilities.data.ExcelUtilities  - Updating the Testcase - 
+TCVTiger116
+2013-02-21 19:01:36,848 214  [pool-1-thread-3] INFO  roark.utilities.data.ExcelUtilities  - Added a new TestcaseStep 
+1.6
+2013-02-21 19:01:36,848 214  [pool-1-thread-2] INFO  roark.utilities.data.ExcelUtilities  - Added a new TestcaseStep 
+1.5
+2013-02-21 19:01:36,849 215  [pool-1-thread-2] INFO  roark.utilities.data.ExcelUtilities  - tcoKeyword::VerifyElementPresent
+2013-02-21 19:01:36,850 216  [pool-1-thread-2] INFO  roark.utilities.data.ExcelUtilities  - Updating the Testcase - 
+TCVTiger116
+2013-02-21 19:01:36,850 216  [pool-1-thread-2] INFO  roark.utilities.data.ExcelUtilities  - Added a new TestcaseStep 
+1.6
+2013-02-21 19:01:36,852 218  [pool-1-thread-3] INFO  roark.utilities.data.ExcelUtilities  - Keyword is ExecuteTestComponent @stepID:2  in Testcase, ID:TCVTiger116
+2013-02-21 19:01:36,852 218  [pool-1-thread-3] INFO  roark.utilities.data.ExcelUtilities  - TestComponentID::VTigerCreatePriceBook
+2013-02-21 19:01:36,852 218  [pool-1-thread-1] INFO  roark.utilities.data.ExcelUtilities  - tcoKeyword::ClickAndWait
+2013-02-21 19:01:36,854 220  [pool-1-thread-2] INFO  roark.utilities.data.ExcelUtilities  - Keyword is ExecuteTestComponent @stepID:2  in Testcase, ID:TCVTiger116
+2013-02-21 19:01:36,854 220  [pool-1-thread-2] INFO  roark.utilities.data.ExcelUtilities  - TestComponentID::VTigerCreatePriceBook
+2013-02-21 19:01:36,857 223  [pool-1-thread-1] INFO  roark.utilities.data.ExcelUtilities  - Updating the Testcase - 
+TCVTiger111
+2013-02-21 19:01:36,857 223  [pool-1-thread-1] INFO  roark.utilities.data.ExcelUtilities  - Added a new TestcaseStep 
+2.1
+2013-02-21 19:01:36,857 223  [pool-1-thread-1] INFO  roark.utilities.data.ExcelUtilities  - tcoKeyword::ClickAndWait
+2013-02-21 19:01:36,858 224  [pool-1-thread-1] INFO  roark.utilities.data.ExcelUtilities  - Updating the Testcase - 
+TCVTiger111
+2013-02-21 19:01:36,858 224  [pool-1-thread-1] INFO  roark.utilities.data.ExcelUtilities  - Added a new TestcaseStep 
+2.2
+2013-02-21 19:01:36,858 224  [pool-1-thread-1] INFO  roark.utilities.data.ExcelUtilities  - tcoKeyword::ClickAndWait
+2013-02-21 19:01:36,860 226  [pool-1-thread-3] INFO  roark.utilities.data.ExcelUtilities  - tcoKeyword::ClickAndWait
+2013-02-21 19:01:36,860 226  [pool-1-thread-1] INFO  roark.utilities.data.ExcelUtilities  - Updating the Testcase - 
+TCVTiger111
+2013-02-21 19:01:36,860 226  [pool-1-thread-1] INFO  roark.utilities.data.ExcelUtilities  - Added a new TestcaseStep 
+2.3
+2013-02-21 19:01:36,861 227  [pool-1-thread-1] INFO  roark.utilities.data.ExcelUtilities  - tcoKeyword::Enter
+2013-02-21 19:01:36,864 230  [pool-1-thread-3] INFO  roark.utilities.data.ExcelUtilities  - Updating the Testcase - 
+TCVTiger116
+2013-02-21 19:01:36,864 230  [pool-1-thread-1] INFO  roark.utilities.data.ExcelUtilities  - Updating the Testcase - 
+TCVTiger111
+2013-02-21 19:01:36,864 230  [pool-1-thread-3] INFO  roark.utilities.data.ExcelUtilities  - Added a new TestcaseStep 
+2.1
+2013-02-21 19:01:36,864 230  [pool-1-thread-1] INFO  roark.utilities.data.ExcelUtilities  - Added a new TestcaseStep 
+2.4
+2013-02-21 19:01:36,865 231  [pool-1-thread-3] INFO  roark.utilities.data.ExcelUtilities  - tcoKeyword::ClickAndWait
+2013-02-21 19:01:36,865 231  [pool-1-thread-1] INFO  roark.utilities.data.ExcelUtilities  - tcoKeyword::Enter
+2013-02-21 19:01:36,865 231  [pool-1-thread-3] INFO  roark.utilities.data.ExcelUtilities  - Updating the Testcase - 
+TCVTiger116
+2013-02-21 19:01:36,866 232  [pool-1-thread-3] INFO  roark.utilities.data.ExcelUtilities  - Added a new TestcaseStep 
+2.2
+2013-02-21 19:01:36,867 233  [pool-1-thread-1] INFO  roark.utilities.data.ExcelUtilities  - Updating the Testcase - 
+TCVTiger111
+2013-02-21 19:01:36,867 233  [pool-1-thread-1] INFO  roark.utilities.data.ExcelUtilities  - Added a new TestcaseStep 
+2.5
+2013-02-21 19:01:36,867 233  [pool-1-thread-2] INFO  roark.utilities.data.ExcelUtilities  - tcoKeyword::ClickAndWait
+2013-02-21 19:01:36,867 233  [pool-1-thread-3] INFO  roark.utilities.data.ExcelUtilities  - tcoKeyword::VerifyElementPresent
+2013-02-21 19:01:36,867 233  [pool-1-thread-1] INFO  roark.utilities.data.ExcelUtilities  - tcoKeyword::ClickAndWait
+2013-02-21 19:01:36,868 234  [pool-1-thread-3] INFO  roark.utilities.data.ExcelUtilities  - Updating the Testcase - 
+TCVTiger116
+2013-02-21 19:01:36,868 234  [pool-1-thread-3] INFO  roark.utilities.data.ExcelUtilities  - Added a new TestcaseStep 
+2.3
+2013-02-21 19:01:36,869 235  [pool-1-thread-3] INFO  roark.utilities.data.ExcelUtilities  - tcoKeyword::ClickAndWait
+2013-02-21 19:01:36,869 235  [pool-1-thread-1] INFO  roark.utilities.data.ExcelUtilities  - Updating the Testcase - 
+TCVTiger111
+2013-02-21 19:01:36,869 235  [pool-1-thread-3] INFO  roark.utilities.data.ExcelUtilities  - Updating the Testcase - 
+TCVTiger116
+2013-02-21 19:01:36,870 236  [pool-1-thread-3] INFO  roark.utilities.data.ExcelUtilities  - Added a new TestcaseStep 
+2.4
+2013-02-21 19:01:36,869 235  [pool-1-thread-2] INFO  roark.utilities.data.ExcelUtilities  - Updating the Testcase - 
+TCVTiger116
+2013-02-21 19:01:36,870 236  [pool-1-thread-3] INFO  roark.utilities.data.ExcelUtilities  - tcoKeyword::Enter
+2013-02-21 19:01:36,870 236  [pool-1-thread-1] INFO  roark.utilities.data.ExcelUtilities  - Added a new TestcaseStep 
+2.9
+2013-02-21 19:01:36,870 236  [pool-1-thread-2] INFO  roark.utilities.data.ExcelUtilities  - Added a new TestcaseStep 
+2.1
+2013-02-21 19:01:36,871 237  [pool-1-thread-1] INFO  roark.utilities.data.ExcelUtilities  - tcoKeyword::VerifyText
+2013-02-21 19:01:36,871 237  [pool-1-thread-3] INFO  roark.utilities.data.ExcelUtilities  - Updating the Testcase - 
+TCVTiger116
+2013-02-21 19:01:36,871 237  [pool-1-thread-3] INFO  roark.utilities.data.ExcelUtilities  - Added a new TestcaseStep 
+2.5
+2013-02-21 19:01:36,871 237  [pool-1-thread-2] INFO  roark.utilities.data.ExcelUtilities  - tcoKeyword::ClickAndWait
+2013-02-21 19:01:36,872 238  [pool-1-thread-3] INFO  roark.utilities.data.ExcelUtilities  - tcoKeyword::SelectByLabel
+2013-02-21 19:01:36,872 238  [pool-1-thread-1] INFO  roark.utilities.data.ExcelUtilities  - Updating the Testcase - 
+TCVTiger111
+2013-02-21 19:01:36,872 238  [pool-1-thread-1] INFO  roark.utilities.data.ExcelUtilities  - Added a new TestcaseStep 
+2.10
+2013-02-21 19:01:36,872 238  [pool-1-thread-2] INFO  roark.utilities.data.ExcelUtilities  - Updating the Testcase - 
+TCVTiger116
+2013-02-21 19:01:36,873 239  [pool-1-thread-3] INFO  roark.utilities.data.ExcelUtilities  - Updating the Testcase - 
+TCVTiger116
+2013-02-21 19:01:36,872 238  [pool-1-thread-1] INFO  roark.utilities.data.ExcelUtilities  - tcoKeyword::StoreText
+2013-02-21 19:01:36,873 239  [pool-1-thread-3] INFO  roark.utilities.data.ExcelUtilities  - Added a new TestcaseStep 
+2.6
+2013-02-21 19:01:36,873 239  [pool-1-thread-2] INFO  roark.utilities.data.ExcelUtilities  - Added a new TestcaseStep 
+2.2
+2013-02-21 19:01:36,873 239  [pool-1-thread-3] INFO  roark.utilities.data.ExcelUtilities  - tcoKeyword::ClickAndWait
+2013-02-21 19:01:36,874 240  [pool-1-thread-1] INFO  roark.utilities.data.ExcelUtilities  - Updating the Testcase - 
+TCVTiger111
+2013-02-21 19:01:36,874 240  [pool-1-thread-1] INFO  roark.utilities.data.ExcelUtilities  - Added a new TestcaseStep 
+2.11
+2013-02-21 19:01:36,873 239  [pool-1-thread-2] INFO  roark.utilities.data.ExcelUtilities  - tcoKeyword::VerifyElementPresent
+2013-02-21 19:01:36,874 240  [pool-1-thread-1] INFO  roark.utilities.data.ExcelUtilities  - tcoKeyword::ClickAndWait
+2013-02-21 19:01:36,874 240  [pool-1-thread-3] INFO  roark.utilities.data.ExcelUtilities  - Updating the Testcase - 
+TCVTiger116
+2013-02-21 19:01:36,875 241  [pool-1-thread-3] INFO  roark.utilities.data.ExcelUtilities  - Added a new TestcaseStep 
+2.7
+2013-02-21 19:01:36,875 241  [pool-1-thread-2] INFO  roark.utilities.data.ExcelUtilities  - Updating the Testcase - 
+TCVTiger116
+2013-02-21 19:01:36,875 241  [pool-1-thread-2] INFO  roark.utilities.data.ExcelUtilities  - Added a new TestcaseStep 
+2.3
+2013-02-21 19:01:36,875 241  [pool-1-thread-2] INFO  roark.utilities.data.ExcelUtilities  - tcoKeyword::ClickAndWait
+2013-02-21 19:01:36,875 241  [pool-1-thread-1] INFO  roark.utilities.data.ExcelUtilities  - Updating the Testcase - 
+TCVTiger111
+2013-02-21 19:01:36,876 242  [pool-1-thread-1] INFO  roark.utilities.data.ExcelUtilities  - Added a new TestcaseStep 
+2.12
+2013-02-21 19:01:36,876 242  [pool-1-thread-1] INFO  roark.utilities.data.ExcelUtilities  - tcoKeyword::Enter
+2013-02-21 19:01:36,876 242  [pool-1-thread-2] INFO  roark.utilities.data.ExcelUtilities  - Updating the Testcase - 
+TCVTiger116
+2013-02-21 19:01:36,886 252  [pool-1-thread-2] INFO  roark.utilities.data.ExcelUtilities  - Added a new TestcaseStep 
+2.4
+2013-02-21 19:01:36,886 252  [pool-1-thread-1] INFO  roark.utilities.data.ExcelUtilities  - Updating the Testcase - 
+TCVTiger111
+2013-02-21 19:01:36,886 252  [pool-1-thread-3] INFO  roark.utilities.data.ExcelUtilities  - Keyword is ExecuteTestComponent @stepID:3  in Testcase, ID:TCVTiger116
+2013-02-21 19:01:36,886 252  [pool-1-thread-1] INFO  roark.utilities.data.ExcelUtilities  - Added a new TestcaseStep 
+2.13
+2013-02-21 19:01:36,886 252  [pool-1-thread-2] INFO  roark.utilities.data.ExcelUtilities  - tcoKeyword::Enter
+2013-02-21 19:01:36,887 253  [pool-1-thread-1] INFO  roark.utilities.data.ExcelUtilities  - tcoKeyword::SelectByLabel
+2013-02-21 19:01:36,887 253  [pool-1-thread-3] INFO  roark.utilities.data.ExcelUtilities  - TestComponentID::VTigerLogout
+2013-02-21 19:01:36,888 254  [pool-1-thread-2] INFO  roark.utilities.data.ExcelUtilities  - Updating the Testcase - 
+TCVTiger116
+2013-02-21 19:01:36,888 254  [pool-1-thread-1] INFO  roark.utilities.data.ExcelUtilities  - Updating the Testcase - 
+TCVTiger111
+2013-02-21 19:01:36,889 255  [pool-1-thread-1] INFO  roark.utilities.data.ExcelUtilities  - Added a new TestcaseStep 
+2.14
+2013-02-21 19:01:36,890 256  [pool-1-thread-1] INFO  roark.utilities.data.ExcelUtilities  - tcoKeyword::Click
+2013-02-21 19:01:36,889 255  [pool-1-thread-2] INFO  roark.utilities.data.ExcelUtilities  - Added a new TestcaseStep 
+2.5
+2013-02-21 19:01:36,893 259  [pool-1-thread-2] INFO  roark.utilities.data.ExcelUtilities  - tcoKeyword::SelectByLabel
+2013-02-21 19:01:36,893 259  [pool-1-thread-2] INFO  roark.utilities.data.ExcelUtilities  - Updating the Testcase - 
+TCVTiger116
+2013-02-21 19:01:36,894 260  [pool-1-thread-2] INFO  roark.utilities.data.ExcelUtilities  - Added a new TestcaseStep 
+2.6
+2013-02-21 19:01:36,894 260  [pool-1-thread-2] INFO  roark.utilities.data.ExcelUtilities  - tcoKeyword::ClickAndWait
+2013-02-21 19:01:36,895 261  [pool-1-thread-2] INFO  roark.utilities.data.ExcelUtilities  - Updating the Testcase - 
+TCVTiger116
+2013-02-21 19:01:36,895 261  [pool-1-thread-2] INFO  roark.utilities.data.ExcelUtilities  - Added a new TestcaseStep 
+2.7
+2013-02-21 19:01:36,893 259  [pool-1-thread-1] INFO  roark.utilities.data.ExcelUtilities  - Updating the Testcase - 
+TCVTiger111
+2013-02-21 19:01:36,897 263  [pool-1-thread-1] INFO  roark.utilities.data.ExcelUtilities  - Added a new TestcaseStep 
+2.15
+2013-02-21 19:01:36,899 265  [pool-1-thread-1] INFO  roark.utilities.data.ExcelUtilities  - tcoKeyword::VerifyTextContains
+2013-02-21 19:01:36,899 265  [pool-1-thread-3] INFO  roark.utilities.data.ExcelUtilities  - tcoKeyword::ClickAndWait
+2013-02-21 19:01:36,899 265  [pool-1-thread-1] INFO  roark.utilities.data.ExcelUtilities  - Updating the Testcase - 
+TCVTiger111
+2013-02-21 19:01:36,899 265  [pool-1-thread-1] INFO  roark.utilities.data.ExcelUtilities  - Added a new TestcaseStep 
+2.16
+2013-02-21 19:01:36,900 266  [pool-1-thread-2] INFO  roark.utilities.data.ExcelUtilities  - Keyword is ExecuteTestComponent @stepID:3  in Testcase, ID:TCVTiger116
+2013-02-21 19:01:36,900 266  [pool-1-thread-2] INFO  roark.utilities.data.ExcelUtilities  - TestComponentID::VTigerLogout
+2013-02-21 19:01:36,901 267  [pool-1-thread-3] INFO  roark.utilities.data.ExcelUtilities  - Updating the Testcase - 
+TCVTiger116
+2013-02-21 19:01:36,901 267  [pool-1-thread-3] INFO  roark.utilities.data.ExcelUtilities  - Added a new TestcaseStep 
+3.1
+2013-02-21 19:01:36,901 267  [pool-1-thread-1] INFO  roark.utilities.data.ExcelUtilities  - Keyword is ExecuteTestComponent @stepID:3  in Testcase, ID:TCVTiger111
+2013-02-21 19:01:36,901 267  [pool-1-thread-3] INFO  roark.utilities.data.ExcelUtilities  - tcoKeyword::VerifyElementPresent
+2013-02-21 19:01:36,902 268  [pool-1-thread-1] INFO  roark.utilities.data.ExcelUtilities  - TestComponentID::VTigerLogout
+2013-02-21 19:01:36,902 268  [pool-1-thread-3] INFO  roark.utilities.data.ExcelUtilities  - Updating the Testcase - 
+TCVTiger116
+2013-02-21 19:01:36,903 269  [pool-1-thread-3] INFO  roark.utilities.data.ExcelUtilities  - Added a new TestcaseStep 
+3.2
+2013-02-21 19:01:36,908 274  [pool-1-thread-2] INFO  roark.utilities.data.ExcelUtilities  - tcoKeyword::ClickAndWait
+2013-02-21 19:01:36,915 281  [pool-1-thread-2] INFO  roark.utilities.data.ExcelUtilities  - Updating the Testcase - 
+TCVTiger116
+2013-02-21 19:01:36,915 281  [pool-1-thread-2] INFO  roark.utilities.data.ExcelUtilities  - Added a new TestcaseStep 
+3.1
+2013-02-21 19:01:36,916 282  [pool-1-thread-2] INFO  roark.utilities.data.ExcelUtilities  - tcoKeyword::VerifyElementPresent
+2013-02-21 19:01:36,917 283  [pool-1-thread-3] INFO  roark.utilities.data.ExcelUtilities  - reading Testdata- adding testdata records to a new test case:TCVTiger116
+2013-02-21 19:01:36,917 283  [pool-1-thread-2] INFO  roark.utilities.data.ExcelUtilities  - Updating the Testcase - 
+TCVTiger116
+2013-02-21 19:01:36,918 284  [pool-1-thread-2] INFO  roark.utilities.data.ExcelUtilities  - Added a new TestcaseStep 
+3.2
+2013-02-21 19:01:36,919 285  [pool-1-thread-3] INFO  roark.utilities.data.ExcelUtilities  - Added testdata set - 
+{TestdataName=TDPriceBookName, TestcaseID=TCVTiger116, TestdataValue=RateCard}
+2013-02-21 19:01:36,919 285  [pool-1-thread-3] INFO  roark.utilities.data.ExcelUtilities  - reading Testdata - Updating test data records to an existing test case:TCVTiger116
+2013-02-21 19:01:36,919 285  [pool-1-thread-3] INFO  roark.utilities.data.ExcelUtilities  - Added testdata set - 
+{TestdataName=TDCurrencyListBox, TestcaseID=TCVTiger116, TestdataValue=USA, Dollars}
+2013-02-21 19:01:36,920 286  [pool-1-thread-3] INFO  roark.utilities.data.ExcelUtilities  - reading Testdata - Updating test data records to an existing test case:TCVTiger116
+2013-02-21 19:01:36,928 294  [pool-1-thread-3] INFO  roark.utilities.data.ExcelUtilities  - Added testdata set - 
+{TestdataName=TDColorThemeList, TestcaseID=TCVTiger116, TestdataValue=alphagrey}
+2013-02-21 19:01:36,931 297  [pool-1-thread-3] INFO  roark.jelenium.TestSuite  - DONE :: setTestdataSets
+2013-02-21 19:01:36,931 297  [pool-1-thread-3] INFO  roark.jelenium.TestSuite  - UpdateTestdata value - 
+ TestcaseID:TCVTiger116 , StepID:1.1
+2013-02-21 19:01:36,932 298  [pool-1-thread-3] INFO  roark.jelenium.TestSuite  - TestdataName::ApplicationURL , TestdataType::EnvironmentVariable
+2013-02-21 19:01:36,932 298  [pool-1-thread-3] INFO  roark.jelenium.TestSuite  - tdType is ENVIRONMENTVARIABLE @step#1.1 in TestcaseID#TCVTiger116
+2013-02-21 19:01:36,934 300  [pool-1-thread-1] INFO  roark.utilities.data.ExcelUtilities  - tcoKeyword::ClickAndWait
+2013-02-21 19:01:36,939 305  [pool-1-thread-1] INFO  roark.utilities.data.ExcelUtilities  - Updating the Testcase - 
+TCVTiger111
+2013-02-21 19:01:36,940 306  [pool-1-thread-1] INFO  roark.utilities.data.ExcelUtilities  - Added a new TestcaseStep 
+3.1
+2013-02-21 19:01:36,940 306  [pool-1-thread-1] INFO  roark.utilities.data.ExcelUtilities  - tcoKeyword::VerifyElementPresent
+2013-02-21 19:01:36,941 307  [pool-1-thread-2] INFO  roark.utilities.data.ExcelUtilities  - reading Testdata- adding testdata records to a new test case:TCVTiger116
+2013-02-21 19:01:36,942 308  [pool-1-thread-1] INFO  roark.utilities.data.ExcelUtilities  - Updating the Testcase - 
+TCVTiger111
+2013-02-21 19:01:36,942 308  [pool-1-thread-1] INFO  roark.utilities.data.ExcelUtilities  - Added a new TestcaseStep 
+3.2
+2013-02-21 19:01:36,943 309  [pool-1-thread-2] INFO  roark.utilities.data.ExcelUtilities  - Added testdata set - 
+{TestdataName=TDPriceBookName, TestcaseID=TCVTiger116, TestdataValue=RateCard}
+2013-02-21 19:01:36,945 311  [pool-1-thread-2] INFO  roark.utilities.data.ExcelUtilities  - reading Testdata - Updating test data records to an existing test case:TCVTiger116
+2013-02-21 19:01:36,945 311  [pool-1-thread-2] INFO  roark.utilities.data.ExcelUtilities  - Added testdata set - 
+{TestdataName=TDCurrencyListBox, TestcaseID=TCVTiger116, TestdataValue=USA, Dollars}
+2013-02-21 19:01:36,947 313  [pool-1-thread-2] INFO  roark.utilities.data.ExcelUtilities  - reading Testdata - Updating test data records to an existing test case:TCVTiger116
+2013-02-21 19:01:36,957 323  [pool-1-thread-2] INFO  roark.utilities.data.ExcelUtilities  - Added testdata set - 
+{TestdataName=TDColorThemeList, TestcaseID=TCVTiger116, TestdataValue=alphagrey}
+2013-02-21 19:01:36,960 326  [pool-1-thread-2] INFO  roark.jelenium.TestSuite  - DONE :: setTestdataSets
+2013-02-21 19:01:36,961 327  [pool-1-thread-2] INFO  roark.jelenium.TestSuite  - UpdateTestdata value - 
+ TestcaseID:TCVTiger116 , StepID:1.1
+2013-02-21 19:01:36,961 327  [pool-1-thread-2] INFO  roark.jelenium.TestSuite  - TestdataName::ApplicationURL , TestdataType::EnvironmentVariable
+2013-02-21 19:01:36,961 327  [pool-1-thread-2] INFO  roark.jelenium.TestSuite  - tdType is ENVIRONMENTVARIABLE @step#1.1 in TestcaseID#TCVTiger116
+2013-02-21 19:01:36,976 342  [pool-1-thread-1] INFO  roark.utilities.data.ExcelUtilities  - reading Testdata- adding testdata records to a new test case:TCVTiger111
+2013-02-21 19:01:36,977 343  [pool-1-thread-1] INFO  roark.utilities.data.ExcelUtilities  - Added testdata set - 
+{TestdataName=TDColorThemeList, TestcaseID=TCVTiger111, TestdataValue=woodspice}
+2013-02-21 19:01:36,977 343  [pool-1-thread-1] INFO  roark.utilities.data.ExcelUtilities  - reading Testdata - Updating test data records to an existing test case:TCVTiger111
+2013-02-21 19:01:36,977 343  [pool-1-thread-1] INFO  roark.utilities.data.ExcelUtilities  - Added testdata set - 
+{TestdataName=TDProductName, TestcaseID=TCVTiger111, TestdataValue=Roark1.00}
+2013-02-21 19:01:36,977 343  [pool-1-thread-1] INFO  roark.utilities.data.ExcelUtilities  - reading Testdata - Updating test data records to an existing test case:TCVTiger111
+2013-02-21 19:01:36,978 344  [pool-1-thread-1] INFO  roark.utilities.data.ExcelUtilities  - Added testdata set - 
+{TestdataName=TDProductUnitPrice, TestcaseID=TCVTiger111, TestdataValue=10}
+2013-02-21 19:01:36,978 344  [pool-1-thread-1] INFO  roark.utilities.data.ExcelUtilities  - reading Testdata - Updating test data records to an existing test case:TCVTiger111
+2013-02-21 19:01:36,978 344  [pool-1-thread-1] INFO  roark.utilities.data.ExcelUtilities  - Added testdata set - 
+{TestdataName=TDTax1Flag, TestcaseID=TCVTiger111, TestdataValue=ON}
+2013-02-21 19:01:36,979 345  [pool-1-thread-1] INFO  roark.utilities.data.ExcelUtilities  - reading Testdata - Updating test data records to an existing test case:TCVTiger111
+2013-02-21 19:01:36,979 345  [pool-1-thread-1] INFO  roark.utilities.data.ExcelUtilities  - Added testdata set - 
+{TestdataName=TDTax2lag, TestcaseID=TCVTiger111, TestdataValue=ON}
+2013-02-21 19:01:36,979 345  [pool-1-thread-1] INFO  roark.utilities.data.ExcelUtilities  - reading Testdata - Updating test data records to an existing test case:TCVTiger111
+2013-02-21 19:01:36,980 346  [pool-1-thread-1] INFO  roark.utilities.data.ExcelUtilities  - Added testdata set - 
+{TestdataName=TDTax3Flag, TestcaseID=TCVTiger111, TestdataValue=OFF}
+2013-02-21 19:01:36,980 346  [pool-1-thread-1] INFO  roark.utilities.data.ExcelUtilities  - reading Testdata - Updating test data records to an existing test case:TCVTiger111
+2013-02-21 19:01:36,980 346  [pool-1-thread-1] INFO  roark.utilities.data.ExcelUtilities  - Added testdata set - 
+{TestdataName=TDProductSearchListbox, TestcaseID=TCVTiger111, TestdataValue=Product No}
+2013-02-21 19:01:36,981 347  [pool-1-thread-1] INFO  roark.utilities.data.ExcelUtilities  - reading Testdata - Updating test data records to an existing test case:TCVTiger111
+2013-02-21 19:01:36,981 347  [pool-1-thread-1] INFO  roark.utilities.data.ExcelUtilities  - Added testdata set - 
+{TestdataName=TDNoProductsFoundMsg, TestcaseID=TCVTiger111, TestdataValue=No Products Found}
+2013-02-21 19:01:37,031 397  [pool-1-thread-1] INFO  roark.jelenium.TestSuite  - DONE :: setTestdataSets
+2013-02-21 19:01:37,031 397  [pool-1-thread-1] INFO  roark.jelenium.TestSuite  - UpdateTestdata value - 
+ TestcaseID:TCVTiger111 , StepID:1.1
+2013-02-21 19:01:37,032 398  [pool-1-thread-1] INFO  roark.jelenium.TestSuite  - TestdataName::ApplicationURL , TestdataType::EnvironmentVariable
+2013-02-21 19:01:37,032 398  [pool-1-thread-1] INFO  roark.jelenium.TestSuite  - tdType is ENVIRONMENTVARIABLE @step#1.1 in TestcaseID#TCVTiger111
+2013-02-21 19:01:37,151 517  [pool-1-thread-3] INFO  roark.utilities.data.EnvironmentVariables  - xmlFilePath:C:\Users\Bharath07\Documents\GitHub\roark\Roark_ver0218\TAF_Demo\Configuration\EnvironmentVariables.xml
+2013-02-21 19:01:37,151 517  [pool-1-thread-1] INFO  roark.utilities.data.EnvironmentVariables  - xmlFilePath:C:\Users\Bharath07\Documents\GitHub\roark\Roark_ver0218\TAF_Demo\Configuration\EnvironmentVariables.xml
+2013-02-21 19:01:37,151 517  [pool-1-thread-2] INFO  roark.utilities.data.EnvironmentVariables  - xmlFilePath:C:\Users\Bharath07\Documents\GitHub\roark\Roark_ver0218\TAF_Demo\Configuration\EnvironmentVariables.xml
+2013-02-21 19:01:37,537 903  [pool-1-thread-1] INFO  roark.jelenium.TestSuite  - testdatavalue is set by env Variable- http://localhost:8888
+2013-02-21 19:01:37,537 903  [pool-1-thread-3] INFO  roark.jelenium.TestSuite  - testdatavalue is set by env Variable- http://localhost:8888
+2013-02-21 19:01:37,538 904  [pool-1-thread-1] INFO  roark.jelenium.TestSuite  - UpdateTestdata value - 
+ TestcaseID:TCVTiger111 , StepID:1.2
+2013-02-21 19:01:37,538 904  [pool-1-thread-1] INFO  roark.jelenium.TestSuite  - TestdataName::AdminUserID , TestdataType::EnvironmentVariable
+2013-02-21 19:01:37,538 904  [pool-1-thread-1] INFO  roark.jelenium.TestSuite  - tdType is ENVIRONMENTVARIABLE @step#1.2 in TestcaseID#TCVTiger111
+2013-02-21 19:01:37,537 903  [pool-1-thread-2] INFO  roark.jelenium.TestSuite  - testdatavalue is set by env Variable- http://localhost:8888
+2013-02-21 19:01:37,538 904  [pool-1-thread-2] INFO  roark.jelenium.TestSuite  - UpdateTestdata value - 
+ TestcaseID:TCVTiger116 , StepID:1.2
+2013-02-21 19:01:37,538 904  [pool-1-thread-2] INFO  roark.jelenium.TestSuite  - TestdataName::AdminUserID , TestdataType::EnvironmentVariable
+2013-02-21 19:01:37,538 904  [pool-1-thread-3] INFO  roark.jelenium.TestSuite  - UpdateTestdata value - 
+ TestcaseID:TCVTiger116 , StepID:1.2
+2013-02-21 19:01:37,539 905  [pool-1-thread-3] INFO  roark.jelenium.TestSuite  - TestdataName::AdminUserID , TestdataType::EnvironmentVariable
+2013-02-21 19:01:37,539 905  [pool-1-thread-3] INFO  roark.jelenium.TestSuite  - tdType is ENVIRONMENTVARIABLE @step#1.2 in TestcaseID#TCVTiger116
+2013-02-21 19:01:37,538 904  [pool-1-thread-2] INFO  roark.jelenium.TestSuite  - tdType is ENVIRONMENTVARIABLE @step#1.2 in TestcaseID#TCVTiger116
+2013-02-21 19:01:37,541 907  [pool-1-thread-1] INFO  roark.utilities.data.EnvironmentVariables  - xmlFilePath:C:\Users\Bharath07\Documents\GitHub\roark\Roark_ver0218\TAF_Demo\Configuration\EnvironmentVariables.xml
+2013-02-21 19:01:37,541 907  [pool-1-thread-3] INFO  roark.utilities.data.EnvironmentVariables  - xmlFilePath:C:\Users\Bharath07\Documents\GitHub\roark\Roark_ver0218\TAF_Demo\Configuration\EnvironmentVariables.xml
+2013-02-21 19:01:37,542 908  [pool-1-thread-2] INFO  roark.utilities.data.EnvironmentVariables  - xmlFilePath:C:\Users\Bharath07\Documents\GitHub\roark\Roark_ver0218\TAF_Demo\Configuration\EnvironmentVariables.xml
+2013-02-21 19:01:37,555 921  [pool-1-thread-3] INFO  roark.jelenium.TestSuite  - testdatavalue is set by env Variable- admin
+2013-02-21 19:01:37,555 921  [pool-1-thread-3] INFO  roark.jelenium.TestSuite  - UpdateTestdata value - 
+ TestcaseID:TCVTiger116 , StepID:1.3
+2013-02-21 19:01:37,555 921  [pool-1-thread-3] INFO  roark.jelenium.TestSuite  - TestdataName::AdminUserPassword , TestdataType::EnvironmentVariable
+2013-02-21 19:01:37,555 921  [pool-1-thread-3] INFO  roark.jelenium.TestSuite  - tdType is ENVIRONMENTVARIABLE @step#1.3 in TestcaseID#TCVTiger116
+2013-02-21 19:01:37,555 921  [pool-1-thread-1] INFO  roark.jelenium.TestSuite  - testdatavalue is set by env Variable- admin
+2013-02-21 19:01:37,556 922  [pool-1-thread-1] INFO  roark.jelenium.TestSuite  - UpdateTestdata value - 
+ TestcaseID:TCVTiger111 , StepID:1.3
+2013-02-21 19:01:37,556 922  [pool-1-thread-1] INFO  roark.jelenium.TestSuite  - TestdataName::AdminUserPassword , TestdataType::EnvironmentVariable
+2013-02-21 19:01:37,556 922  [pool-1-thread-1] INFO  roark.jelenium.TestSuite  - tdType is ENVIRONMENTVARIABLE @step#1.3 in TestcaseID#TCVTiger111
+2013-02-21 19:01:37,555 921  [pool-1-thread-2] INFO  roark.jelenium.TestSuite  - testdatavalue is set by env Variable- admin
+2013-02-21 19:01:37,557 923  [pool-1-thread-2] INFO  roark.jelenium.TestSuite  - UpdateTestdata value - 
+ TestcaseID:TCVTiger116 , StepID:1.3
+2013-02-21 19:01:37,557 923  [pool-1-thread-2] INFO  roark.jelenium.TestSuite  - TestdataName::AdminUserPassword , TestdataType::EnvironmentVariable
+2013-02-21 19:01:37,557 923  [pool-1-thread-2] INFO  roark.jelenium.TestSuite  - tdType is ENVIRONMENTVARIABLE @step#1.3 in TestcaseID#TCVTiger116
+2013-02-21 19:01:37,558 924  [pool-1-thread-3] INFO  roark.utilities.data.EnvironmentVariables  - xmlFilePath:C:\Users\Bharath07\Documents\GitHub\roark\Roark_ver0218\TAF_Demo\Configuration\EnvironmentVariables.xml
+2013-02-21 19:01:37,560 926  [pool-1-thread-1] INFO  roark.utilities.data.EnvironmentVariables  - xmlFilePath:C:\Users\Bharath07\Documents\GitHub\roark\Roark_ver0218\TAF_Demo\Configuration\EnvironmentVariables.xml
+2013-02-21 19:01:37,560 926  [pool-1-thread-2] INFO  roark.utilities.data.EnvironmentVariables  - xmlFilePath:C:\Users\Bharath07\Documents\GitHub\roark\Roark_ver0218\TAF_Demo\Configuration\EnvironmentVariables.xml
+2013-02-21 19:01:37,575 941  [pool-1-thread-3] INFO  roark.jelenium.TestSuite  - testdatavalue is set by env Variable- admin
+2013-02-21 19:01:37,576 942  [pool-1-thread-3] INFO  roark.jelenium.TestSuite  - UpdateTestdata value - 
+ TestcaseID:TCVTiger116 , StepID:1.4
+2013-02-21 19:01:37,576 942  [pool-1-thread-3] INFO  roark.jelenium.TestSuite  - TestdataName::TDColorThemeList , TestdataType::XLParameter
+2013-02-21 19:01:37,577 943  [pool-1-thread-3] INFO  roark.jelenium.TestSuite  - TestdataName -TDColorThemeList is set to ::alphagrey
+2013-02-21 19:01:37,577 943  [pool-1-thread-3] INFO  roark.jelenium.TestSuite  - Testdata is not applicable  in TestcaseID::TCVTiger116 at stepId:1.5
+2013-02-21 19:01:37,577 943  [pool-1-thread-1] INFO  roark.jelenium.TestSuite  - testdatavalue is set by env Variable- admin
+2013-02-21 19:01:37,577 943  [pool-1-thread-3] INFO  roark.jelenium.TestSuite  - Testdata is not applicable  in TestcaseID::TCVTiger116 at stepId:1.6
+2013-02-21 19:01:37,577 943  [pool-1-thread-3] INFO  roark.jelenium.TestSuite  - Testdata is not applicable  in TestcaseID::TCVTiger116 at stepId:2.1
+2013-02-21 19:01:37,577 943  [pool-1-thread-1] INFO  roark.jelenium.TestSuite  - UpdateTestdata value - 
+ TestcaseID:TCVTiger111 , StepID:1.4
+2013-02-21 19:01:37,578 944  [pool-1-thread-3] INFO  roark.jelenium.TestSuite  - Testdata is not applicable  in TestcaseID::TCVTiger116 at stepId:2.2
+2013-02-21 19:01:37,578 944  [pool-1-thread-2] INFO  roark.jelenium.TestSuite  - testdatavalue is set by env Variable- admin
+2013-02-21 19:01:37,578 944  [pool-1-thread-2] INFO  roark.jelenium.TestSuite  - UpdateTestdata value - 
+ TestcaseID:TCVTiger116 , StepID:1.4
+2013-02-21 19:01:37,578 944  [pool-1-thread-2] INFO  roark.jelenium.TestSuite  - TestdataName::TDColorThemeList , TestdataType::XLParameter
+2013-02-21 19:01:37,578 944  [pool-1-thread-3] INFO  roark.jelenium.TestSuite  - Testdata is not applicable  in TestcaseID::TCVTiger116 at stepId:2.3
+2013-02-21 19:01:37,579 945  [pool-1-thread-3] INFO  roark.jelenium.TestSuite  - Testdata is not applicable  in TestcaseID::TCVTiger116 at stepId:2.4
+2013-02-21 19:01:37,579 945  [pool-1-thread-3] INFO  roark.jelenium.TestSuite  - UpdateTestdata value - 
+ TestcaseID:TCVTiger116 , StepID:2.5
+2013-02-21 19:01:37,578 944  [pool-1-thread-1] INFO  roark.jelenium.TestSuite  - TestdataName::TDColorThemeList , TestdataType::XLParameter
+2013-02-21 19:01:37,579 945  [pool-1-thread-3] INFO  roark.jelenium.TestSuite  - TestdataName::TDPriceBookName , TestdataType::XLParameter
+2013-02-21 19:01:37,578 944  [pool-1-thread-2] INFO  roark.jelenium.TestSuite  - TestdataName -TDColorThemeList is set to ::alphagrey
+2013-02-21 19:01:37,579 945  [pool-1-thread-3] INFO  roark.jelenium.TestSuite  - TestdataName -TDPriceBookName is set to ::RateCard
+2013-02-21 19:01:37,579 945  [pool-1-thread-1] INFO  roark.jelenium.TestSuite  - TestdataName -TDColorThemeList is set to ::woodspice
+2013-02-21 19:01:37,580 946  [pool-1-thread-3] INFO  roark.jelenium.TestSuite  - UpdateTestdata value - 
+ TestcaseID:TCVTiger116 , StepID:2.6
+2013-02-21 19:01:37,580 946  [pool-1-thread-2] INFO  roark.jelenium.TestSuite  - Testdata is not applicable  in TestcaseID::TCVTiger116 at stepId:1.5
+2013-02-21 19:01:37,580 946  [pool-1-thread-3] INFO  roark.jelenium.TestSuite  - TestdataName::TDCurrencyListBox , TestdataType::XLParameter
+2013-02-21 19:01:37,580 946  [pool-1-thread-1] INFO  roark.jelenium.TestSuite  - Testdata is not applicable  in TestcaseID::TCVTiger111 at stepId:1.5
+2013-02-21 19:01:37,580 946  [pool-1-thread-3] INFO  roark.jelenium.TestSuite  - TestdataName -TDCurrencyListBox is set to ::USA, Dollars
+2013-02-21 19:01:37,580 946  [pool-1-thread-2] INFO  roark.jelenium.TestSuite  - Testdata is not applicable  in TestcaseID::TCVTiger116 at stepId:1.6
+2013-02-21 19:01:37,581 947  [pool-1-thread-3] INFO  roark.jelenium.TestSuite  - Testdata is not applicable  in TestcaseID::TCVTiger116 at stepId:2.7
+2013-02-21 19:01:37,580 946  [pool-1-thread-1] INFO  roark.jelenium.TestSuite  - Testdata is not applicable  in TestcaseID::TCVTiger111 at stepId:1.6
+2013-02-21 19:01:37,581 947  [pool-1-thread-3] INFO  roark.jelenium.TestSuite  - Testdata is not applicable  in TestcaseID::TCVTiger116 at stepId:3.1
+2013-02-21 19:01:37,581 947  [pool-1-thread-2] INFO  roark.jelenium.TestSuite  - Testdata is not applicable  in TestcaseID::TCVTiger116 at stepId:2.1
+2013-02-21 19:01:37,581 947  [pool-1-thread-3] INFO  roark.jelenium.TestSuite  - Testdata is not applicable  in TestcaseID::TCVTiger116 at stepId:3.2
+2013-02-21 19:01:37,581 947  [pool-1-thread-1] INFO  roark.jelenium.TestSuite  - Testdata is not applicable  in TestcaseID::TCVTiger111 at stepId:2.1
+2013-02-21 19:01:37,582 948  [pool-1-thread-1] INFO  roark.jelenium.TestSuite  - Testdata is not applicable  in TestcaseID::TCVTiger111 at stepId:2.2
+2013-02-21 19:01:37,582 948  [pool-1-thread-1] INFO  roark.jelenium.TestSuite  - Testdata is not applicable  in TestcaseID::TCVTiger111 at stepId:2.3
+2013-02-21 19:01:37,581 947  [pool-1-thread-3] INFO  roark.jelenium.TestSuite  - DONE :: updateTestdataValues
+2013-02-21 19:01:37,581 947  [pool-1-thread-2] INFO  roark.jelenium.TestSuite  - Testdata is not applicable  in TestcaseID::TCVTiger116 at stepId:2.2
+2013-02-21 19:01:37,582 948  [pool-1-thread-2] INFO  roark.jelenium.TestSuite  - Testdata is not applicable  in TestcaseID::TCVTiger116 at stepId:2.3
+2013-02-21 19:01:37,582 948  [pool-1-thread-1] INFO  roark.jelenium.TestSuite  - UpdateTestdata value - 
+ TestcaseID:TCVTiger111 , StepID:2.4
+2013-02-21 19:01:37,582 948  [pool-1-thread-2] INFO  roark.jelenium.TestSuite  - Testdata is not applicable  in TestcaseID::TCVTiger116 at stepId:2.4
+2013-02-21 19:01:37,583 949  [pool-1-thread-2] INFO  roark.jelenium.TestSuite  - UpdateTestdata value - 
+ TestcaseID:TCVTiger116 , StepID:2.5
+2013-02-21 19:01:37,582 948  [pool-1-thread-1] INFO  roark.jelenium.TestSuite  - TestdataName::TDProductName , TestdataType::XLParameter
+2013-02-21 19:01:37,583 949  [pool-1-thread-2] INFO  roark.jelenium.TestSuite  - TestdataName::TDPriceBookName , TestdataType::XLParameter
+2013-02-21 19:01:37,583 949  [pool-1-thread-2] INFO  roark.jelenium.TestSuite  - TestdataName -TDPriceBookName is set to ::RateCard
+2013-02-21 19:01:37,583 949  [pool-1-thread-1] INFO  roark.jelenium.TestSuite  - TestdataName -TDProductName is set to ::Roark1.00
+2013-02-21 19:01:37,583 949  [pool-1-thread-2] INFO  roark.jelenium.TestSuite  - UpdateTestdata value - 
+ TestcaseID:TCVTiger116 , StepID:2.6
+2013-02-21 19:01:37,584 950  [pool-1-thread-2] INFO  roark.jelenium.TestSuite  - TestdataName::TDCurrencyListBox , TestdataType::XLParameter
+2013-02-21 19:01:37,583 949  [pool-1-thread-1] INFO  roark.jelenium.TestSuite  - UpdateTestdata value - 
+ TestcaseID:TCVTiger111 , StepID:2.5
+2013-02-21 19:01:37,584 950  [pool-1-thread-2] INFO  roark.jelenium.TestSuite  - TestdataName -TDCurrencyListBox is set to ::USA, Dollars
+2013-02-21 19:01:37,584 950  [pool-1-thread-2] INFO  roark.jelenium.TestSuite  - Testdata is not applicable  in TestcaseID::TCVTiger116 at stepId:2.7
+2013-02-21 19:01:37,584 950  [pool-1-thread-1] INFO  roark.jelenium.TestSuite  - TestdataName::TDProductUnitPrice , TestdataType::XLParameter
+2013-02-21 19:01:37,584 950  [pool-1-thread-2] INFO  roark.jelenium.TestSuite  - Testdata is not applicable  in TestcaseID::TCVTiger116 at stepId:3.1
+2013-02-21 19:01:37,584 950  [pool-1-thread-2] INFO  roark.jelenium.TestSuite  - Testdata is not applicable  in TestcaseID::TCVTiger116 at stepId:3.2
+2013-02-21 19:01:37,584 950  [pool-1-thread-1] INFO  roark.jelenium.TestSuite  - TestdataName -TDProductUnitPrice is set to ::10
+2013-02-21 19:01:37,585 951  [pool-1-thread-1] INFO  roark.jelenium.TestSuite  - Testdata is not applicable  in TestcaseID::TCVTiger111 at stepId:2.9
+2013-02-21 19:01:37,585 951  [pool-1-thread-1] INFO  roark.jelenium.TestSuite  - UpdateTestdata value - 
+ TestcaseID:TCVTiger111 , StepID:2.10
+2013-02-21 19:01:37,585 951  [pool-1-thread-1] INFO  roark.jelenium.TestSuite  - TestdataName::TDProductName , TestdataType::XLParameter
+2013-02-21 19:01:37,585 951  [pool-1-thread-1] INFO  roark.jelenium.TestSuite  - TestdataName -TDProductName is set to ::Roark1.00
+2013-02-21 19:01:37,585 951  [pool-1-thread-1] INFO  roark.jelenium.TestSuite  - UpdateTestdata value - 
+ TestcaseID:TCVTiger111 , StepID:2.11
+2013-02-21 19:01:37,585 951  [pool-1-thread-1] INFO  roark.jelenium.TestSuite  - TestdataName::ProductIDgenerated , TestdataType::RuntimeVariable
+2013-02-21 19:01:37,585 951  [pool-1-thread-2] INFO  roark.jelenium.TestSuite  - DONE :: updateTestdataValues
+2013-02-21 19:01:37,586 952  [pool-1-thread-1] INFO  roark.jelenium.TestSuite  - testdataType is runtimevariable, will be updated at teststep level
+2013-02-21 19:01:37,586 952  [pool-1-thread-1] INFO  roark.jelenium.TestSuite  - Testdata is not applicable  in TestcaseID::TCVTiger111 at stepId:2.12
+2013-02-21 19:01:37,586 952  [pool-1-thread-1] INFO  roark.jelenium.TestSuite  - UpdateTestdata value - 
+ TestcaseID:TCVTiger111 , StepID:2.13
+2013-02-21 19:01:37,587 953  [pool-1-thread-1] INFO  roark.jelenium.TestSuite  - TestdataName::ProductIDgenerated , TestdataType::RuntimeVariable
+2013-02-21 19:01:37,587 953  [pool-1-thread-1] INFO  roark.jelenium.TestSuite  - testdataType is runtimevariable, will be updated at teststep level
+2013-02-21 19:01:37,587 953  [pool-1-thread-1] INFO  roark.jelenium.TestSuite  - UpdateTestdata value - 
+ TestcaseID:TCVTiger111 , StepID:2.14
+2013-02-21 19:01:37,587 953  [pool-1-thread-1] INFO  roark.jelenium.TestSuite  - TestdataName::TDProductSearchListbox , TestdataType::XLParameter
+2013-02-21 19:01:37,587 953  [pool-1-thread-1] INFO  roark.jelenium.TestSuite  - TestdataName -TDProductSearchListbox is set to ::Product No
+2013-02-21 19:01:37,587 953  [pool-1-thread-1] INFO  roark.jelenium.TestSuite  - Testdata is not applicable  in TestcaseID::TCVTiger111 at stepId:2.15
+2013-02-21 19:01:37,587 953  [pool-1-thread-1] INFO  roark.jelenium.TestSuite  - UpdateTestdata value - 
+ TestcaseID:TCVTiger111 , StepID:2.16
+2013-02-21 19:01:37,588 954  [pool-1-thread-1] INFO  roark.jelenium.TestSuite  - TestdataName::TDNoProductsFoundMsg , TestdataType::XLParameter
+2013-02-21 19:01:37,588 954  [pool-1-thread-1] INFO  roark.jelenium.TestSuite  - TestdataName -TDNoProductsFoundMsg is set to ::No Products Found
+2013-02-21 19:01:37,588 954  [pool-1-thread-1] INFO  roark.jelenium.TestSuite  - Testdata is not applicable  in TestcaseID::TCVTiger111 at stepId:3.1
+2013-02-21 19:01:37,588 954  [pool-1-thread-1] INFO  roark.jelenium.TestSuite  - Testdata is not applicable  in TestcaseID::TCVTiger111 at stepId:3.2
+2013-02-21 19:01:37,588 954  [pool-1-thread-1] INFO  roark.jelenium.TestSuite  - DONE :: updateTestdataValues
+2013-02-21 19:01:37,612 978  [pool-1-thread-3] INFO  roark.utilities.data.ExcelUtilities  - reading LOCATORS- adding locators records to a new applicationID:VTiger
+2013-02-21 19:01:37,613 979  [pool-1-thread-3] INFO  roark.utilities.data.ExcelUtilities  - reading LOCATORS - Updating  locators records to a new applicationID:VTiger
+2013-02-21 19:01:37,615 981  [pool-1-thread-3] INFO  roark.utilities.data.ExcelUtilities  - reading LOCATORS - Updating  locators records to a new applicationID:VTiger
+2013-02-21 19:01:37,618 984  [pool-1-thread-3] INFO  roark.utilities.data.ExcelUtilities  - reading LOCATORS - Updating  locators records to a new applicationID:VTiger
+2013-02-21 19:01:37,618 984  [pool-1-thread-3] INFO  roark.utilities.data.ExcelUtilities  - reading LOCATORS - Updating  locators records to a new applicationID:VTiger
+2013-02-21 19:01:37,619 985  [pool-1-thread-3] INFO  roark.utilities.data.ExcelUtilities  - reading LOCATORS - Updating  locators records to a new applicationID:VTiger
+2013-02-21 19:01:37,619 985  [pool-1-thread-3] INFO  roark.utilities.data.ExcelUtilities  - reading LOCATORS - Updating  locators records to a new applicationID:VTiger
+2013-02-21 19:01:37,620 986  [pool-1-thread-3] INFO  roark.utilities.data.ExcelUtilities  - reading LOCATORS - Updating  locators records to a new applicationID:VTiger
+2013-02-21 19:01:37,620 986  [pool-1-thread-3] INFO  roark.utilities.data.ExcelUtilities  - reading LOCATORS - Updating  locators records to a new applicationID:VTiger
+2013-02-21 19:01:37,621 987  [pool-1-thread-3] INFO  roark.utilities.data.ExcelUtilities  - reading LOCATORS - Updating  locators records to a new applicationID:VTiger
+2013-02-21 19:01:37,621 987  [pool-1-thread-3] INFO  roark.utilities.data.ExcelUtilities  - reading LOCATORS - Updating  locators records to a new applicationID:VTiger
+2013-02-21 19:01:37,621 987  [pool-1-thread-3] INFO  roark.utilities.data.ExcelUtilities  - reading LOCATORS - Updating  locators records to a new applicationID:VTiger
+2013-02-21 19:01:37,622 988  [pool-1-thread-3] INFO  roark.utilities.data.ExcelUtilities  - reading LOCATORS - Updating  locators records to a new applicationID:VTiger
+2013-02-21 19:01:37,622 988  [pool-1-thread-3] INFO  roark.utilities.data.ExcelUtilities  - reading LOCATORS - Updating  locators records to a new applicationID:VTiger
+2013-02-21 19:01:37,623 989  [pool-1-thread-3] INFO  roark.utilities.data.ExcelUtilities  - reading LOCATORS - Updating  locators records to a new applicationID:VTiger
+2013-02-21 19:01:37,623 989  [pool-1-thread-3] INFO  roark.utilities.data.ExcelUtilities  - reading LOCATORS - Updating  locators records to a new applicationID:VTiger
+2013-02-21 19:01:37,624 990  [pool-1-thread-3] INFO  roark.utilities.data.ExcelUtilities  - reading LOCATORS - Updating  locators records to a new applicationID:VTiger
+2013-02-21 19:01:37,624 990  [pool-1-thread-3] INFO  roark.utilities.data.ExcelUtilities  - reading LOCATORS - Updating  locators records to a new applicationID:VTiger
+2013-02-21 19:01:37,626 992  [pool-1-thread-3] INFO  roark.utilities.data.ExcelUtilities  - reading LOCATORS - Updating  locators records to a new applicationID:VTiger
+2013-02-21 19:01:37,627 993  [pool-1-thread-3] INFO  roark.utilities.data.ExcelUtilities  - reading LOCATORS - Updating  locators records to a new applicationID:VTiger
+2013-02-21 19:01:37,627 993  [pool-1-thread-3] INFO  roark.utilities.data.ExcelUtilities  - reading LOCATORS - Updating  locators records to a new applicationID:VTiger
+2013-02-21 19:01:37,630 996  [pool-1-thread-3] INFO  roark.utilities.data.ExcelUtilities  - reading LOCATORS - Updating  locators records to a new applicationID:VTiger
+2013-02-21 19:01:37,631 997  [pool-1-thread-1] INFO  roark.utilities.data.ExcelUtilities  - reading LOCATORS- adding locators records to a new applicationID:VTiger
+2013-02-21 19:01:37,631 997  [pool-1-thread-3] INFO  roark.utilities.data.ExcelUtilities  - reading LOCATORS - Updating  locators records to a new applicationID:VTiger
+2013-02-21 19:01:37,632 998  [pool-1-thread-1] INFO  roark.utilities.data.ExcelUtilities  - reading LOCATORS - Updating  locators records to a new applicationID:VTiger
+2013-02-21 19:01:37,633 999  [pool-1-thread-2] INFO  roark.utilities.data.ExcelUtilities  - reading LOCATORS- adding locators records to a new applicationID:VTiger
+2013-02-21 19:01:37,633 999  [pool-1-thread-1] INFO  roark.utilities.data.ExcelUtilities  - reading LOCATORS - Updating  locators records to a new applicationID:VTiger
+2013-02-21 19:01:37,633 999  [pool-1-thread-3] INFO  roark.utilities.data.ExcelUtilities  - reading LOCATORS - Updating  locators records to a new applicationID:VTiger
+2013-02-21 19:01:37,634 1000 [pool-1-thread-1] INFO  roark.utilities.data.ExcelUtilities  - reading LOCATORS - Updating  locators records to a new applicationID:VTiger
+2013-02-21 19:01:37,634 1000 [pool-1-thread-2] INFO  roark.utilities.data.ExcelUtilities  - reading LOCATORS - Updating  locators records to a new applicationID:VTiger
+2013-02-21 19:01:37,635 1001 [pool-1-thread-1] INFO  roark.utilities.data.ExcelUtilities  - reading LOCATORS - Updating  locators records to a new applicationID:VTiger
+2013-02-21 19:01:37,634 1000 [pool-1-thread-3] INFO  roark.utilities.data.ExcelUtilities  - reading LOCATORS - Updating  locators records to a new applicationID:VTiger
+2013-02-21 19:01:37,635 1001 [pool-1-thread-1] INFO  roark.utilities.data.ExcelUtilities  - reading LOCATORS - Updating  locators records to a new applicationID:VTiger
+2013-02-21 19:01:37,635 1001 [pool-1-thread-2] INFO  roark.utilities.data.ExcelUtilities  - reading LOCATORS - Updating  locators records to a new applicationID:VTiger
+2013-02-21 19:01:37,636 1002 [pool-1-thread-3] INFO  roark.utilities.data.ExcelUtilities  - reading LOCATORS - Updating  locators records to a new applicationID:VTiger
+2013-02-21 19:01:37,636 1002 [pool-1-thread-2] INFO  roark.utilities.data.ExcelUtilities  - reading LOCATORS - Updating  locators records to a new applicationID:VTiger
+2013-02-21 19:01:37,636 1002 [pool-1-thread-1] INFO  roark.utilities.data.ExcelUtilities  - reading LOCATORS - Updating  locators records to a new applicationID:VTiger
+2013-02-21 19:01:37,642 1008 [pool-1-thread-1] INFO  roark.utilities.data.ExcelUtilities  - reading LOCATORS - Updating  locators records to a new applicationID:VTiger
+2013-02-21 19:01:37,642 1008 [pool-1-thread-3] INFO  roark.utilities.data.ExcelUtilities  - reading LOCATORS - Updating  locators records to a new applicationID:VTiger
+2013-02-21 19:01:37,643 1009 [pool-1-thread-3] INFO  roark.utilities.data.ExcelUtilities  - reading LOCATORS - Updating  locators records to a new applicationID:VTiger
+2013-02-21 19:01:37,643 1009 [pool-1-thread-2] INFO  roark.utilities.data.ExcelUtilities  - reading LOCATORS - Updating  locators records to a new applicationID:VTiger
+2013-02-21 19:01:37,642 1008 [pool-1-thread-1] INFO  roark.utilities.data.ExcelUtilities  - reading LOCATORS - Updating  locators records to a new applicationID:VTiger
+2013-02-21 19:01:37,643 1009 [pool-1-thread-2] INFO  roark.utilities.data.ExcelUtilities  - reading LOCATORS - Updating  locators records to a new applicationID:VTiger
+2013-02-21 19:01:37,644 1010 [pool-1-thread-1] INFO  roark.utilities.data.ExcelUtilities  - reading LOCATORS - Updating  locators records to a new applicationID:VTiger
+2013-02-21 19:01:37,644 1010 [pool-1-thread-2] INFO  roark.utilities.data.ExcelUtilities  - reading LOCATORS - Updating  locators records to a new applicationID:VTiger
+2013-02-21 19:01:37,643 1009 [pool-1-thread-3] INFO  roark.utilities.data.ExcelUtilities  - reading LOCATORS - Updating  locators records to a new applicationID:VTiger
+2013-02-21 19:01:37,644 1010 [pool-1-thread-2] INFO  roark.utilities.data.ExcelUtilities  - reading LOCATORS - Updating  locators records to a new applicationID:VTiger
+2013-02-21 19:01:37,644 1010 [pool-1-thread-1] INFO  roark.utilities.data.ExcelUtilities  - reading LOCATORS - Updating  locators records to a new applicationID:VTiger
+2013-02-21 19:01:37,645 1011 [pool-1-thread-2] INFO  roark.utilities.data.ExcelUtilities  - reading LOCATORS - Updating  locators records to a new applicationID:VTiger
+2013-02-21 19:01:37,645 1011 [pool-1-thread-1] INFO  roark.utilities.data.ExcelUtilities  - reading LOCATORS - Updating  locators records to a new applicationID:VTiger
+2013-02-21 19:01:37,645 1011 [pool-1-thread-3] INFO  roark.utilities.data.ExcelUtilities  - reading LOCATORS - Updating  locators records to a new applicationID:VTiger
+2013-02-21 19:01:37,645 1011 [pool-1-thread-2] INFO  roark.utilities.data.ExcelUtilities  - reading LOCATORS - Updating  locators records to a new applicationID:VTiger
+2013-02-21 19:01:37,646 1012 [pool-1-thread-3] INFO  roark.utilities.data.ExcelUtilities  - reading LOCATORS - Updating  locators records to a new applicationID:VTiger
+2013-02-21 19:01:37,646 1012 [pool-1-thread-2] INFO  roark.utilities.data.ExcelUtilities  - reading LOCATORS - Updating  locators records to a new applicationID:VTiger
+2013-02-21 19:01:37,646 1012 [pool-1-thread-1] INFO  roark.utilities.data.ExcelUtilities  - reading LOCATORS - Updating  locators records to a new applicationID:VTiger
+2013-02-21 19:01:37,647 1013 [pool-1-thread-2] INFO  roark.utilities.data.ExcelUtilities  - reading LOCATORS - Updating  locators records to a new applicationID:VTiger
+2013-02-21 19:01:37,647 1013 [pool-1-thread-1] INFO  roark.utilities.data.ExcelUtilities  - reading LOCATORS - Updating  locators records to a new applicationID:VTiger
+2013-02-21 19:01:37,647 1013 [pool-1-thread-3] INFO  roark.utilities.data.ExcelUtilities  - reading LOCATORS - Updating  locators records to a new applicationID:VTiger
+2013-02-21 19:01:37,648 1014 [pool-1-thread-1] INFO  roark.utilities.data.ExcelUtilities  - reading LOCATORS - Updating  locators records to a new applicationID:VTiger
+2013-02-21 19:01:37,648 1014 [pool-1-thread-3] INFO  roark.utilities.data.ExcelUtilities  - reading LOCATORS - Updating  locators records to a new applicationID:VTiger
+2013-02-21 19:01:37,648 1014 [pool-1-thread-2] INFO  roark.utilities.data.ExcelUtilities  - reading LOCATORS - Updating  locators records to a new applicationID:VTiger
+2013-02-21 19:01:37,648 1014 [pool-1-thread-3] INFO  roark.utilities.data.ExcelUtilities  - reading LOCATORS - Updating  locators records to a new applicationID:VTiger
+2013-02-21 19:01:37,648 1014 [pool-1-thread-1] INFO  roark.utilities.data.ExcelUtilities  - reading LOCATORS - Updating  locators records to a new applicationID:VTiger
+2013-02-21 19:01:37,649 1015 [pool-1-thread-3] INFO  roark.utilities.data.ExcelUtilities  - reading LOCATORS - Updating  locators records to a new applicationID:VTiger
+2013-02-21 19:01:37,649 1015 [pool-1-thread-2] INFO  roark.utilities.data.ExcelUtilities  - reading LOCATORS - Updating  locators records to a new applicationID:VTiger
+2013-02-21 19:01:37,650 1016 [pool-1-thread-3] INFO  roark.utilities.data.ExcelUtilities  - reading LOCATORS - Updating  locators records to a new applicationID:VTiger
+2013-02-21 19:01:37,650 1016 [pool-1-thread-2] INFO  roark.utilities.data.ExcelUtilities  - reading LOCATORS - Updating  locators records to a new applicationID:VTiger
+2013-02-21 19:01:37,650 1016 [pool-1-thread-3] INFO  roark.utilities.data.ExcelUtilities  - reading LOCATORS - Updating  locators records to a new applicationID:VTiger
+2013-02-21 19:01:37,649 1015 [pool-1-thread-1] INFO  roark.utilities.data.ExcelUtilities  - reading LOCATORS - Updating  locators records to a new applicationID:VTiger
+2013-02-21 19:01:37,651 1017 [pool-1-thread-1] INFO  roark.utilities.data.ExcelUtilities  - reading LOCATORS - Updating  locators records to a new applicationID:VTiger
+2013-02-21 19:01:37,652 1018 [pool-1-thread-1] INFO  roark.utilities.data.ExcelUtilities  - reading LOCATORS - Updating  locators records to a new applicationID:VTiger
+2013-02-21 19:01:37,652 1018 [pool-1-thread-1] INFO  roark.utilities.data.ExcelUtilities  - reading LOCATORS - Updating  locators records to a new applicationID:VTiger
+2013-02-21 19:01:37,653 1019 [pool-1-thread-1] INFO  roark.utilities.data.ExcelUtilities  - reading LOCATORS - Updating  locators records to a new applicationID:VTiger
+2013-02-21 19:01:37,650 1016 [pool-1-thread-2] INFO  roark.utilities.data.ExcelUtilities  - reading LOCATORS - Updating  locators records to a new applicationID:VTiger
+2013-02-21 19:01:37,653 1019 [pool-1-thread-1] INFO  roark.utilities.data.ExcelUtilities  - reading LOCATORS - Updating  locators records to a new applicationID:VTiger
+2013-02-21 19:01:37,651 1017 [pool-1-thread-3] INFO  roark.utilities.data.ExcelUtilities  - reading LOCATORS - Updating  locators records to a new applicationID:VTiger
+2013-02-21 19:01:37,654 1020 [pool-1-thread-2] INFO  roark.utilities.data.ExcelUtilities  - reading LOCATORS - Updating  locators records to a new applicationID:VTiger
+2013-02-21 19:01:37,654 1020 [pool-1-thread-1] INFO  roark.utilities.data.ExcelUtilities  - reading LOCATORS - Updating  locators records to a new applicationID:VTiger
+2013-02-21 19:01:37,654 1020 [pool-1-thread-3] INFO  roark.utilities.data.ExcelUtilities  - reading LOCATORS - Updating  locators records to a new applicationID:VTiger
+2013-02-21 19:01:37,654 1020 [pool-1-thread-1] INFO  roark.utilities.data.ExcelUtilities  - reading LOCATORS - Updating  locators records to a new applicationID:VTiger
+2013-02-21 19:01:37,655 1021 [pool-1-thread-3] INFO  roark.utilities.data.ExcelUtilities  - reading LOCATORS - Updating  locators records to a new applicationID:VTiger
+2013-02-21 19:01:37,655 1021 [pool-1-thread-3] INFO  roark.utilities.data.ExcelUtilities  - reading LOCATORS - Updating  locators records to a new applicationID:VTiger
+2013-02-21 19:01:37,654 1020 [pool-1-thread-2] INFO  roark.utilities.data.ExcelUtilities  - reading LOCATORS - Updating  locators records to a new applicationID:VTiger
+2013-02-21 19:01:37,656 1022 [pool-1-thread-3] INFO  roark.utilities.data.ExcelUtilities  - reading LOCATORS - Updating  locators records to a new applicationID:VTiger
+2013-02-21 19:01:37,655 1021 [pool-1-thread-1] INFO  roark.utilities.data.ExcelUtilities  - reading LOCATORS - Updating  locators records to a new applicationID:VTiger
+2013-02-21 19:01:37,656 1022 [pool-1-thread-3] INFO  roark.utilities.data.ExcelUtilities  - reading LOCATORS - Updating  locators records to a new applicationID:VTiger
+2013-02-21 19:01:37,657 1023 [pool-1-thread-1] INFO  roark.utilities.data.ExcelUtilities  - reading LOCATORS - Updating  locators records to a new applicationID:VTiger
+2013-02-21 19:01:37,656 1022 [pool-1-thread-2] INFO  roark.utilities.data.ExcelUtilities  - reading LOCATORS - Updating  locators records to a new applicationID:VTiger
+2013-02-21 19:01:37,657 1023 [pool-1-thread-1] INFO  roark.utilities.data.ExcelUtilities  - reading LOCATORS - Updating  locators records to a new applicationID:VTiger
+2013-02-21 19:01:37,657 1023 [pool-1-thread-3] INFO  roark.utilities.data.ExcelUtilities  - reading LOCATORS - Updating  locators records to a new applicationID:VTiger
+2013-02-21 19:01:37,657 1023 [pool-1-thread-2] INFO  roark.utilities.data.ExcelUtilities  - reading LOCATORS - Updating  locators records to a new applicationID:VTiger
+2013-02-21 19:01:37,657 1023 [pool-1-thread-1] INFO  roark.utilities.data.ExcelUtilities  - reading LOCATORS - Updating  locators records to a new applicationID:VTiger
+2013-02-21 19:01:37,658 1024 [pool-1-thread-3] INFO  roark.utilities.data.ExcelUtilities  - reading LOCATORS - Updating  locators records to a new applicationID:VTiger
+2013-02-21 19:01:37,658 1024 [pool-1-thread-1] INFO  roark.utilities.data.ExcelUtilities  - reading LOCATORS - Updating  locators records to a new applicationID:VTiger
+2013-02-21 19:01:37,658 1024 [pool-1-thread-2] INFO  roark.utilities.data.ExcelUtilities  - reading LOCATORS - Updating  locators records to a new applicationID:VTiger
+2013-02-21 19:01:37,659 1025 [pool-1-thread-1] INFO  roark.utilities.data.ExcelUtilities  - reading LOCATORS - Updating  locators records to a new applicationID:VTiger
+2013-02-21 19:01:37,658 1024 [pool-1-thread-3] INFO  roark.utilities.data.ExcelUtilities  - reading LOCATORS - Updating  locators records to a new applicationID:VTiger
+2013-02-21 19:01:37,659 1025 [pool-1-thread-1] INFO  roark.utilities.data.ExcelUtilities  - reading LOCATORS - Updating  locators records to a new applicationID:VTiger
+2013-02-21 19:01:37,659 1025 [pool-1-thread-2] INFO  roark.utilities.data.ExcelUtilities  - reading LOCATORS - Updating  locators records to a new applicationID:VTiger
+2013-02-21 19:01:37,660 1026 [pool-1-thread-1] INFO  roark.utilities.data.ExcelUtilities  - reading LOCATORS - Updating  locators records to a new applicationID:VTiger
+2013-02-21 19:01:37,660 1026 [pool-1-thread-2] INFO  roark.utilities.data.ExcelUtilities  - reading LOCATORS - Updating  locators records to a new applicationID:VTiger
+2013-02-21 19:01:37,660 1026 [pool-1-thread-3] INFO  roark.utilities.data.ExcelUtilities  - reading LOCATORS - Updating  locators records to a new applicationID:VTiger
+2013-02-21 19:01:37,660 1026 [pool-1-thread-1] INFO  roark.utilities.data.ExcelUtilities  - reading LOCATORS - Updating  locators records to a new applicationID:VTiger
+2013-02-21 19:01:37,661 1027 [pool-1-thread-3] INFO  roark.utilities.data.ExcelUtilities  - reading LOCATORS - Updating  locators records to a new applicationID:VTiger
+2013-02-21 19:01:37,661 1027 [pool-1-thread-1] INFO  roark.utilities.data.ExcelUtilities  - reading LOCATORS - Updating  locators records to a new applicationID:VTiger
+2013-02-21 19:01:37,661 1027 [pool-1-thread-3] INFO  roark.utilities.data.ExcelUtilities  - reading LOCATORS - Updating  locators records to a new applicationID:VTiger
+2013-02-21 19:01:37,662 1028 [pool-1-thread-1] INFO  roark.utilities.data.ExcelUtilities  - reading LOCATORS - Updating  locators records to a new applicationID:VTiger
+2013-02-21 19:01:37,661 1027 [pool-1-thread-2] INFO  roark.utilities.data.ExcelUtilities  - reading LOCATORS - Updating  locators records to a new applicationID:VTiger
+2013-02-21 19:01:37,662 1028 [pool-1-thread-1] INFO  roark.utilities.data.ExcelUtilities  - reading LOCATORS - Updating  locators records to a new applicationID:VTiger
+2013-02-21 19:01:37,662 1028 [pool-1-thread-2] INFO  roark.utilities.data.ExcelUtilities  - reading LOCATORS - Updating  locators records to a new applicationID:VTiger
+2013-02-21 19:01:37,662 1028 [pool-1-thread-3] INFO  roark.utilities.data.ExcelUtilities  - reading LOCATORS - Updating  locators records to a new applicationID:VTiger
+2013-02-21 19:01:37,663 1029 [pool-1-thread-2] INFO  roark.utilities.data.ExcelUtilities  - reading LOCATORS - Updating  locators records to a new applicationID:VTiger
+2013-02-21 19:01:37,662 1028 [pool-1-thread-1] INFO  roark.utilities.data.ExcelUtilities  - reading LOCATORS - Updating  locators records to a new applicationID:VTiger
+2013-02-21 19:01:37,663 1029 [pool-1-thread-3] INFO  roark.utilities.data.ExcelUtilities  - reading LOCATORS - Updating  locators records to a new applicationID:VTiger
+2013-02-21 19:01:37,663 1029 [pool-1-thread-1] INFO  roark.utilities.data.ExcelUtilities  - reading LOCATORS - Updating  locators records to a new applicationID:VTiger
+2013-02-21 19:01:37,664 1030 [pool-1-thread-1] INFO  roark.utilities.data.ExcelUtilities  - reading LOCATORS - Updating  locators records to a new applicationID:VTiger
+2013-02-21 19:01:37,663 1029 [pool-1-thread-2] INFO  roark.utilities.data.ExcelUtilities  - reading LOCATORS - Updating  locators records to a new applicationID:VTiger
+2013-02-21 19:01:37,664 1030 [pool-1-thread-1] INFO  roark.utilities.data.ExcelUtilities  - reading LOCATORS - Updating  locators records to a new applicationID:VTiger
+2013-02-21 19:01:37,664 1030 [pool-1-thread-2] INFO  roark.utilities.data.ExcelUtilities  - reading LOCATORS - Updating  locators records to a new applicationID:VTiger
+2013-02-21 19:01:37,664 1030 [pool-1-thread-1] INFO  roark.utilities.data.ExcelUtilities  - reading LOCATORS - Updating  locators records to a new applicationID:VTiger
+2013-02-21 19:01:37,664 1030 [pool-1-thread-3] INFO  roark.utilities.data.ExcelUtilities  - reading LOCATORS - Updating  locators records to a new applicationID:VTiger
+2013-02-21 19:01:37,665 1031 [pool-1-thread-1] INFO  roark.utilities.data.ExcelUtilities  - reading LOCATORS - Updating  locators records to a new applicationID:VTiger
+2013-02-21 19:01:37,665 1031 [pool-1-thread-3] INFO  roark.utilities.data.ExcelUtilities  - reading LOCATORS - Updating  locators records to a new applicationID:VTiger
+2013-02-21 19:01:37,665 1031 [pool-1-thread-1] INFO  roark.utilities.data.ExcelUtilities  - reading LOCATORS - Updating  locators records to a new applicationID:VTiger
+2013-02-21 19:01:37,665 1031 [pool-1-thread-2] INFO  roark.utilities.data.ExcelUtilities  - reading LOCATORS - Updating  locators records to a new applicationID:VTiger
+2013-02-21 19:01:37,666 1032 [pool-1-thread-1] INFO  roark.utilities.data.ExcelUtilities  - reading LOCATORS - Updating  locators records to a new applicationID:VTiger
+2013-02-21 19:01:37,666 1032 [pool-1-thread-2] INFO  roark.utilities.data.ExcelUtilities  - reading LOCATORS - Updating  locators records to a new applicationID:VTiger
+2013-02-21 19:01:37,666 1032 [pool-1-thread-1] INFO  roark.utilities.data.ExcelUtilities  - reading LOCATORS - Updating  locators records to a new applicationID:VTiger
+2013-02-21 19:01:37,666 1032 [pool-1-thread-2] INFO  roark.utilities.data.ExcelUtilities  - reading LOCATORS - Updating  locators records to a new applicationID:VTiger
+2013-02-21 19:01:37,666 1032 [pool-1-thread-1] INFO  roark.utilities.data.ExcelUtilities  - reading LOCATORS - Updating  locators records to a new applicationID:VTiger
+2013-02-21 19:01:37,665 1031 [pool-1-thread-3] INFO  roark.utilities.data.ExcelUtilities  - reading LOCATORS - Updating  locators records to a new applicationID:VTiger
+2013-02-21 19:01:37,667 1033 [pool-1-thread-1] INFO  roark.utilities.data.ExcelUtilities  - reading LOCATORS - Updating  locators records to a new applicationID:VTiger
+2013-02-21 19:01:37,667 1033 [pool-1-thread-3] INFO  roark.utilities.data.ExcelUtilities  - reading LOCATORS - Updating  locators records to a new applicationID:VTiger
+2013-02-21 19:01:37,667 1033 [pool-1-thread-2] INFO  roark.utilities.data.ExcelUtilities  - reading LOCATORS - Updating  locators records to a new applicationID:VTiger
+2013-02-21 19:01:37,667 1033 [pool-1-thread-2] INFO  roark.utilities.data.ExcelUtilities  - reading LOCATORS - Updating  locators records to a new applicationID:VTiger
+2013-02-21 19:01:37,667 1033 [pool-1-thread-1] INFO  roark.utilities.data.ExcelUtilities  - reading LOCATORS - Updating  locators records to a new applicationID:VTiger
+2013-02-21 19:01:37,668 1034 [pool-1-thread-2] INFO  roark.utilities.data.ExcelUtilities  - reading LOCATORS - Updating  locators records to a new applicationID:VTiger
+2013-02-21 19:01:37,668 1034 [pool-1-thread-1] INFO  roark.utilities.data.ExcelUtilities  - reading LOCATORS - Updating  locators records to a new applicationID:VTiger
+2013-02-21 19:01:37,667 1033 [pool-1-thread-3] INFO  roark.utilities.data.ExcelUtilities  - reading LOCATORS - Updating  locators records to a new applicationID:VTiger
+2013-02-21 19:01:37,669 1035 [pool-1-thread-1] INFO  roark.utilities.data.ExcelUtilities  - reading LOCATORS - Updating  locators records to a new applicationID:VTiger
+2013-02-21 19:01:37,669 1035 [pool-1-thread-3] INFO  roark.utilities.data.ExcelUtilities  - reading LOCATORS - Updating  locators records to a new applicationID:VTiger
+2013-02-21 19:01:37,668 1034 [pool-1-thread-2] INFO  roark.utilities.data.ExcelUtilities  - reading LOCATORS - Updating  locators records to a new applicationID:VTiger
+2013-02-21 19:01:37,670 1036 [pool-1-thread-3] INFO  roark.utilities.data.ExcelUtilities  - reading LOCATORS - Updating  locators records to a new applicationID:VTiger
+2013-02-21 19:01:37,670 1036 [pool-1-thread-2] INFO  roark.utilities.data.ExcelUtilities  - reading LOCATORS - Updating  locators records to a new applicationID:VTiger
+2013-02-21 19:01:37,670 1036 [pool-1-thread-3] INFO  roark.utilities.data.ExcelUtilities  - reading LOCATORS - Updating  locators records to a new applicationID:VTiger
+2013-02-21 19:01:37,670 1036 [pool-1-thread-2] INFO  roark.utilities.data.ExcelUtilities  - reading LOCATORS - Updating  locators records to a new applicationID:VTiger
+2013-02-21 19:01:37,669 1035 [pool-1-thread-1] INFO  roark.utilities.data.ExcelUtilities  - reading LOCATORS - Updating  locators records to a new applicationID:VTiger
+2013-02-21 19:01:37,671 1037 [pool-1-thread-1] INFO  roark.utilities.data.ExcelUtilities  - reading LOCATORS - Updating  locators records to a new applicationID:VTiger
+2013-02-21 19:01:37,671 1037 [pool-1-thread-1] INFO  roark.utilities.data.ExcelUtilities  - reading LOCATORS - Updating  locators records to a new applicationID:VTiger
+2013-02-21 19:01:37,672 1038 [pool-1-thread-1] INFO  roark.utilities.data.ExcelUtilities  - reading LOCATORS - Updating  locators records to a new applicationID:VTiger
+2013-02-21 19:01:37,672 1038 [pool-1-thread-1] INFO  roark.utilities.data.ExcelUtilities  - reading LOCATORS - Updating  locators records to a new applicationID:VTiger
+2013-02-21 19:01:37,673 1039 [pool-1-thread-1] INFO  roark.utilities.data.ExcelUtilities  - reading LOCATORS - Updating  locators records to a new applicationID:VTiger
+2013-02-21 19:01:37,673 1039 [pool-1-thread-1] INFO  roark.utilities.data.ExcelUtilities  - reading LOCATORS - Updating  locators records to a new applicationID:VTiger
+2013-02-21 19:01:37,673 1039 [pool-1-thread-1] INFO  roark.utilities.data.ExcelUtilities  - reading LOCATORS - Updating  locators records to a new applicationID:VTiger
+2013-02-21 19:01:37,674 1040 [pool-1-thread-1] INFO  roark.utilities.data.ExcelUtilities  - reading LOCATORS - Updating  locators records to a new applicationID:VTiger
+2013-02-21 19:01:37,674 1040 [pool-1-thread-3] INFO  roark.jelenium.TestSuite  - DONE :: updateLocatorValues
+2013-02-21 19:01:37,674 1040 [pool-1-thread-3] INFO  roark.jelenium.TestSuite  - LocatorSets are set
+2013-02-21 19:01:37,684 1050 [pool-1-thread-1] INFO  roark.jelenium.TestSuite  - DONE :: updateLocatorValues
+2013-02-21 19:01:37,685 1051 [pool-1-thread-1] INFO  roark.jelenium.TestSuite  - LocatorSets are set
+2013-02-21 19:01:37,688 1054 [pool-1-thread-2] INFO  roark.utilities.data.ExcelUtilities  - reading LOCATORS - Updating  locators records to a new applicationID:VTiger
+2013-02-21 19:01:37,689 1055 [pool-1-thread-2] INFO  roark.utilities.data.ExcelUtilities  - reading LOCATORS - Updating  locators records to a new applicationID:VTiger
+2013-02-21 19:01:37,690 1056 [pool-1-thread-2] INFO  roark.utilities.data.ExcelUtilities  - reading LOCATORS - Updating  locators records to a new applicationID:VTiger
+2013-02-21 19:01:37,690 1056 [pool-1-thread-2] INFO  roark.utilities.data.ExcelUtilities  - reading LOCATORS - Updating  locators records to a new applicationID:VTiger
+2013-02-21 19:01:37,691 1057 [pool-1-thread-2] INFO  roark.utilities.data.ExcelUtilities  - reading LOCATORS - Updating  locators records to a new applicationID:VTiger
+2013-02-21 19:01:37,691 1057 [pool-1-thread-2] INFO  roark.utilities.data.ExcelUtilities  - reading LOCATORS - Updating  locators records to a new applicationID:VTiger
+2013-02-21 19:01:37,692 1058 [pool-1-thread-2] INFO  roark.utilities.data.ExcelUtilities  - reading LOCATORS - Updating  locators records to a new applicationID:VTiger
+2013-02-21 19:01:37,692 1058 [pool-1-thread-2] INFO  roark.utilities.data.ExcelUtilities  - reading LOCATORS - Updating  locators records to a new applicationID:VTiger
+2013-02-21 19:01:37,692 1058 [pool-1-thread-2] INFO  roark.utilities.data.ExcelUtilities  - reading LOCATORS - Updating  locators records to a new applicationID:VTiger
+2013-02-21 19:01:37,693 1059 [pool-1-thread-2] INFO  roark.utilities.data.ExcelUtilities  - reading LOCATORS - Updating  locators records to a new applicationID:VTiger
+2013-02-21 19:01:37,693 1059 [pool-1-thread-2] INFO  roark.utilities.data.ExcelUtilities  - reading LOCATORS - Updating  locators records to a new applicationID:VTiger
+2013-02-21 19:01:37,693 1059 [pool-1-thread-2] INFO  roark.utilities.data.ExcelUtilities  - reading LOCATORS - Updating  locators records to a new applicationID:VTiger
+2013-02-21 19:01:37,694 1060 [pool-1-thread-2] INFO  roark.utilities.data.ExcelUtilities  - reading LOCATORS - Updating  locators records to a new applicationID:VTiger
+2013-02-21 19:01:37,694 1060 [pool-1-thread-2] INFO  roark.utilities.data.ExcelUtilities  - reading LOCATORS - Updating  locators records to a new applicationID:VTiger
+2013-02-21 19:01:37,698 1064 [pool-1-thread-2] INFO  roark.utilities.data.ExcelUtilities  - reading LOCATORS - Updating  locators records to a new applicationID:VTiger
+2013-02-21 19:01:37,698 1064 [pool-1-thread-1] INFO  roark.utilities.data.EnvironmentVariables  - browserEXEpath:C:\\Users\\Bharath07\\AppData\\Local\\Google\\Chrome\\Application\\chrome.exe
+2013-02-21 19:01:37,699 1065 [pool-1-thread-2] INFO  roark.utilities.data.ExcelUtilities  - reading LOCATORS - Updating  locators records to a new applicationID:VTiger
+2013-02-21 19:01:37,699 1065 [pool-1-thread-2] INFO  roark.utilities.data.ExcelUtilities  - reading LOCATORS - Updating  locators records to a new applicationID:VTiger
+2013-02-21 19:01:37,699 1065 [pool-1-thread-2] INFO  roark.utilities.data.ExcelUtilities  - reading LOCATORS - Updating  locators records to a new applicationID:VTiger
+2013-02-21 19:01:37,700 1066 [pool-1-thread-2] INFO  roark.utilities.data.ExcelUtilities  - reading LOCATORS - Updating  locators records to a new applicationID:VTiger
+2013-02-21 19:01:37,700 1066 [pool-1-thread-2] INFO  roark.utilities.data.ExcelUtilities  - reading LOCATORS - Updating  locators records to a new applicationID:VTiger
+2013-02-21 19:01:37,701 1067 [pool-1-thread-2] INFO  roark.utilities.data.ExcelUtilities  - reading LOCATORS - Updating  locators records to a new applicationID:VTiger
+2013-02-21 19:01:37,701 1067 [pool-1-thread-2] INFO  roark.utilities.data.ExcelUtilities  - reading LOCATORS - Updating  locators records to a new applicationID:VTiger
+2013-02-21 19:01:37,702 1068 [pool-1-thread-3] INFO  roark.utilities.data.EnvironmentVariables  - browserEXEpath:C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe
+2013-02-21 19:01:37,716 1082 [pool-1-thread-1] INFO  roark.utilities.data.EnvironmentVariables  - BrowserDriverEXEpath:C:\\Users\\Bharath07\\Documents\\GitHub\\roark\\Roark_ver0218\\lib\\chromedriver.exe
+2013-02-21 19:01:39,096 2462 [pool-1-thread-2] INFO  roark.jelenium.TestSuite  - DONE :: updateLocatorValues
+2013-02-21 19:01:39,096 2462 [pool-1-thread-2] INFO  roark.jelenium.TestSuite  - LocatorSets are set
+2013-02-21 19:01:39,105 2471 [pool-1-thread-2] INFO  roark.utilities.data.EnvironmentVariables  - browserEXEpath:C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe
+2013-02-21 19:01:40,387 3753 [pool-1-thread-1] INFO  roark.jelenium.TestSuite  - ChromeDriver is set for webdriver object
+2013-02-21 19:01:40,397 3763 [pool-1-thread-1] INFO  roark.jelenium.TestSuite  - TestcaseQue - Count 1
+2013-02-21 19:01:40,398 3764 [pool-1-thread-1] INFO  roark.jelenium.TestSuite  - Running Testcase ::TCVTiger111
+2013-02-21 19:01:40,403 3769 [pool-1-thread-1] INFO  roark.utilities.keywords.KeywordSelector  - Executing StepID : 1.1
+2013-02-21 19:01:40,403 3769 [pool-1-thread-1] INFO  roark.utilities.keywords.KeywordSelector  - KeywordType is set to GENERIC
+2013-02-21 19:01:40,403 3769 [pool-1-thread-1] INFO  roark.utilities.keywords.KeywordSelector  - Step Details - 
+{StepID=1.1, FieldName=NOT_APPLICABLE, FieldDefinition=NOT_APPLICABLE, Keyword=Launch, TestDataType=EnvironmentVariable, TestDataName=ApplicationURL, TestDataValue=http://localhost:8888, Checkpoint=Major}
+2013-02-21 19:01:40,410 3776 [pool-1-thread-1] INFO  roark.utilities.keywords.GenericKeywords  - url :http://localhost:8888
+2013-02-21 19:01:44,844 8210 [pool-1-thread-1] INFO  roark.utilities.keywords.KeywordSelector  - Step Result ::PASS
+2013-02-21 19:01:44,844 8210 [pool-1-thread-1] INFO  roark.utilities.keywords.KeywordSelector  - Executing StepID : 1.2
+2013-02-21 19:01:44,844 8210 [pool-1-thread-1] INFO  roark.utilities.keywords.KeywordSelector  - KeywordType is set to WEBUI
+2013-02-21 19:01:44,844 8210 [pool-1-thread-1] INFO  roark.utilities.keywords.KeywordSelector  - Step Details - 
+{StepID=1.2, FieldName=UserNameTextBox, FieldDefinition=//input[@name='user_name'], Keyword=Enter, TestDataType=EnvironmentVariable, TestDataName=AdminUserID, TestDataValue=admin, Checkpoint=Major}
+2013-02-21 19:01:44,844 8210 [pool-1-thread-1] INFO  roark.utilities.keywords.KeywordSelector  - switched to case - WEBUI in keywordSelector
+2013-02-21 19:01:44,935 8301 [pool-1-thread-1] INFO  roark.utilities.keywords.WebUI  - Element  is found on the page , fieldDefinition:://input[@name='user_name']
+2013-02-21 19:01:45,001 8367 [pool-1-thread-1] INFO  roark.utilities.keywords.WebUI  - targetObject is set to ::[[ChromeDriver: chrome on XP (88014b55f54df60553d510b0501acce7)] -> xpath: //input[@name='user_name']]
+2013-02-21 19:01:45,347 8713 [pool-1-thread-1] INFO  roark.utilities.keywords.KeywordSelector  - Step Result ::PASS
+2013-02-21 19:01:45,348 8714 [pool-1-thread-1] INFO  roark.utilities.keywords.KeywordSelector  - Executing StepID : 1.3
+2013-02-21 19:01:45,348 8714 [pool-1-thread-1] INFO  roark.utilities.keywords.KeywordSelector  - KeywordType is set to WEBUI
+2013-02-21 19:01:45,348 8714 [pool-1-thread-1] INFO  roark.utilities.keywords.KeywordSelector  - Step Details - 
+{StepID=1.3, FieldName=PasswordTextBox, FieldDefinition=//input[@name='user_password'], Keyword=Enter, TestDataType=EnvironmentVariable, TestDataName=AdminUserPassword, TestDataValue=admin, Checkpoint=Major}
+2013-02-21 19:01:45,348 8714 [pool-1-thread-1] INFO  roark.utilities.keywords.KeywordSelector  - switched to case - WEBUI in keywordSelector
+2013-02-21 19:01:45,421 8787 [pool-1-thread-1] INFO  roark.utilities.keywords.WebUI  - Element  is found on the page , fieldDefinition:://input[@name='user_password']
+2013-02-21 19:01:45,489 8855 [pool-1-thread-1] INFO  roark.utilities.keywords.WebUI  - targetObject is set to ::[[ChromeDriver: chrome on XP (88014b55f54df60553d510b0501acce7)] -> xpath: //input[@name='user_password']]
+2013-02-21 19:01:45,786 9152 [pool-1-thread-1] INFO  roark.utilities.keywords.KeywordSelector  - Step Result ::PASS
+2013-02-21 19:01:45,786 9152 [pool-1-thread-1] INFO  roark.utilities.keywords.KeywordSelector  - Executing StepID : 1.4
+2013-02-21 19:01:45,786 9152 [pool-1-thread-1] INFO  roark.utilities.keywords.KeywordSelector  - KeywordType is set to WEBUI
+2013-02-21 19:01:45,786 9152 [pool-1-thread-1] INFO  roark.utilities.keywords.KeywordSelector  - Step Details - 
+{StepID=1.4, FieldName=ColorThemeList, FieldDefinition=//select[@name='login_theme'], Keyword=SelectByLabel, TestDataType=XLParameter, TestDataName=TDColorThemeList, TestDataValue=woodspice, Checkpoint=Major}
+2013-02-21 19:01:45,786 9152 [pool-1-thread-1] INFO  roark.utilities.keywords.KeywordSelector  - switched to case - WEBUI in keywordSelector
+2013-02-21 19:01:45,846 9212 [pool-1-thread-1] INFO  roark.utilities.keywords.WebUI  - Element  is found on the page , fieldDefinition:://select[@name='login_theme']
+2013-02-21 19:01:45,924 9290 [pool-1-thread-1] INFO  roark.utilities.keywords.WebUI  - targetObject is set to ::[[ChromeDriver: chrome on XP (88014b55f54df60553d510b0501acce7)] -> xpath: //select[@name='login_theme']]
+2013-02-21 19:01:46,203 9569 [pool-1-thread-1] INFO  roark.utilities.keywords.KeywordSelector  - Step Result ::PASS
+2013-02-21 19:01:46,203 9569 [pool-1-thread-1] INFO  roark.utilities.keywords.KeywordSelector  - Executing StepID : 1.5
+2013-02-21 19:01:46,203 9569 [pool-1-thread-1] INFO  roark.utilities.keywords.KeywordSelector  - KeywordType is set to WEBUI
+2013-02-21 19:01:46,203 9569 [pool-1-thread-1] INFO  roark.utilities.keywords.KeywordSelector  - Step Details - 
+{StepID=1.5, FieldName=LoginImageButton, FieldDefinition=//input[@name='Login'], Keyword=ClickAndWait, TestDataType=NOT_APPLICABLE, TestDataName=NA, TestDataValue=NOT_APPLICABLE, Checkpoint=Major}
+2013-02-21 19:01:46,204 9570 [pool-1-thread-1] INFO  roark.utilities.keywords.KeywordSelector  - switched to case - WEBUI in keywordSelector
+2013-02-21 19:01:46,295 9661 [pool-1-thread-1] INFO  roark.utilities.keywords.WebUI  - Element  is found on the page , fieldDefinition:://input[@name='Login']
+2013-02-21 19:01:46,376 9742 [pool-1-thread-1] INFO  roark.utilities.keywords.WebUI  - targetObject is set to ::[[ChromeDriver: chrome on XP (88014b55f54df60553d510b0501acce7)] -> xpath: //input[@name='Login']]
+2013-02-21 19:01:52,139 15505 [pool-1-thread-1] INFO  roark.utilities.data.EnvironmentVariables  - xmlFilePath:C:\Users\Bharath07\Documents\GitHub\roark\Roark_ver0218\TAF_Demo\Configuration\EnvironmentVariables.xml
+2013-02-21 19:01:52,149 15515 [pool-1-thread-1] INFO  roark.utilities.keywords.WebUI  - pageLoadtimeout is set to - 60
+2013-02-21 19:01:52,149 15515 [pool-1-thread-1] INFO  roark.utilities.keywords.WebUI  - clicked on the element - LoginImageButton
+2013-02-21 19:01:52,149 15515 [pool-1-thread-1] INFO  roark.utilities.keywords.WebUI  - Waiting for PageLoad to complete,..after clicking on element - LoginImageButton
+2013-02-21 19:01:52,389 15755 [pool-1-thread-1] INFO  roark.utilities.keywords.WebUI  - Pageload is complete within 0 seconds
+2013-02-21 19:01:52,389 15755 [pool-1-thread-1] INFO  roark.utilities.keywords.KeywordSelector  - Step Result ::PASS
+2013-02-21 19:01:52,389 15755 [pool-1-thread-1] INFO  roark.utilities.keywords.KeywordSelector  - Executing StepID : 1.6
+2013-02-21 19:01:52,389 15755 [pool-1-thread-1] INFO  roark.utilities.keywords.KeywordSelector  - KeywordType is set to WEBUI
+2013-02-21 19:01:52,389 15755 [pool-1-thread-1] INFO  roark.utilities.keywords.KeywordSelector  - Step Details - 
+{StepID=1.6, FieldName=MyHomePageLink, FieldDefinition=//a[.='My Home Page'], Keyword=VerifyElementPresent, TestDataType=NOT_APPLICABLE, TestDataName=NA, TestDataValue=NOT_APPLICABLE, Checkpoint=Major}
+2013-02-21 19:01:52,389 15755 [pool-1-thread-1] INFO  roark.utilities.keywords.KeywordSelector  - switched to case - WEBUI in keywordSelector
+2013-02-21 19:01:52,539 15905 [pool-1-thread-1] INFO  roark.utilities.keywords.WebUI  - Element  is found on the page , fieldDefinition:://a[.='My Home Page']
+2013-02-21 19:01:52,663 16029 [pool-1-thread-1] INFO  roark.utilities.keywords.WebUI  - targetObject is set to ::[[ChromeDriver: chrome on XP (88014b55f54df60553d510b0501acce7)] -> xpath: //a[.='My Home Page']]
+2013-02-21 19:01:52,818 16184 [pool-1-thread-1] INFO  roark.utilities.keywords.KeywordSelector  - Step Result ::PASS
+2013-02-21 19:01:52,818 16184 [pool-1-thread-1] INFO  roark.utilities.keywords.KeywordSelector  - Executing StepID : 2.1
+2013-02-21 19:01:52,818 16184 [pool-1-thread-1] INFO  roark.utilities.keywords.KeywordSelector  - KeywordType is set to WEBUI
+2013-02-21 19:01:52,818 16184 [pool-1-thread-1] INFO  roark.utilities.keywords.KeywordSelector  - Step Details - 
+{StepID=2.1, FieldName=InventoryTab, FieldDefinition=//a[.='Inventory'], Keyword=ClickAndWait, TestDataType=NOT_APPLICABLE, TestDataName=NA, TestDataValue=NOT_APPLICABLE, Checkpoint=Major}
+2013-02-21 19:01:52,818 16184 [pool-1-thread-1] INFO  roark.utilities.keywords.KeywordSelector  - switched to case - WEBUI in keywordSelector
+2013-02-21 19:01:52,926 16292 [pool-1-thread-1] INFO  roark.utilities.keywords.WebUI  - Element  is found on the page , fieldDefinition:://a[.='Inventory']
+2013-02-21 19:01:53,031 16397 [pool-1-thread-1] INFO  roark.utilities.keywords.WebUI  - targetObject is set to ::[[ChromeDriver: chrome on XP (88014b55f54df60553d510b0501acce7)] -> xpath: //a[.='Inventory']]
+2013-02-21 19:01:55,661 19027 [pool-1-thread-3] INFO  roark.jelenium.TestSuite  - FirefoxDriver is set for webdriver object
+2013-02-21 19:01:55,695 19061 [pool-1-thread-3] INFO  roark.jelenium.TestSuite  - TestcaseQue - Count 1
+2013-02-21 19:01:55,695 19061 [pool-1-thread-3] INFO  roark.jelenium.TestSuite  - Running Testcase ::TCVTiger116
+2013-02-21 19:01:55,695 19061 [pool-1-thread-3] INFO  roark.utilities.keywords.KeywordSelector  - Executing StepID : 1.1
+2013-02-21 19:01:55,696 19062 [pool-1-thread-3] INFO  roark.utilities.keywords.KeywordSelector  - KeywordType is set to GENERIC
+2013-02-21 19:01:55,696 19062 [pool-1-thread-3] INFO  roark.utilities.keywords.KeywordSelector  - Step Details - 
+{StepID=1.1, FieldName=NOT_APPLICABLE, FieldDefinition=NOT_APPLICABLE, Keyword=Launch, TestDataType=EnvironmentVariable, TestDataName=ApplicationURL, TestDataValue=http://localhost:8888, Checkpoint=Major}
+2013-02-21 19:01:55,696 19062 [pool-1-thread-3] INFO  roark.utilities.keywords.GenericKeywords  - url :http://localhost:8888
+2013-02-21 19:01:59,242 22608 [pool-1-thread-3] INFO  roark.utilities.keywords.KeywordSelector  - Step Result ::PASS
+2013-02-21 19:01:59,242 22608 [pool-1-thread-3] INFO  roark.utilities.keywords.KeywordSelector  - Executing StepID : 1.2
+2013-02-21 19:01:59,242 22608 [pool-1-thread-3] INFO  roark.utilities.keywords.KeywordSelector  - KeywordType is set to WEBUI
+2013-02-21 19:01:59,242 22608 [pool-1-thread-3] INFO  roark.utilities.keywords.KeywordSelector  - Step Details - 
+{StepID=1.2, FieldName=UserNameTextBox, FieldDefinition=//input[@name='user_name'], Keyword=Enter, TestDataType=EnvironmentVariable, TestDataName=AdminUserID, TestDataValue=admin, Checkpoint=Major}
+2013-02-21 19:01:59,242 22608 [pool-1-thread-3] INFO  roark.utilities.keywords.KeywordSelector  - switched to case - WEBUI in keywordSelector
+2013-02-21 19:01:59,361 22727 [pool-1-thread-3] INFO  roark.utilities.keywords.WebUI  - Element  is found on the page , fieldDefinition:://input[@name='user_name']
+2013-02-21 19:01:59,393 22759 [pool-1-thread-3] INFO  roark.utilities.keywords.WebUI  - targetObject is set to ::[[FirefoxDriver: firefox on XP (77f07716-1290-4743-ab74-4c45882cef23)] -> xpath: //input[@name='user_name']]
+2013-02-21 19:01:59,612 22978 [pool-1-thread-3] INFO  roark.utilities.keywords.KeywordSelector  - Step Result ::PASS
+2013-02-21 19:01:59,612 22978 [pool-1-thread-3] INFO  roark.utilities.keywords.KeywordSelector  - Executing StepID : 1.3
+2013-02-21 19:01:59,612 22978 [pool-1-thread-3] INFO  roark.utilities.keywords.KeywordSelector  - KeywordType is set to WEBUI
+2013-02-21 19:01:59,612 22978 [pool-1-thread-3] INFO  roark.utilities.keywords.KeywordSelector  - Step Details - 
+{StepID=1.3, FieldName=PasswordTextBox, FieldDefinition=//input[@name='user_password'], Keyword=Enter, TestDataType=EnvironmentVariable, TestDataName=AdminUserPassword, TestDataValue=admin, Checkpoint=Major}
+2013-02-21 19:01:59,613 22979 [pool-1-thread-3] INFO  roark.utilities.keywords.KeywordSelector  - switched to case - WEBUI in keywordSelector
+2013-02-21 19:01:59,641 23007 [pool-1-thread-3] INFO  roark.utilities.keywords.WebUI  - Element  is found on the page , fieldDefinition:://input[@name='user_password']
+2013-02-21 19:02:00,388 23754 [pool-1-thread-3] INFO  roark.utilities.keywords.WebUI  - targetObject is set to ::[[FirefoxDriver: firefox on XP (77f07716-1290-4743-ab74-4c45882cef23)] -> xpath: //input[@name='user_password']]
+2013-02-21 19:02:00,583 23949 [pool-1-thread-3] INFO  roark.utilities.keywords.KeywordSelector  - Step Result ::PASS
+2013-02-21 19:02:00,583 23949 [pool-1-thread-3] INFO  roark.utilities.keywords.KeywordSelector  - Executing StepID : 1.4
+2013-02-21 19:02:00,583 23949 [pool-1-thread-3] INFO  roark.utilities.keywords.KeywordSelector  - KeywordType is set to WEBUI
+2013-02-21 19:02:00,583 23949 [pool-1-thread-3] INFO  roark.utilities.keywords.KeywordSelector  - Step Details - 
+{StepID=1.4, FieldName=ColorThemeList, FieldDefinition=//select[@name='login_theme'], Keyword=SelectByLabel, TestDataType=XLParameter, TestDataName=TDColorThemeList, TestDataValue=alphagrey, Checkpoint=Major}
+2013-02-21 19:02:00,584 23950 [pool-1-thread-3] INFO  roark.utilities.keywords.KeywordSelector  - switched to case - WEBUI in keywordSelector
+2013-02-21 19:02:00,624 23990 [pool-1-thread-3] INFO  roark.utilities.keywords.WebUI  - Element  is found on the page , fieldDefinition:://select[@name='login_theme']
+2013-02-21 19:02:00,667 24033 [pool-1-thread-3] INFO  roark.utilities.keywords.WebUI  - targetObject is set to ::[[FirefoxDriver: firefox on XP (77f07716-1290-4743-ab74-4c45882cef23)] -> xpath: //select[@name='login_theme']]
+2013-02-21 19:02:01,166 24532 [pool-1-thread-3] INFO  roark.utilities.keywords.KeywordSelector  - Step Result ::PASS
+2013-02-21 19:02:01,166 24532 [pool-1-thread-3] INFO  roark.utilities.keywords.KeywordSelector  - Executing StepID : 1.5
+2013-02-21 19:02:01,166 24532 [pool-1-thread-3] INFO  roark.utilities.keywords.KeywordSelector  - KeywordType is set to WEBUI
+2013-02-21 19:02:01,166 24532 [pool-1-thread-3] INFO  roark.utilities.keywords.KeywordSelector  - Step Details - 
+{StepID=1.5, FieldName=LoginImageButton, FieldDefinition=//input[@name='Login'], Keyword=ClickAndWait, TestDataType=NOT_APPLICABLE, TestDataName=NA, TestDataValue=NOT_APPLICABLE, Checkpoint=Major}
+2013-02-21 19:02:01,166 24532 [pool-1-thread-3] INFO  roark.utilities.keywords.KeywordSelector  - switched to case - WEBUI in keywordSelector
+2013-02-21 19:02:01,236 24602 [pool-1-thread-3] INFO  roark.utilities.keywords.WebUI  - Element  is found on the page , fieldDefinition:://input[@name='Login']
+2013-02-21 19:02:01,269 24635 [pool-1-thread-3] INFO  roark.utilities.keywords.WebUI  - targetObject is set to ::[[FirefoxDriver: firefox on XP (77f07716-1290-4743-ab74-4c45882cef23)] -> xpath: //input[@name='Login']]
+2013-02-21 19:02:01,838 25204 [pool-1-thread-3] INFO  roark.utilities.data.EnvironmentVariables  - xmlFilePath:C:\Users\Bharath07\Documents\GitHub\roark\Roark_ver0218\TAF_Demo\Configuration\EnvironmentVariables.xml
+2013-02-21 19:02:01,848 25214 [pool-1-thread-3] INFO  roark.utilities.keywords.WebUI  - pageLoadtimeout is set to - 60
+2013-02-21 19:02:01,848 25214 [pool-1-thread-3] INFO  roark.utilities.keywords.WebUI  - clicked on the element - LoginImageButton
+2013-02-21 19:02:01,848 25214 [pool-1-thread-3] INFO  roark.utilities.keywords.WebUI  - Waiting for PageLoad to complete,..after clicking on element - LoginImageButton
+2013-02-21 19:02:05,021 28387 [pool-1-thread-1] INFO  roark.utilities.data.EnvironmentVariables  - xmlFilePath:C:\Users\Bharath07\Documents\GitHub\roark\Roark_ver0218\TAF_Demo\Configuration\EnvironmentVariables.xml
+2013-02-21 19:02:05,034 28400 [pool-1-thread-1] INFO  roark.utilities.keywords.WebUI  - pageLoadtimeout is set to - 60
+2013-02-21 19:02:05,034 28400 [pool-1-thread-1] INFO  roark.utilities.keywords.WebUI  - clicked on the element - InventoryTab
+2013-02-21 19:02:05,035 28401 [pool-1-thread-1] INFO  roark.utilities.keywords.WebUI  - Waiting for PageLoad to complete,..after clicking on element - InventoryTab
+2013-02-21 19:02:05,083 28449 [pool-1-thread-1] INFO  roark.utilities.keywords.WebUI  - Pageload is complete within 0 seconds
+2013-02-21 19:02:05,083 28449 [pool-1-thread-1] INFO  roark.utilities.keywords.KeywordSelector  - Step Result ::PASS
+2013-02-21 19:02:05,084 28450 [pool-1-thread-1] INFO  roark.utilities.keywords.KeywordSelector  - Executing StepID : 2.2
+2013-02-21 19:02:05,084 28450 [pool-1-thread-1] INFO  roark.utilities.keywords.KeywordSelector  - KeywordType is set to WEBUI
+2013-02-21 19:02:05,084 28450 [pool-1-thread-1] INFO  roark.utilities.keywords.KeywordSelector  - Step Details - 
+{StepID=2.2, FieldName=ProductsLink, FieldDefinition=//a[contains(text(),'Products')], Keyword=ClickAndWait, TestDataType=NOT_APPLICABLE, TestDataName=NA, TestDataValue=NOT_APPLICABLE, Checkpoint=Major}
+2013-02-21 19:02:05,084 28450 [pool-1-thread-1] INFO  roark.utilities.keywords.KeywordSelector  - switched to case - WEBUI in keywordSelector
+2013-02-21 19:02:05,160 28526 [pool-1-thread-1] INFO  roark.utilities.keywords.WebUI  - Element  is found on the page , fieldDefinition:://a[contains(text(),'Products')]
+2013-02-21 19:02:05,248 28614 [pool-1-thread-1] INFO  roark.utilities.keywords.WebUI  - targetObject is set to ::[[ChromeDriver: chrome on XP (88014b55f54df60553d510b0501acce7)] -> xpath: //a[contains(text(),'Products')]]
+2013-02-21 19:02:08,448 31814 [pool-1-thread-3] INFO  roark.utilities.keywords.WebUI  - Pageload is complete within 1 seconds
+2013-02-21 19:02:08,449 31815 [pool-1-thread-3] INFO  roark.utilities.keywords.KeywordSelector  - Step Result ::PASS
+2013-02-21 19:02:08,449 31815 [pool-1-thread-3] INFO  roark.utilities.keywords.KeywordSelector  - Executing StepID : 1.6
+2013-02-21 19:02:08,449 31815 [pool-1-thread-3] INFO  roark.utilities.keywords.KeywordSelector  - KeywordType is set to WEBUI
+2013-02-21 19:02:08,449 31815 [pool-1-thread-3] INFO  roark.utilities.keywords.KeywordSelector  - Step Details - 
+{StepID=1.6, FieldName=MyHomePageLink, FieldDefinition=//a[.='My Home Page'], Keyword=VerifyElementPresent, TestDataType=NOT_APPLICABLE, TestDataName=NA, TestDataValue=NOT_APPLICABLE, Checkpoint=Major}
+2013-02-21 19:02:08,449 31815 [pool-1-thread-3] INFO  roark.utilities.keywords.KeywordSelector  - switched to case - WEBUI in keywordSelector
+2013-02-21 19:02:08,482 31848 [pool-1-thread-3] INFO  roark.utilities.keywords.WebUI  - Element  is found on the page , fieldDefinition:://a[.='My Home Page']
+2013-02-21 19:02:08,565 31931 [pool-1-thread-3] INFO  roark.utilities.keywords.WebUI  - targetObject is set to ::[[FirefoxDriver: firefox on XP (77f07716-1290-4743-ab74-4c45882cef23)] -> xpath: //a[.='My Home Page']]
+2013-02-21 19:02:08,693 32059 [pool-1-thread-3] INFO  roark.utilities.keywords.KeywordSelector  - Step Result ::PASS
+2013-02-21 19:02:08,693 32059 [pool-1-thread-3] INFO  roark.utilities.keywords.KeywordSelector  - Executing StepID : 2.1
+2013-02-21 19:02:08,693 32059 [pool-1-thread-3] INFO  roark.utilities.keywords.KeywordSelector  - KeywordType is set to WEBUI
+2013-02-21 19:02:08,693 32059 [pool-1-thread-3] INFO  roark.utilities.keywords.KeywordSelector  - Step Details - 
+{StepID=2.1, FieldName=SalesLink, FieldDefinition=//a[.='Sales'], Keyword=ClickAndWait, TestDataType=NOT_APPLICABLE, TestDataName=NA, TestDataValue=NOT_APPLICABLE, Checkpoint=Major}
+2013-02-21 19:02:08,693 32059 [pool-1-thread-3] INFO  roark.utilities.keywords.KeywordSelector  - switched to case - WEBUI in keywordSelector
+2013-02-21 19:02:08,874 32240 [pool-1-thread-3] INFO  roark.utilities.keywords.WebUI  - Element  is found on the page , fieldDefinition:://a[.='Sales']
+2013-02-21 19:02:08,981 32347 [pool-1-thread-3] INFO  roark.utilities.keywords.WebUI  - targetObject is set to ::[[FirefoxDriver: firefox on XP (77f07716-1290-4743-ab74-4c45882cef23)] -> xpath: //a[.='Sales']]
+2013-02-21 19:02:09,475 32841 [pool-1-thread-3] INFO  roark.utilities.data.EnvironmentVariables  - xmlFilePath:C:\Users\Bharath07\Documents\GitHub\roark\Roark_ver0218\TAF_Demo\Configuration\EnvironmentVariables.xml
+2013-02-21 19:02:09,484 32850 [pool-1-thread-3] INFO  roark.utilities.keywords.WebUI  - pageLoadtimeout is set to - 60
+2013-02-21 19:02:09,485 32851 [pool-1-thread-3] INFO  roark.utilities.keywords.WebUI  - clicked on the element - SalesLink
+2013-02-21 19:02:09,485 32851 [pool-1-thread-3] INFO  roark.utilities.keywords.WebUI  - Waiting for PageLoad to complete,..after clicking on element - SalesLink
+2013-02-21 19:02:10,500 33866 [pool-1-thread-2] INFO  roark.jelenium.TestSuite  - FirefoxDriver is set for webdriver object
+2013-02-21 19:02:10,533 33899 [pool-1-thread-2] INFO  roark.jelenium.TestSuite  - TestcaseQue - Count 1
+2013-02-21 19:02:10,533 33899 [pool-1-thread-2] INFO  roark.jelenium.TestSuite  - Running Testcase ::TCVTiger116
+2013-02-21 19:02:10,533 33899 [pool-1-thread-2] INFO  roark.utilities.keywords.KeywordSelector  - Executing StepID : 1.1
+2013-02-21 19:02:10,533 33899 [pool-1-thread-2] INFO  roark.utilities.keywords.KeywordSelector  - KeywordType is set to GENERIC
+2013-02-21 19:02:10,533 33899 [pool-1-thread-2] INFO  roark.utilities.keywords.KeywordSelector  - Step Details - 
+{StepID=1.1, FieldName=NOT_APPLICABLE, FieldDefinition=NOT_APPLICABLE, Keyword=Launch, TestDataType=EnvironmentVariable, TestDataName=ApplicationURL, TestDataValue=http://localhost:8888, Checkpoint=Major}
+2013-02-21 19:02:10,533 33899 [pool-1-thread-2] INFO  roark.utilities.keywords.GenericKeywords  - url :http://localhost:8888
+2013-02-21 19:02:11,788 35154 [pool-1-thread-1] INFO  roark.utilities.data.EnvironmentVariables  - xmlFilePath:C:\Users\Bharath07\Documents\GitHub\roark\Roark_ver0218\TAF_Demo\Configuration\EnvironmentVariables.xml
+2013-02-21 19:02:11,797 35163 [pool-1-thread-1] INFO  roark.utilities.keywords.WebUI  - pageLoadtimeout is set to - 60
+2013-02-21 19:02:11,797 35163 [pool-1-thread-1] INFO  roark.utilities.keywords.WebUI  - clicked on the element - ProductsLink
+2013-02-21 19:02:11,798 35164 [pool-1-thread-1] INFO  roark.utilities.keywords.WebUI  - Waiting for PageLoad to complete,..after clicking on element - ProductsLink
+2013-02-21 19:02:12,033 35399 [pool-1-thread-1] INFO  roark.utilities.keywords.WebUI  - Pageload is complete within 0 seconds
+2013-02-21 19:02:12,034 35400 [pool-1-thread-1] INFO  roark.utilities.keywords.KeywordSelector  - Step Result ::PASS
+2013-02-21 19:02:12,034 35400 [pool-1-thread-1] INFO  roark.utilities.keywords.KeywordSelector  - Executing StepID : 2.3
+2013-02-21 19:02:12,034 35400 [pool-1-thread-1] INFO  roark.utilities.keywords.KeywordSelector  - KeywordType is set to WEBUI
+2013-02-21 19:02:12,034 35400 [pool-1-thread-1] INFO  roark.utilities.keywords.KeywordSelector  - Step Details - 
+{StepID=2.3, FieldName=CreateProductIcon, FieldDefinition=//img[@alt='Create Products...'], Keyword=ClickAndWait, TestDataType=NOT_APPLICABLE, TestDataName=NA, TestDataValue=NOT_APPLICABLE, Checkpoint=Major}
+2013-02-21 19:02:12,034 35400 [pool-1-thread-1] INFO  roark.utilities.keywords.KeywordSelector  - switched to case - WEBUI in keywordSelector
+2013-02-21 19:02:12,128 35494 [pool-1-thread-1] INFO  roark.utilities.keywords.WebUI  - Element  is found on the page , fieldDefinition:://img[@alt='Create Products...']
+2013-02-21 19:02:12,242 35608 [pool-1-thread-1] INFO  roark.utilities.keywords.WebUI  - targetObject is set to ::[[ChromeDriver: chrome on XP (88014b55f54df60553d510b0501acce7)] -> xpath: //img[@alt='Create Products...']]
+2013-02-21 19:02:13,741 37107 [pool-1-thread-2] INFO  roark.utilities.keywords.KeywordSelector  - Step Result ::PASS
+2013-02-21 19:02:13,741 37107 [pool-1-thread-2] INFO  roark.utilities.keywords.KeywordSelector  - Executing StepID : 1.2
+2013-02-21 19:02:13,741 37107 [pool-1-thread-2] INFO  roark.utilities.keywords.KeywordSelector  - KeywordType is set to WEBUI
+2013-02-21 19:02:13,741 37107 [pool-1-thread-2] INFO  roark.utilities.keywords.KeywordSelector  - Step Details - 
+{StepID=1.2, FieldName=UserNameTextBox, FieldDefinition=//input[@name='user_name'], Keyword=Enter, TestDataType=EnvironmentVariable, TestDataName=AdminUserID, TestDataValue=admin, Checkpoint=Major}
+2013-02-21 19:02:13,741 37107 [pool-1-thread-2] INFO  roark.utilities.keywords.KeywordSelector  - switched to case - WEBUI in keywordSelector
+2013-02-21 19:02:13,884 37250 [pool-1-thread-2] INFO  roark.utilities.keywords.WebUI  - Element  is found on the page , fieldDefinition:://input[@name='user_name']
+2013-02-21 19:02:13,918 37284 [pool-1-thread-2] INFO  roark.utilities.keywords.WebUI  - targetObject is set to ::[[FirefoxDriver: firefox on XP (6733ae3e-e291-42bb-a8ed-2b558db54642)] -> xpath: //input[@name='user_name']]
+2013-02-21 19:02:16,048 39414 [pool-1-thread-2] INFO  roark.utilities.keywords.KeywordSelector  - Step Result ::PASS
+2013-02-21 19:02:16,048 39414 [pool-1-thread-2] INFO  roark.utilities.keywords.KeywordSelector  - Executing StepID : 1.3
+2013-02-21 19:02:16,048 39414 [pool-1-thread-2] INFO  roark.utilities.keywords.KeywordSelector  - KeywordType is set to WEBUI
+2013-02-21 19:02:16,048 39414 [pool-1-thread-2] INFO  roark.utilities.keywords.KeywordSelector  - Step Details - 
+{StepID=1.3, FieldName=PasswordTextBox, FieldDefinition=//input[@name='user_password'], Keyword=Enter, TestDataType=EnvironmentVariable, TestDataName=AdminUserPassword, TestDataValue=admin, Checkpoint=Major}
+2013-02-21 19:02:16,048 39414 [pool-1-thread-2] INFO  roark.utilities.keywords.KeywordSelector  - switched to case - WEBUI in keywordSelector
+2013-02-21 19:02:16,086 39452 [pool-1-thread-2] INFO  roark.utilities.keywords.WebUI  - Element  is found on the page , fieldDefinition:://input[@name='user_password']
+2013-02-21 19:02:16,124 39490 [pool-1-thread-2] INFO  roark.utilities.keywords.WebUI  - targetObject is set to ::[[FirefoxDriver: firefox on XP (6733ae3e-e291-42bb-a8ed-2b558db54642)] -> xpath: //input[@name='user_password']]
+2013-02-21 19:02:16,310 39676 [pool-1-thread-2] INFO  roark.utilities.keywords.KeywordSelector  - Step Result ::PASS
+2013-02-21 19:02:16,310 39676 [pool-1-thread-2] INFO  roark.utilities.keywords.KeywordSelector  - Executing StepID : 1.4
+2013-02-21 19:02:16,310 39676 [pool-1-thread-2] INFO  roark.utilities.keywords.KeywordSelector  - KeywordType is set to WEBUI
+2013-02-21 19:02:16,310 39676 [pool-1-thread-2] INFO  roark.utilities.keywords.KeywordSelector  - Step Details - 
+{StepID=1.4, FieldName=ColorThemeList, FieldDefinition=//select[@name='login_theme'], Keyword=SelectByLabel, TestDataType=XLParameter, TestDataName=TDColorThemeList, TestDataValue=alphagrey, Checkpoint=Major}
+2013-02-21 19:02:16,310 39676 [pool-1-thread-2] INFO  roark.utilities.keywords.KeywordSelector  - switched to case - WEBUI in keywordSelector
+2013-02-21 19:02:16,349 39715 [pool-1-thread-2] INFO  roark.utilities.keywords.WebUI  - Element  is found on the page , fieldDefinition:://select[@name='login_theme']
+2013-02-21 19:02:16,384 39750 [pool-1-thread-2] INFO  roark.utilities.keywords.WebUI  - targetObject is set to ::[[FirefoxDriver: firefox on XP (6733ae3e-e291-42bb-a8ed-2b558db54642)] -> xpath: //select[@name='login_theme']]
+2013-02-21 19:02:16,954 40320 [pool-1-thread-2] INFO  roark.utilities.keywords.KeywordSelector  - Step Result ::PASS
+2013-02-21 19:02:16,955 40321 [pool-1-thread-2] INFO  roark.utilities.keywords.KeywordSelector  - Executing StepID : 1.5
+2013-02-21 19:02:16,955 40321 [pool-1-thread-2] INFO  roark.utilities.keywords.KeywordSelector  - KeywordType is set to WEBUI
+2013-02-21 19:02:16,955 40321 [pool-1-thread-2] INFO  roark.utilities.keywords.KeywordSelector  - Step Details - 
+{StepID=1.5, FieldName=LoginImageButton, FieldDefinition=//input[@name='Login'], Keyword=ClickAndWait, TestDataType=NOT_APPLICABLE, TestDataName=NA, TestDataValue=NOT_APPLICABLE, Checkpoint=Major}
+2013-02-21 19:02:16,955 40321 [pool-1-thread-2] INFO  roark.utilities.keywords.KeywordSelector  - switched to case - WEBUI in keywordSelector
+2013-02-21 19:02:16,989 40355 [pool-1-thread-2] INFO  roark.utilities.keywords.WebUI  - Element  is found on the page , fieldDefinition:://input[@name='Login']
+2013-02-21 19:02:17,031 40397 [pool-1-thread-2] INFO  roark.utilities.keywords.WebUI  - targetObject is set to ::[[FirefoxDriver: firefox on XP (6733ae3e-e291-42bb-a8ed-2b558db54642)] -> xpath: //input[@name='Login']]
+2013-02-21 19:02:17,255 40621 [pool-1-thread-1] INFO  roark.utilities.data.EnvironmentVariables  - xmlFilePath:C:\Users\Bharath07\Documents\GitHub\roark\Roark_ver0218\TAF_Demo\Configuration\EnvironmentVariables.xml
+2013-02-21 19:02:17,264 40630 [pool-1-thread-1] INFO  roark.utilities.keywords.WebUI  - pageLoadtimeout is set to - 60
+2013-02-21 19:02:17,264 40630 [pool-1-thread-1] INFO  roark.utilities.keywords.WebUI  - clicked on the element - CreateProductIcon
+2013-02-21 19:02:17,264 40630 [pool-1-thread-1] INFO  roark.utilities.keywords.WebUI  - Waiting for PageLoad to complete,..after clicking on element - CreateProductIcon
+2013-02-21 19:02:17,496 40862 [pool-1-thread-1] INFO  roark.utilities.keywords.WebUI  - Pageload is complete within 0 seconds
+2013-02-21 19:02:17,497 40863 [pool-1-thread-1] INFO  roark.utilities.keywords.KeywordSelector  - Step Result ::PASS
+2013-02-21 19:02:17,498 40864 [pool-1-thread-1] INFO  roark.utilities.keywords.KeywordSelector  - Executing StepID : 2.4
+2013-02-21 19:02:17,498 40864 [pool-1-thread-1] INFO  roark.utilities.keywords.KeywordSelector  - KeywordType is set to WEBUI
+2013-02-21 19:02:17,498 40864 [pool-1-thread-1] INFO  roark.utilities.keywords.KeywordSelector  - Step Details - 
+{StepID=2.4, FieldName=ProductNameTextBox, FieldDefinition=//input[@name='productname'], Keyword=Enter, TestDataType=XLParameter, TestDataName=TDProductName, TestDataValue=Roark1.00, Checkpoint=Major}
+2013-02-21 19:02:17,498 40864 [pool-1-thread-1] INFO  roark.utilities.keywords.KeywordSelector  - switched to case - WEBUI in keywordSelector
+2013-02-21 19:02:17,600 40966 [pool-1-thread-1] INFO  roark.utilities.keywords.WebUI  - Element  is found on the page , fieldDefinition:://input[@name='productname']
+2013-02-21 19:02:17,641 41007 [pool-1-thread-2] INFO  roark.utilities.data.EnvironmentVariables  - xmlFilePath:C:\Users\Bharath07\Documents\GitHub\roark\Roark_ver0218\TAF_Demo\Configuration\EnvironmentVariables.xml
+2013-02-21 19:02:17,649 41015 [pool-1-thread-2] INFO  roark.utilities.keywords.WebUI  - pageLoadtimeout is set to - 60
+2013-02-21 19:02:17,650 41016 [pool-1-thread-2] INFO  roark.utilities.keywords.WebUI  - clicked on the element - LoginImageButton
+2013-02-21 19:02:17,650 41016 [pool-1-thread-2] INFO  roark.utilities.keywords.WebUI  - Waiting for PageLoad to complete,..after clicking on element - LoginImageButton
+2013-02-21 19:02:17,839 41205 [pool-1-thread-1] INFO  roark.utilities.keywords.WebUI  - targetObject is set to ::[[ChromeDriver: chrome on XP (88014b55f54df60553d510b0501acce7)] -> xpath: //input[@name='productname']]
+2013-02-21 19:02:18,506 41872 [pool-1-thread-1] INFO  roark.utilities.keywords.KeywordSelector  - Step Result ::PASS
+2013-02-21 19:02:18,506 41872 [pool-1-thread-1] INFO  roark.utilities.keywords.KeywordSelector  - Executing StepID : 2.5
+2013-02-21 19:02:18,506 41872 [pool-1-thread-1] INFO  roark.utilities.keywords.KeywordSelector  - KeywordType is set to WEBUI
+2013-02-21 19:02:18,507 41873 [pool-1-thread-1] INFO  roark.utilities.keywords.KeywordSelector  - Step Details - 
+{StepID=2.5, FieldName=ProdUnitPriceTextBox, FieldDefinition=//input[@id='unit_price'], Keyword=Enter, TestDataType=XLParameter, TestDataName=TDProductUnitPrice, TestDataValue=10, Checkpoint=Major}
+2013-02-21 19:02:18,507 41873 [pool-1-thread-1] INFO  roark.utilities.keywords.KeywordSelector  - switched to case - WEBUI in keywordSelector
+2013-02-21 19:02:18,607 41973 [pool-1-thread-1] INFO  roark.utilities.keywords.WebUI  - Element  is found on the page , fieldDefinition:://input[@id='unit_price']
+2013-02-21 19:02:18,707 42073 [pool-1-thread-1] INFO  roark.utilities.keywords.WebUI  - targetObject is set to ::[[ChromeDriver: chrome on XP (88014b55f54df60553d510b0501acce7)] -> xpath: //input[@id='unit_price']]
+2013-02-21 19:02:19,140 42506 [pool-1-thread-1] INFO  roark.utilities.keywords.KeywordSelector  - Step Result ::PASS
+2013-02-21 19:02:19,140 42506 [pool-1-thread-1] INFO  roark.utilities.keywords.KeywordSelector  - Executing StepID : 2.9
+2013-02-21 19:02:19,140 42506 [pool-1-thread-1] INFO  roark.utilities.keywords.KeywordSelector  - KeywordType is set to WEBUI
+2013-02-21 19:02:19,140 42506 [pool-1-thread-1] INFO  roark.utilities.keywords.KeywordSelector  - Step Details - 
+{StepID=2.9, FieldName=SaveProductButton, FieldDefinition=//input[@name='button'], Keyword=ClickAndWait, TestDataType=NOT_APPLICABLE, TestDataName=NA, TestDataValue=NOT_APPLICABLE, Checkpoint=Major}
+2013-02-21 19:02:19,140 42506 [pool-1-thread-1] INFO  roark.utilities.keywords.KeywordSelector  - switched to case - WEBUI in keywordSelector
+2013-02-21 19:02:19,250 42616 [pool-1-thread-1] INFO  roark.utilities.keywords.WebUI  - Element  is found on the page , fieldDefinition:://input[@name='button']
+2013-02-21 19:02:19,344 42710 [pool-1-thread-1] INFO  roark.utilities.keywords.WebUI  - targetObject is set to ::[[ChromeDriver: chrome on XP (88014b55f54df60553d510b0501acce7)] -> xpath: //input[@name='button']]
+2013-02-21 19:02:21,649 45015 [pool-1-thread-3] INFO  roark.utilities.keywords.WebUI  - Pageload is complete within 1 seconds
+2013-02-21 19:02:21,649 45015 [pool-1-thread-3] INFO  roark.utilities.keywords.KeywordSelector  - Step Result ::PASS
+2013-02-21 19:02:21,649 45015 [pool-1-thread-3] INFO  roark.utilities.keywords.KeywordSelector  - Executing StepID : 2.2
+2013-02-21 19:02:21,649 45015 [pool-1-thread-3] INFO  roark.utilities.keywords.KeywordSelector  - KeywordType is set to WEBUI
+2013-02-21 19:02:21,649 45015 [pool-1-thread-3] INFO  roark.utilities.keywords.KeywordSelector  - Step Details - 
+{StepID=2.2, FieldName=PriceBooksLink, FieldDefinition=//a[.='Price Books'], Keyword=ClickAndWait, TestDataType=NOT_APPLICABLE, TestDataName=NA, TestDataValue=NOT_APPLICABLE, Checkpoint=Major}
+2013-02-21 19:02:21,649 45015 [pool-1-thread-3] INFO  roark.utilities.keywords.KeywordSelector  - switched to case - WEBUI in keywordSelector
+2013-02-21 19:02:21,690 45056 [pool-1-thread-3] INFO  roark.utilities.keywords.WebUI  - Element  is found on the page , fieldDefinition:://a[.='Price Books']
+2013-02-21 19:02:21,731 45097 [pool-1-thread-3] INFO  roark.utilities.keywords.WebUI  - targetObject is set to ::[[FirefoxDriver: firefox on XP (77f07716-1290-4743-ab74-4c45882cef23)] -> xpath: //a[.='Price Books']]
+2013-02-21 19:02:22,445 45811 [pool-1-thread-3] INFO  roark.utilities.data.EnvironmentVariables  - xmlFilePath:C:\Users\Bharath07\Documents\GitHub\roark\Roark_ver0218\TAF_Demo\Configuration\EnvironmentVariables.xml
+2013-02-21 19:02:22,452 45818 [pool-1-thread-3] INFO  roark.utilities.keywords.WebUI  - pageLoadtimeout is set to - 60
+2013-02-21 19:02:22,453 45819 [pool-1-thread-3] INFO  roark.utilities.keywords.WebUI  - clicked on the element - PriceBooksLink
+2013-02-21 19:02:22,453 45819 [pool-1-thread-3] INFO  roark.utilities.keywords.WebUI  - Waiting for PageLoad to complete,..after clicking on element - PriceBooksLink
+2013-02-21 19:02:26,364 49730 [pool-1-thread-2] INFO  roark.utilities.keywords.WebUI  - Pageload is complete within 1 seconds
+2013-02-21 19:02:26,364 49730 [pool-1-thread-2] INFO  roark.utilities.keywords.KeywordSelector  - Step Result ::PASS
+2013-02-21 19:02:26,364 49730 [pool-1-thread-2] INFO  roark.utilities.keywords.KeywordSelector  - Executing StepID : 1.6
+2013-02-21 19:02:26,364 49730 [pool-1-thread-2] INFO  roark.utilities.keywords.KeywordSelector  - KeywordType is set to WEBUI
+2013-02-21 19:02:26,364 49730 [pool-1-thread-2] INFO  roark.utilities.keywords.KeywordSelector  - Step Details - 
+{StepID=1.6, FieldName=MyHomePageLink, FieldDefinition=//a[.='My Home Page'], Keyword=VerifyElementPresent, TestDataType=NOT_APPLICABLE, TestDataName=NA, TestDataValue=NOT_APPLICABLE, Checkpoint=Major}
+2013-02-21 19:02:26,364 49730 [pool-1-thread-2] INFO  roark.utilities.keywords.KeywordSelector  - switched to case - WEBUI in keywordSelector
+2013-02-21 19:02:26,443 49809 [pool-1-thread-2] INFO  roark.utilities.keywords.WebUI  - Element  is found on the page , fieldDefinition:://a[.='My Home Page']
+2013-02-21 19:02:26,566 49932 [pool-1-thread-2] INFO  roark.utilities.keywords.WebUI  - targetObject is set to ::[[FirefoxDriver: firefox on XP (6733ae3e-e291-42bb-a8ed-2b558db54642)] -> xpath: //a[.='My Home Page']]
+2013-02-21 19:02:26,704 50070 [pool-1-thread-2] INFO  roark.utilities.keywords.KeywordSelector  - Step Result ::PASS
+2013-02-21 19:02:26,705 50071 [pool-1-thread-2] INFO  roark.utilities.keywords.KeywordSelector  - Executing StepID : 2.1
+2013-02-21 19:02:26,705 50071 [pool-1-thread-2] INFO  roark.utilities.keywords.KeywordSelector  - KeywordType is set to WEBUI
+2013-02-21 19:02:26,705 50071 [pool-1-thread-2] INFO  roark.utilities.keywords.KeywordSelector  - Step Details - 
+{StepID=2.1, FieldName=SalesLink, FieldDefinition=//a[.='Sales'], Keyword=ClickAndWait, TestDataType=NOT_APPLICABLE, TestDataName=NA, TestDataValue=NOT_APPLICABLE, Checkpoint=Major}
+2013-02-21 19:02:26,705 50071 [pool-1-thread-2] INFO  roark.utilities.keywords.KeywordSelector  - switched to case - WEBUI in keywordSelector
+2013-02-21 19:02:26,784 50150 [pool-1-thread-2] INFO  roark.utilities.keywords.WebUI  - Element  is found on the page , fieldDefinition:://a[.='Sales']
+2013-02-21 19:02:26,950 50316 [pool-1-thread-2] INFO  roark.utilities.keywords.WebUI  - targetObject is set to ::[[FirefoxDriver: firefox on XP (6733ae3e-e291-42bb-a8ed-2b558db54642)] -> xpath: //a[.='Sales']]
+2013-02-21 19:02:28,345 51711 [pool-1-thread-2] INFO  roark.utilities.data.EnvironmentVariables  - xmlFilePath:C:\Users\Bharath07\Documents\GitHub\roark\Roark_ver0218\TAF_Demo\Configuration\EnvironmentVariables.xml
+2013-02-21 19:02:28,353 51719 [pool-1-thread-2] INFO  roark.utilities.keywords.WebUI  - pageLoadtimeout is set to - 60
+2013-02-21 19:02:28,353 51719 [pool-1-thread-2] INFO  roark.utilities.keywords.WebUI  - clicked on the element - SalesLink
+2013-02-21 19:02:28,353 51719 [pool-1-thread-2] INFO  roark.utilities.keywords.WebUI  - Waiting for PageLoad to complete,..after clicking on element - SalesLink
+2013-02-21 19:02:28,456 51822 [pool-1-thread-1] INFO  roark.utilities.data.EnvironmentVariables  - xmlFilePath:C:\Users\Bharath07\Documents\GitHub\roark\Roark_ver0218\TAF_Demo\Configuration\EnvironmentVariables.xml
+2013-02-21 19:02:28,463 51829 [pool-1-thread-1] INFO  roark.utilities.keywords.WebUI  - pageLoadtimeout is set to - 60
+2013-02-21 19:02:28,463 51829 [pool-1-thread-1] INFO  roark.utilities.keywords.WebUI  - clicked on the element - SaveProductButton
+2013-02-21 19:02:28,463 51829 [pool-1-thread-1] INFO  roark.utilities.keywords.WebUI  - Waiting for PageLoad to complete,..after clicking on element - SaveProductButton
+2013-02-21 19:02:28,597 51963 [pool-1-thread-1] INFO  roark.utilities.keywords.WebUI  - Pageload is complete within 0 seconds
+2013-02-21 19:02:28,598 51964 [pool-1-thread-1] INFO  roark.utilities.keywords.KeywordSelector  - Step Result ::PASS
+2013-02-21 19:02:28,598 51964 [pool-1-thread-1] INFO  roark.utilities.keywords.KeywordSelector  - Executing StepID : 2.10
+2013-02-21 19:02:28,598 51964 [pool-1-thread-1] INFO  roark.utilities.keywords.KeywordSelector  - KeywordType is set to WEBUI
+2013-02-21 19:02:28,598 51964 [pool-1-thread-1] INFO  roark.utilities.keywords.KeywordSelector  - Step Details - 
+{StepID=2.10, FieldName=ProductNameText, FieldDefinition=//span[@id='dtlview_Product Name'], Keyword=VerifyText, TestDataType=XLParameter, TestDataName=TDProductName, TestDataValue=Roark1.00, Checkpoint=Major}
+2013-02-21 19:02:28,598 51964 [pool-1-thread-1] INFO  roark.utilities.keywords.KeywordSelector  - switched to case - WEBUI in keywordSelector
+2013-02-21 19:02:28,742 52108 [pool-1-thread-1] INFO  roark.utilities.keywords.WebUI  - Element  is found on the page , fieldDefinition:://span[@id='dtlview_Product Name']
+2013-02-21 19:02:28,890 52256 [pool-1-thread-1] INFO  roark.utilities.keywords.WebUI  - targetObject is set to ::[[ChromeDriver: chrome on XP (88014b55f54df60553d510b0501acce7)] -> xpath: //span[@id='dtlview_Product Name']]
+2013-02-21 19:02:29,149 52515 [pool-1-thread-1] INFO  roark.utilities.keywords.KeywordSelector  - Step Result ::PASS
+2013-02-21 19:02:29,149 52515 [pool-1-thread-1] INFO  roark.utilities.keywords.KeywordSelector  - Executing StepID : 2.11
+2013-02-21 19:02:29,149 52515 [pool-1-thread-1] INFO  roark.utilities.keywords.KeywordSelector  - KeywordType is set to WEBUI
+2013-02-21 19:02:29,149 52515 [pool-1-thread-1] INFO  roark.utilities.keywords.KeywordSelector  - Step Details - 
+{StepID=2.11, FieldName=ProductIDgenerated, FieldDefinition=//div[@id='tblProductInformation']/table/tbody/tr/td[4], Keyword=StoreText, TestDataType=RuntimeVariable, TestDataName=ProductIDgenerated, TestDataValue=ProductIDgenerated, Checkpoint=Major}
+2013-02-21 19:02:29,149 52515 [pool-1-thread-1] INFO  roark.utilities.keywords.KeywordSelector  - switched to case - WEBUI in keywordSelector
+2013-02-21 19:02:29,358 52724 [pool-1-thread-1] INFO  roark.utilities.keywords.WebUI  - Element  is found on the page , fieldDefinition:://div[@id='tblProductInformation']/table/tbody/tr/td[4]
+2013-02-21 19:02:29,458 52824 [pool-1-thread-1] INFO  roark.utilities.keywords.WebUI  - targetObject is set to ::[[ChromeDriver: chrome on XP (88014b55f54df60553d510b0501acce7)] -> xpath: //div[@id='tblProductInformation']/table/tbody/tr/td[4]]
+2013-02-21 19:02:29,583 52949 [pool-1-thread-1] INFO  roark.utilities.keywords.KeywordSelector  - Step Result ::PASS
+2013-02-21 19:02:29,583 52949 [pool-1-thread-1] INFO  roark.utilities.keywords.KeywordSelector  - Executing StepID : 2.12
+2013-02-21 19:02:29,583 52949 [pool-1-thread-1] INFO  roark.utilities.keywords.KeywordSelector  - KeywordType is set to WEBUI
+2013-02-21 19:02:29,583 52949 [pool-1-thread-1] INFO  roark.utilities.keywords.KeywordSelector  - Step Details - 
+{StepID=2.12, FieldName=ProductsLink, FieldDefinition=//a[contains(text(),'Products')], Keyword=ClickAndWait, TestDataType=NOT_APPLICABLE, TestDataName=NA, TestDataValue=NOT_APPLICABLE, Checkpoint=Major}
+2013-02-21 19:02:29,583 52949 [pool-1-thread-1] INFO  roark.utilities.keywords.KeywordSelector  - switched to case - WEBUI in keywordSelector
+2013-02-21 19:02:29,711 53077 [pool-1-thread-1] INFO  roark.utilities.keywords.WebUI  - Element  is found on the page , fieldDefinition:://a[contains(text(),'Products')]
+2013-02-21 19:02:29,789 53155 [pool-1-thread-1] INFO  roark.utilities.keywords.WebUI  - targetObject is set to ::[[ChromeDriver: chrome on XP (88014b55f54df60553d510b0501acce7)] -> xpath: //a[contains(text(),'Products')]]
+2013-02-21 19:02:30,048 53414 [pool-1-thread-3] INFO  roark.utilities.keywords.WebUI  - Pageload is complete within 1 seconds
+2013-02-21 19:02:30,048 53414 [pool-1-thread-3] INFO  roark.utilities.keywords.KeywordSelector  - Step Result ::PASS
+2013-02-21 19:02:30,049 53415 [pool-1-thread-3] INFO  roark.utilities.keywords.KeywordSelector  - Executing StepID : 2.3
+2013-02-21 19:02:30,049 53415 [pool-1-thread-3] INFO  roark.utilities.keywords.KeywordSelector  - KeywordType is set to WEBUI
+2013-02-21 19:02:30,049 53415 [pool-1-thread-3] INFO  roark.utilities.keywords.KeywordSelector  - Step Details - 
+{StepID=2.3, FieldName=PriceBookNo, FieldDefinition=//a[.='PriceBook No'], Keyword=VerifyElementPresent, TestDataType=NOT_APPLICABLE, TestDataName=NA, TestDataValue=NOT_APPLICABLE, Checkpoint=Major}
+2013-02-21 19:02:30,049 53415 [pool-1-thread-3] INFO  roark.utilities.keywords.KeywordSelector  - switched to case - WEBUI in keywordSelector
+2013-02-21 19:02:30,089 53455 [pool-1-thread-3] INFO  roark.utilities.keywords.WebUI  - Element  is found on the page , fieldDefinition:://a[.='PriceBook No']
+2013-02-21 19:02:30,123 53489 [pool-1-thread-3] INFO  roark.utilities.keywords.WebUI  - targetObject is set to ::[[FirefoxDriver: firefox on XP (77f07716-1290-4743-ab74-4c45882cef23)] -> xpath: //a[.='PriceBook No']]
+2013-02-21 19:02:30,202 53568 [pool-1-thread-3] INFO  roark.utilities.keywords.KeywordSelector  - Step Result ::PASS
+2013-02-21 19:02:30,202 53568 [pool-1-thread-3] INFO  roark.utilities.keywords.KeywordSelector  - Executing StepID : 2.4
+2013-02-21 19:02:30,203 53569 [pool-1-thread-3] INFO  roark.utilities.keywords.KeywordSelector  - KeywordType is set to WEBUI
+2013-02-21 19:02:30,203 53569 [pool-1-thread-3] INFO  roark.utilities.keywords.KeywordSelector  - Step Details - 
+{StepID=2.4, FieldName=CreatePriceBookImg, FieldDefinition=//img[@title='Create Price Book...'], Keyword=ClickAndWait, TestDataType=NOT_APPLICABLE, TestDataName=NA, TestDataValue=NOT_APPLICABLE, Checkpoint=Major}
+2013-02-21 19:02:30,203 53569 [pool-1-thread-3] INFO  roark.utilities.keywords.KeywordSelector  - switched to case - WEBUI in keywordSelector
+2013-02-21 19:02:30,279 53645 [pool-1-thread-3] INFO  roark.utilities.keywords.WebUI  - Element  is found on the page , fieldDefinition:://img[@title='Create Price Book...']
+2013-02-21 19:02:30,305 53671 [pool-1-thread-3] INFO  roark.utilities.keywords.WebUI  - targetObject is set to ::[[FirefoxDriver: firefox on XP (77f07716-1290-4743-ab74-4c45882cef23)] -> xpath: //img[@title='Create Price Book...']]
+2013-02-21 19:02:30,638 54004 [pool-1-thread-3] INFO  roark.utilities.data.EnvironmentVariables  - xmlFilePath:C:\Users\Bharath07\Documents\GitHub\roark\Roark_ver0218\TAF_Demo\Configuration\EnvironmentVariables.xml
+2013-02-21 19:02:30,652 54018 [pool-1-thread-3] INFO  roark.utilities.keywords.WebUI  - pageLoadtimeout is set to - 60
+2013-02-21 19:02:30,652 54018 [pool-1-thread-3] INFO  roark.utilities.keywords.WebUI  - clicked on the element - CreatePriceBookImg
+2013-02-21 19:02:30,652 54018 [pool-1-thread-3] INFO  roark.utilities.keywords.WebUI  - Waiting for PageLoad to complete,..after clicking on element - CreatePriceBookImg
+2013-02-21 19:02:35,881 59247 [pool-1-thread-3] INFO  roark.utilities.keywords.WebUI  - Pageload is complete within 1 seconds
+2013-02-21 19:02:35,881 59247 [pool-1-thread-3] INFO  roark.utilities.keywords.KeywordSelector  - Step Result ::PASS
+2013-02-21 19:02:35,881 59247 [pool-1-thread-3] INFO  roark.utilities.keywords.KeywordSelector  - Executing StepID : 2.5
+2013-02-21 19:02:35,881 59247 [pool-1-thread-3] INFO  roark.utilities.keywords.KeywordSelector  - KeywordType is set to WEBUI
+2013-02-21 19:02:35,881 59247 [pool-1-thread-3] INFO  roark.utilities.keywords.KeywordSelector  - Step Details - 
+{StepID=2.5, FieldName=PriceBookNameTextBook, FieldDefinition=//input[@name='bookname'], Keyword=Enter, TestDataType=XLParameter, TestDataName=TDPriceBookName, TestDataValue=RateCard, Checkpoint=Major}
+2013-02-21 19:02:35,881 59247 [pool-1-thread-3] INFO  roark.utilities.keywords.KeywordSelector  - switched to case - WEBUI in keywordSelector
+2013-02-21 19:02:35,932 59298 [pool-1-thread-3] INFO  roark.utilities.keywords.WebUI  - Element  is found on the page , fieldDefinition:://input[@name='bookname']
+2013-02-21 19:02:35,966 59332 [pool-1-thread-3] INFO  roark.utilities.keywords.WebUI  - targetObject is set to ::[[FirefoxDriver: firefox on XP (77f07716-1290-4743-ab74-4c45882cef23)] -> xpath: //input[@name='bookname']]
+2013-02-21 19:02:36,082 59448 [pool-1-thread-1] INFO  roark.utilities.data.EnvironmentVariables  - xmlFilePath:C:\Users\Bharath07\Documents\GitHub\roark\Roark_ver0218\TAF_Demo\Configuration\EnvironmentVariables.xml
+2013-02-21 19:02:36,093 59459 [pool-1-thread-1] INFO  roark.utilities.keywords.WebUI  - pageLoadtimeout is set to - 60
+2013-02-21 19:02:36,093 59459 [pool-1-thread-1] INFO  roark.utilities.keywords.WebUI  - clicked on the element - ProductsLink
+2013-02-21 19:02:36,093 59459 [pool-1-thread-1] INFO  roark.utilities.keywords.WebUI  - Waiting for PageLoad to complete,..after clicking on element - ProductsLink
+2013-02-21 19:02:36,481 59847 [pool-1-thread-1] INFO  roark.utilities.keywords.WebUI  - Pageload is complete within 0 seconds
+2013-02-21 19:02:36,481 59847 [pool-1-thread-1] INFO  roark.utilities.keywords.KeywordSelector  - Step Result ::PASS
+2013-02-21 19:02:36,481 59847 [pool-1-thread-1] INFO  roark.utilities.keywords.KeywordSelector  - Executing StepID : 2.13
+2013-02-21 19:02:36,481 59847 [pool-1-thread-1] INFO  roark.utilities.keywords.KeywordSelector  - KeywordType is set to WEBUI
+2013-02-21 19:02:36,481 59847 [pool-1-thread-1] INFO  roark.utilities.keywords.KeywordSelector  - Testdatavalue : 'PRO105'  is updated for runtimevariable : ProductIDgenerated
+2013-02-21 19:02:36,481 59847 [pool-1-thread-1] INFO  roark.utilities.keywords.KeywordSelector  - Step Details - 
+{StepID=2.13, FieldName=ProductSearchTextBox, FieldDefinition=//input[@name='search_text'], Keyword=Enter, TestDataType=RuntimeVariable, TestDataName=ProductIDgenerated, TestDataValue=PRO105, Checkpoint=Major}
+2013-02-21 19:02:36,482 59848 [pool-1-thread-1] INFO  roark.utilities.keywords.KeywordSelector  - switched to case - WEBUI in keywordSelector
+2013-02-21 19:02:36,573 59939 [pool-1-thread-3] INFO  roark.utilities.keywords.KeywordSelector  - Step Result ::PASS
+2013-02-21 19:02:36,573 59939 [pool-1-thread-3] INFO  roark.utilities.keywords.KeywordSelector  - Executing StepID : 2.6
+2013-02-21 19:02:36,573 59939 [pool-1-thread-3] INFO  roark.utilities.keywords.KeywordSelector  - KeywordType is set to WEBUI
+2013-02-21 19:02:36,573 59939 [pool-1-thread-3] INFO  roark.utilities.keywords.KeywordSelector  - Step Details - 
+{StepID=2.6, FieldName=CurrencyListBox, FieldDefinition=//select[@name='currency_id'], Keyword=SelectByLabel, TestDataType=XLParameter, TestDataName=TDCurrencyListBox, TestDataValue=USA, Dollars, Checkpoint=Major}
+2013-02-21 19:02:36,573 59939 [pool-1-thread-3] INFO  roark.utilities.keywords.KeywordSelector  - switched to case - WEBUI in keywordSelector
+2013-02-21 19:02:36,609 59975 [pool-1-thread-3] INFO  roark.utilities.keywords.WebUI  - Element  is found on the page , fieldDefinition:://select[@name='currency_id']
+2013-02-21 19:02:36,617 59983 [pool-1-thread-1] INFO  roark.utilities.keywords.WebUI  - Element  is found on the page , fieldDefinition:://input[@name='search_text']
+2013-02-21 19:02:36,646 60012 [pool-1-thread-3] INFO  roark.utilities.keywords.WebUI  - targetObject is set to ::[[FirefoxDriver: firefox on XP (77f07716-1290-4743-ab74-4c45882cef23)] -> xpath: //select[@name='currency_id']]
+2013-02-21 19:02:36,727 60093 [pool-1-thread-1] INFO  roark.utilities.keywords.WebUI  - targetObject is set to ::[[ChromeDriver: chrome on XP (88014b55f54df60553d510b0501acce7)] -> xpath: //input[@name='search_text']]
+2013-02-21 19:02:36,788 60154 [pool-1-thread-3] INFO  roark.utilities.keywords.KeywordSelector  - Step Result ::PASS
+2013-02-21 19:02:36,788 60154 [pool-1-thread-3] INFO  roark.utilities.keywords.KeywordSelector  - Executing StepID : 2.7
+2013-02-21 19:02:36,788 60154 [pool-1-thread-3] INFO  roark.utilities.keywords.KeywordSelector  - KeywordType is set to WEBUI
+2013-02-21 19:02:36,789 60155 [pool-1-thread-3] INFO  roark.utilities.keywords.KeywordSelector  - Step Details - 
+{StepID=2.7, FieldName=SavePriceBookButton, FieldDefinition=//input[@type='submit'][@name='button'], Keyword=ClickAndWait, TestDataType=NOT_APPLICABLE, TestDataName=NA, TestDataValue=NOT_APPLICABLE, Checkpoint=Major}
+2013-02-21 19:02:36,789 60155 [pool-1-thread-3] INFO  roark.utilities.keywords.KeywordSelector  - switched to case - WEBUI in keywordSelector
+2013-02-21 19:02:36,831 60197 [pool-1-thread-3] INFO  roark.utilities.keywords.WebUI  - Element  is found on the page , fieldDefinition:://input[@type='submit'][@name='button']
+2013-02-21 19:02:36,863 60229 [pool-1-thread-3] INFO  roark.utilities.keywords.WebUI  - targetObject is set to ::[[FirefoxDriver: firefox on XP (77f07716-1290-4743-ab74-4c45882cef23)] -> xpath: //input[@type='submit'][@name='button']]
+2013-02-21 19:02:37,177 60543 [pool-1-thread-1] INFO  roark.utilities.keywords.KeywordSelector  - Step Result ::PASS
+2013-02-21 19:02:37,177 60543 [pool-1-thread-1] INFO  roark.utilities.keywords.KeywordSelector  - Executing StepID : 2.14
+2013-02-21 19:02:37,177 60543 [pool-1-thread-1] INFO  roark.utilities.keywords.KeywordSelector  - KeywordType is set to WEBUI
+2013-02-21 19:02:37,177 60543 [pool-1-thread-1] INFO  roark.utilities.keywords.KeywordSelector  - Step Details - 
+{StepID=2.14, FieldName=ProductSearchListBox, FieldDefinition=//select[@id='bas_searchfield'], Keyword=SelectByLabel, TestDataType=XLParameter, TestDataName=TDProductSearchListbox, TestDataValue=Product No, Checkpoint=Major}
+2013-02-21 19:02:37,177 60543 [pool-1-thread-1] INFO  roark.utilities.keywords.KeywordSelector  - switched to case - WEBUI in keywordSelector
+2013-02-21 19:02:37,255 60621 [pool-1-thread-1] INFO  roark.utilities.keywords.WebUI  - Element  is found on the page , fieldDefinition:://select[@id='bas_searchfield']
+2013-02-21 19:02:37,334 60700 [pool-1-thread-1] INFO  roark.utilities.keywords.WebUI  - targetObject is set to ::[[ChromeDriver: chrome on XP (88014b55f54df60553d510b0501acce7)] -> xpath: //select[@id='bas_searchfield']]
+2013-02-21 19:02:37,607 60973 [pool-1-thread-3] INFO  roark.utilities.data.EnvironmentVariables  - xmlFilePath:C:\Users\Bharath07\Documents\GitHub\roark\Roark_ver0218\TAF_Demo\Configuration\EnvironmentVariables.xml
+2013-02-21 19:02:37,614 60980 [pool-1-thread-3] INFO  roark.utilities.keywords.WebUI  - pageLoadtimeout is set to - 60
+2013-02-21 19:02:37,615 60981 [pool-1-thread-3] INFO  roark.utilities.keywords.WebUI  - clicked on the element - SavePriceBookButton
+2013-02-21 19:02:37,615 60981 [pool-1-thread-3] INFO  roark.utilities.keywords.WebUI  - Waiting for PageLoad to complete,..after clicking on element - SavePriceBookButton
+2013-02-21 19:02:37,616 60982 [pool-1-thread-1] INFO  roark.utilities.keywords.KeywordSelector  - Step Result ::PASS
+2013-02-21 19:02:37,616 60982 [pool-1-thread-1] INFO  roark.utilities.keywords.KeywordSelector  - Executing StepID : 2.15
+2013-02-21 19:02:37,616 60982 [pool-1-thread-1] INFO  roark.utilities.keywords.KeywordSelector  - KeywordType is set to WEBUI
+2013-02-21 19:02:37,616 60982 [pool-1-thread-1] INFO  roark.utilities.keywords.KeywordSelector  - Step Details - 
+{StepID=2.15, FieldName=SearchNowButton, FieldDefinition=//input[@name='submit'], Keyword=Click, TestDataType=NOT_APPLICABLE, TestDataName=NA, TestDataValue=NOT_APPLICABLE, Checkpoint=Major}
+2013-02-21 19:02:37,616 60982 [pool-1-thread-1] INFO  roark.utilities.keywords.KeywordSelector  - switched to case - WEBUI in keywordSelector
+2013-02-21 19:02:37,742 61108 [pool-1-thread-1] INFO  roark.utilities.keywords.WebUI  - Element  is found on the page , fieldDefinition:://input[@name='submit']
+2013-02-21 19:02:37,848 61214 [pool-1-thread-1] INFO  roark.utilities.keywords.WebUI  - targetObject is set to ::[[ChromeDriver: chrome on XP (88014b55f54df60553d510b0501acce7)] -> xpath: //input[@name='submit']]
+2013-02-21 19:02:38,040 61406 [pool-1-thread-1] INFO  roark.utilities.keywords.KeywordSelector  - Step Result ::PASS
+2013-02-21 19:02:38,040 61406 [pool-1-thread-1] INFO  roark.utilities.keywords.KeywordSelector  - Executing StepID : 2.16
+2013-02-21 19:02:38,040 61406 [pool-1-thread-1] INFO  roark.utilities.keywords.KeywordSelector  - KeywordType is set to WEBUI
+2013-02-21 19:02:38,040 61406 [pool-1-thread-1] INFO  roark.utilities.keywords.KeywordSelector  - Step Details - 
+{StepID=2.16, FieldName=ProductNotFoundWebElement, FieldDefinition=//span[@class='genHeaderSmall'], Keyword=VerifyTextContains, TestDataType=XLParameter, TestDataName=TDNoProductsFoundMsg, TestDataValue=No Products Found, Checkpoint=Major}
+2013-02-21 19:02:38,041 61407 [pool-1-thread-1] INFO  roark.utilities.keywords.KeywordSelector  - switched to case - WEBUI in keywordSelector
+2013-02-21 19:02:39,801 63167 [pool-1-thread-2] INFO  roark.utilities.keywords.WebUI  - Pageload is complete within 1 seconds
+2013-02-21 19:02:39,802 63168 [pool-1-thread-2] INFO  roark.utilities.keywords.KeywordSelector  - Step Result ::PASS
+2013-02-21 19:02:39,802 63168 [pool-1-thread-2] INFO  roark.utilities.keywords.KeywordSelector  - Executing StepID : 2.2
+2013-02-21 19:02:39,802 63168 [pool-1-thread-2] INFO  roark.utilities.keywords.KeywordSelector  - KeywordType is set to WEBUI
+2013-02-21 19:02:39,802 63168 [pool-1-thread-2] INFO  roark.utilities.keywords.KeywordSelector  - Step Details - 
+{StepID=2.2, FieldName=PriceBooksLink, FieldDefinition=//a[.='Price Books'], Keyword=ClickAndWait, TestDataType=NOT_APPLICABLE, TestDataName=NA, TestDataValue=NOT_APPLICABLE, Checkpoint=Major}
+2013-02-21 19:02:39,802 63168 [pool-1-thread-2] INFO  roark.utilities.keywords.KeywordSelector  - switched to case - WEBUI in keywordSelector
+2013-02-21 19:02:39,841 63207 [pool-1-thread-2] INFO  roark.utilities.keywords.WebUI  - Element  is found on the page , fieldDefinition:://a[.='Price Books']
+2013-02-21 19:02:39,876 63242 [pool-1-thread-2] INFO  roark.utilities.keywords.WebUI  - targetObject is set to ::[[FirefoxDriver: firefox on XP (6733ae3e-e291-42bb-a8ed-2b558db54642)] -> xpath: //a[.='Price Books']]
+2013-02-21 19:02:40,669 64035 [pool-1-thread-2] INFO  roark.utilities.data.EnvironmentVariables  - xmlFilePath:C:\Users\Bharath07\Documents\GitHub\roark\Roark_ver0218\TAF_Demo\Configuration\EnvironmentVariables.xml
+2013-02-21 19:02:40,676 64042 [pool-1-thread-2] INFO  roark.utilities.keywords.WebUI  - pageLoadtimeout is set to - 60
+2013-02-21 19:02:40,677 64043 [pool-1-thread-2] INFO  roark.utilities.keywords.WebUI  - clicked on the element - PriceBooksLink
+2013-02-21 19:02:40,677 64043 [pool-1-thread-2] INFO  roark.utilities.keywords.WebUI  - Waiting for PageLoad to complete,..after clicking on element - PriceBooksLink
+2013-02-21 19:02:43,603 66969 [pool-1-thread-3] INFO  roark.utilities.keywords.WebUI  - Pageload is complete within 0 seconds
+2013-02-21 19:02:43,603 66969 [pool-1-thread-3] INFO  roark.utilities.keywords.KeywordSelector  - Step Result ::PASS
+2013-02-21 19:02:43,604 66970 [pool-1-thread-3] INFO  roark.utilities.keywords.KeywordSelector  - Executing StepID : 3.1
+2013-02-21 19:02:43,604 66970 [pool-1-thread-3] INFO  roark.utilities.keywords.KeywordSelector  - KeywordType is set to WEBUI
+2013-02-21 19:02:43,604 66970 [pool-1-thread-3] INFO  roark.utilities.keywords.KeywordSelector  - Step Details - 
+{StepID=3.1, FieldName=LogoutLink, FieldDefinition=//a[.='Sign Out'], Keyword=ClickAndWait, TestDataType=NOT_APPLICABLE, TestDataName=NA, TestDataValue=NOT_APPLICABLE, Checkpoint=Major}
+2013-02-21 19:02:43,604 66970 [pool-1-thread-3] INFO  roark.utilities.keywords.KeywordSelector  - switched to case - WEBUI in keywordSelector
+2013-02-21 19:02:43,639 67005 [pool-1-thread-3] INFO  roark.utilities.keywords.WebUI  - Element  is found on the page , fieldDefinition:://a[.='Sign Out']
+2013-02-21 19:02:43,684 67050 [pool-1-thread-3] INFO  roark.utilities.keywords.WebUI  - targetObject is set to ::[[FirefoxDriver: firefox on XP (77f07716-1290-4743-ab74-4c45882cef23)] -> xpath: //a[.='Sign Out']]
+2013-02-21 19:02:44,005 67371 [pool-1-thread-3] INFO  roark.utilities.data.EnvironmentVariables  - xmlFilePath:C:\Users\Bharath07\Documents\GitHub\roark\Roark_ver0218\TAF_Demo\Configuration\EnvironmentVariables.xml
+2013-02-21 19:02:44,012 67378 [pool-1-thread-3] INFO  roark.utilities.keywords.WebUI  - pageLoadtimeout is set to - 60
+2013-02-21 19:02:44,012 67378 [pool-1-thread-3] INFO  roark.utilities.keywords.WebUI  - clicked on the element - LogoutLink
+2013-02-21 19:02:44,012 67378 [pool-1-thread-3] INFO  roark.utilities.keywords.WebUI  - Waiting for PageLoad to complete,..after clicking on element - LogoutLink
+2013-02-21 19:02:46,768 70134 [pool-1-thread-2] INFO  roark.utilities.keywords.WebUI  - Pageload is complete within 1 seconds
+2013-02-21 19:02:46,768 70134 [pool-1-thread-2] INFO  roark.utilities.keywords.KeywordSelector  - Step Result ::PASS
+2013-02-21 19:02:46,768 70134 [pool-1-thread-2] INFO  roark.utilities.keywords.KeywordSelector  - Executing StepID : 2.3
+2013-02-21 19:02:46,769 70135 [pool-1-thread-2] INFO  roark.utilities.keywords.KeywordSelector  - KeywordType is set to WEBUI
+2013-02-21 19:02:46,769 70135 [pool-1-thread-2] INFO  roark.utilities.keywords.KeywordSelector  - Step Details - 
+{StepID=2.3, FieldName=PriceBookNo, FieldDefinition=//a[.='PriceBook No'], Keyword=VerifyElementPresent, TestDataType=NOT_APPLICABLE, TestDataName=NA, TestDataValue=NOT_APPLICABLE, Checkpoint=Major}
+2013-02-21 19:02:46,769 70135 [pool-1-thread-2] INFO  roark.utilities.keywords.KeywordSelector  - switched to case - WEBUI in keywordSelector
+2013-02-21 19:02:46,796 70162 [pool-1-thread-2] INFO  roark.utilities.keywords.WebUI  - Element  is found on the page , fieldDefinition:://a[.='PriceBook No']
+2013-02-21 19:02:46,818 70184 [pool-1-thread-2] INFO  roark.utilities.keywords.WebUI  - targetObject is set to ::[[FirefoxDriver: firefox on XP (6733ae3e-e291-42bb-a8ed-2b558db54642)] -> xpath: //a[.='PriceBook No']]
+2013-02-21 19:02:46,881 70247 [pool-1-thread-2] INFO  roark.utilities.keywords.KeywordSelector  - Step Result ::PASS
+2013-02-21 19:02:46,881 70247 [pool-1-thread-2] INFO  roark.utilities.keywords.KeywordSelector  - Executing StepID : 2.4
+2013-02-21 19:02:46,881 70247 [pool-1-thread-2] INFO  roark.utilities.keywords.KeywordSelector  - KeywordType is set to WEBUI
+2013-02-21 19:02:46,881 70247 [pool-1-thread-2] INFO  roark.utilities.keywords.KeywordSelector  - Step Details - 
+{StepID=2.4, FieldName=CreatePriceBookImg, FieldDefinition=//img[@title='Create Price Book...'], Keyword=ClickAndWait, TestDataType=NOT_APPLICABLE, TestDataName=NA, TestDataValue=NOT_APPLICABLE, Checkpoint=Major}
+2013-02-21 19:02:46,881 70247 [pool-1-thread-2] INFO  roark.utilities.keywords.KeywordSelector  - switched to case - WEBUI in keywordSelector
+2013-02-21 19:02:46,913 70279 [pool-1-thread-2] INFO  roark.utilities.keywords.WebUI  - Element  is found on the page , fieldDefinition:://img[@title='Create Price Book...']
+2013-02-21 19:02:46,942 70308 [pool-1-thread-2] INFO  roark.utilities.keywords.WebUI  - targetObject is set to ::[[FirefoxDriver: firefox on XP (6733ae3e-e291-42bb-a8ed-2b558db54642)] -> xpath: //img[@title='Create Price Book...']]
+2013-02-21 19:02:47,175 70541 [pool-1-thread-2] INFO  roark.utilities.data.EnvironmentVariables  - xmlFilePath:C:\Users\Bharath07\Documents\GitHub\roark\Roark_ver0218\TAF_Demo\Configuration\EnvironmentVariables.xml
+2013-02-21 19:02:47,182 70548 [pool-1-thread-2] INFO  roark.utilities.keywords.WebUI  - pageLoadtimeout is set to - 60
+2013-02-21 19:02:47,182 70548 [pool-1-thread-2] INFO  roark.utilities.keywords.WebUI  - clicked on the element - CreatePriceBookImg
+2013-02-21 19:02:47,182 70548 [pool-1-thread-2] INFO  roark.utilities.keywords.WebUI  - Waiting for PageLoad to complete,..after clicking on element - CreatePriceBookImg
+2013-02-21 19:02:47,768 71134 [pool-1-thread-3] INFO  roark.utilities.keywords.WebUI  - Pageload is complete within 0 seconds
+2013-02-21 19:02:47,768 71134 [pool-1-thread-3] INFO  roark.utilities.keywords.KeywordSelector  - Step Result ::PASS
+2013-02-21 19:02:47,769 71135 [pool-1-thread-3] INFO  roark.utilities.keywords.KeywordSelector  - Executing StepID : 3.2
+2013-02-21 19:02:47,769 71135 [pool-1-thread-3] INFO  roark.utilities.keywords.KeywordSelector  - KeywordType is set to WEBUI
+2013-02-21 19:02:47,769 71135 [pool-1-thread-3] INFO  roark.utilities.keywords.KeywordSelector  - Step Details - 
+{StepID=3.2, FieldName=LoginImageButton, FieldDefinition=//input[@name='Login'], Keyword=VerifyElementPresent, TestDataType=NOT_APPLICABLE, TestDataName=NA, TestDataValue=NOT_APPLICABLE, Checkpoint=Major}
+2013-02-21 19:02:47,769 71135 [pool-1-thread-3] INFO  roark.utilities.keywords.KeywordSelector  - switched to case - WEBUI in keywordSelector
+2013-02-21 19:02:47,787 71153 [pool-1-thread-3] INFO  roark.utilities.keywords.WebUI  - Element  is found on the page , fieldDefinition:://input[@name='Login']
+2013-02-21 19:02:47,805 71171 [pool-1-thread-3] INFO  roark.utilities.keywords.WebUI  - targetObject is set to ::[[FirefoxDriver: firefox on XP (77f07716-1290-4743-ab74-4c45882cef23)] -> xpath: //input[@name='Login']]
+2013-02-21 19:02:47,850 71216 [pool-1-thread-3] INFO  roark.utilities.keywords.KeywordSelector  - Step Result ::PASS
+2013-02-21 19:02:47,851 71217 [pool-1-thread-3] INFO  roark.jelenium.TestSuite  - Execution completed for testcaseID::TCVTiger116
+2013-02-21 19:02:47,851 71217 [pool-1-thread-3] INFO  roark.jelenium.TestSuite  - Execution completed for TestSuite::[TCVTiger116]
+2013-02-21 19:02:47,875 71241 [pool-1-thread-3] INFO  roark.jelenium.TestSuite  - Webdriver session associated with the TestSuite SMOKE_Testsuite has been terminated - FirefoxDriver: firefox on XP (77f07716-1290-4743-ab74-4c45882cef23)
+2013-02-21 19:02:47,875 71241 [pool-1-thread-3] INFO  roark.jelenium.TestSuite  - Testcase report ::TCVTiger116
+2013-02-21 19:02:47,875 71241 [pool-1-thread-3] INFO  roark.jelenium.TestSuite  - StepID::1.1 - Result ::PASS
+2013-02-21 19:02:47,875 71241 [pool-1-thread-3] INFO  roark.jelenium.TestSuite  - StepID::1.2 - Result ::PASS
+2013-02-21 19:02:47,876 71242 [pool-1-thread-3] INFO  roark.jelenium.TestSuite  - StepID::1.3 - Result ::PASS
+2013-02-21 19:02:47,876 71242 [pool-1-thread-3] INFO  roark.jelenium.TestSuite  - StepID::1.4 - Result ::PASS
+2013-02-21 19:02:47,876 71242 [pool-1-thread-3] INFO  roark.jelenium.TestSuite  - StepID::1.5 - Result ::PASS
+2013-02-21 19:02:47,876 71242 [pool-1-thread-3] INFO  roark.jelenium.TestSuite  - StepID::1.6 - Result ::PASS
+2013-02-21 19:02:47,876 71242 [pool-1-thread-3] INFO  roark.jelenium.TestSuite  - StepID::2.1 - Result ::PASS
+2013-02-21 19:02:47,876 71242 [pool-1-thread-3] INFO  roark.jelenium.TestSuite  - StepID::2.2 - Result ::PASS
+2013-02-21 19:02:47,876 71242 [pool-1-thread-3] INFO  roark.jelenium.TestSuite  - StepID::2.3 - Result ::PASS
+2013-02-21 19:02:47,876 71242 [pool-1-thread-3] INFO  roark.jelenium.TestSuite  - StepID::2.4 - Result ::PASS
+2013-02-21 19:02:47,876 71242 [pool-1-thread-3] INFO  roark.jelenium.TestSuite  - StepID::2.5 - Result ::PASS
+2013-02-21 19:02:47,876 71242 [pool-1-thread-3] INFO  roark.jelenium.TestSuite  - StepID::2.6 - Result ::PASS
+2013-02-21 19:02:47,876 71242 [pool-1-thread-3] INFO  roark.jelenium.TestSuite  - StepID::2.7 - Result ::PASS
+2013-02-21 19:02:47,876 71242 [pool-1-thread-3] INFO  roark.jelenium.TestSuite  - StepID::3.1 - Result ::PASS
+2013-02-21 19:02:47,877 71243 [pool-1-thread-3] INFO  roark.jelenium.TestSuite  - StepID::3.2 - Result ::PASS
+2013-02-21 19:02:49,973 73339 [pool-1-thread-2] INFO  roark.utilities.keywords.WebUI  - Pageload is complete within 0 seconds
+2013-02-21 19:02:49,973 73339 [pool-1-thread-2] INFO  roark.utilities.keywords.KeywordSelector  - Step Result ::PASS
+2013-02-21 19:02:49,973 73339 [pool-1-thread-2] INFO  roark.utilities.keywords.KeywordSelector  - Executing StepID : 2.5
+2013-02-21 19:02:49,973 73339 [pool-1-thread-2] INFO  roark.utilities.keywords.KeywordSelector  - KeywordType is set to WEBUI
+2013-02-21 19:02:49,973 73339 [pool-1-thread-2] INFO  roark.utilities.keywords.KeywordSelector  - Step Details - 
+{StepID=2.5, FieldName=PriceBookNameTextBook, FieldDefinition=//input[@name='bookname'], Keyword=Enter, TestDataType=XLParameter, TestDataName=TDPriceBookName, TestDataValue=RateCard, Checkpoint=Major}
+2013-02-21 19:02:49,974 73340 [pool-1-thread-2] INFO  roark.utilities.keywords.KeywordSelector  - switched to case - WEBUI in keywordSelector
+2013-02-21 19:02:49,991 73357 [pool-1-thread-2] INFO  roark.utilities.keywords.WebUI  - Element  is found on the page , fieldDefinition:://input[@name='bookname']
+2013-02-21 19:02:50,013 73379 [pool-1-thread-2] INFO  roark.utilities.keywords.WebUI  - targetObject is set to ::[[FirefoxDriver: firefox on XP (6733ae3e-e291-42bb-a8ed-2b558db54642)] -> xpath: //input[@name='bookname']]
+2013-02-21 19:02:50,393 73759 [pool-1-thread-2] INFO  roark.utilities.keywords.KeywordSelector  - Step Result ::PASS
+2013-02-21 19:02:50,393 73759 [pool-1-thread-2] INFO  roark.utilities.keywords.KeywordSelector  - Executing StepID : 2.6
+2013-02-21 19:02:50,394 73760 [pool-1-thread-2] INFO  roark.utilities.keywords.KeywordSelector  - KeywordType is set to WEBUI
+2013-02-21 19:02:50,394 73760 [pool-1-thread-2] INFO  roark.utilities.keywords.KeywordSelector  - Step Details - 
+{StepID=2.6, FieldName=CurrencyListBox, FieldDefinition=//select[@name='currency_id'], Keyword=SelectByLabel, TestDataType=XLParameter, TestDataName=TDCurrencyListBox, TestDataValue=USA, Dollars, Checkpoint=Major}
+2013-02-21 19:02:50,394 73760 [pool-1-thread-2] INFO  roark.utilities.keywords.KeywordSelector  - switched to case - WEBUI in keywordSelector
+2013-02-21 19:02:50,414 73780 [pool-1-thread-2] INFO  roark.utilities.keywords.WebUI  - Element  is found on the page , fieldDefinition:://select[@name='currency_id']
+2013-02-21 19:02:50,431 73797 [pool-1-thread-2] INFO  roark.utilities.keywords.WebUI  - targetObject is set to ::[[FirefoxDriver: firefox on XP (6733ae3e-e291-42bb-a8ed-2b558db54642)] -> xpath: //select[@name='currency_id']]
+2013-02-21 19:02:50,514 73880 [pool-1-thread-2] INFO  roark.utilities.keywords.KeywordSelector  - Step Result ::PASS
+2013-02-21 19:02:50,514 73880 [pool-1-thread-2] INFO  roark.utilities.keywords.KeywordSelector  - Executing StepID : 2.7
+2013-02-21 19:02:50,514 73880 [pool-1-thread-2] INFO  roark.utilities.keywords.KeywordSelector  - KeywordType is set to WEBUI
+2013-02-21 19:02:50,514 73880 [pool-1-thread-2] INFO  roark.utilities.keywords.KeywordSelector  - Step Details - 
+{StepID=2.7, FieldName=SavePriceBookButton, FieldDefinition=//input[@type='submit'][@name='button'], Keyword=ClickAndWait, TestDataType=NOT_APPLICABLE, TestDataName=NA, TestDataValue=NOT_APPLICABLE, Checkpoint=Major}
+2013-02-21 19:02:50,515 73881 [pool-1-thread-2] INFO  roark.utilities.keywords.KeywordSelector  - switched to case - WEBUI in keywordSelector
+2013-02-21 19:02:50,536 73902 [pool-1-thread-2] INFO  roark.utilities.keywords.WebUI  - Element  is found on the page , fieldDefinition:://input[@type='submit'][@name='button']
+2013-02-21 19:02:50,555 73921 [pool-1-thread-2] INFO  roark.utilities.keywords.WebUI  - targetObject is set to ::[[FirefoxDriver: firefox on XP (6733ae3e-e291-42bb-a8ed-2b558db54642)] -> xpath: //input[@type='submit'][@name='button']]
+2013-02-21 19:02:50,938 74304 [pool-1-thread-2] INFO  roark.utilities.data.EnvironmentVariables  - xmlFilePath:C:\Users\Bharath07\Documents\GitHub\roark\Roark_ver0218\TAF_Demo\Configuration\EnvironmentVariables.xml
+2013-02-21 19:02:50,945 74311 [pool-1-thread-2] INFO  roark.utilities.keywords.WebUI  - pageLoadtimeout is set to - 60
+2013-02-21 19:02:50,945 74311 [pool-1-thread-2] INFO  roark.utilities.keywords.WebUI  - clicked on the element - SavePriceBookButton
+2013-02-21 19:02:50,945 74311 [pool-1-thread-2] INFO  roark.utilities.keywords.WebUI  - Waiting for PageLoad to complete,..after clicking on element - SavePriceBookButton
+2013-02-21 19:02:55,276 78642 [pool-1-thread-2] INFO  roark.utilities.keywords.WebUI  - Pageload is complete within 0 seconds
+2013-02-21 19:02:55,276 78642 [pool-1-thread-2] INFO  roark.utilities.keywords.KeywordSelector  - Step Result ::PASS
+2013-02-21 19:02:55,276 78642 [pool-1-thread-2] INFO  roark.utilities.keywords.KeywordSelector  - Executing StepID : 3.1
+2013-02-21 19:02:55,276 78642 [pool-1-thread-2] INFO  roark.utilities.keywords.KeywordSelector  - KeywordType is set to WEBUI
+2013-02-21 19:02:55,276 78642 [pool-1-thread-2] INFO  roark.utilities.keywords.KeywordSelector  - Step Details - 
+{StepID=3.1, FieldName=LogoutLink, FieldDefinition=//a[.='Sign Out'], Keyword=ClickAndWait, TestDataType=NOT_APPLICABLE, TestDataName=NA, TestDataValue=NOT_APPLICABLE, Checkpoint=Major}
+2013-02-21 19:02:55,276 78642 [pool-1-thread-2] INFO  roark.utilities.keywords.KeywordSelector  - switched to case - WEBUI in keywordSelector
+2013-02-21 19:02:55,309 78675 [pool-1-thread-2] INFO  roark.utilities.keywords.WebUI  - Element  is found on the page , fieldDefinition:://a[.='Sign Out']
+2013-02-21 19:02:55,328 78694 [pool-1-thread-2] INFO  roark.utilities.keywords.WebUI  - targetObject is set to ::[[FirefoxDriver: firefox on XP (6733ae3e-e291-42bb-a8ed-2b558db54642)] -> xpath: //a[.='Sign Out']]
+2013-02-21 19:02:55,495 78861 [pool-1-thread-2] INFO  roark.utilities.data.EnvironmentVariables  - xmlFilePath:C:\Users\Bharath07\Documents\GitHub\roark\Roark_ver0218\TAF_Demo\Configuration\EnvironmentVariables.xml
+2013-02-21 19:02:55,503 78869 [pool-1-thread-2] INFO  roark.utilities.keywords.WebUI  - pageLoadtimeout is set to - 60
+2013-02-21 19:02:55,503 78869 [pool-1-thread-2] INFO  roark.utilities.keywords.WebUI  - clicked on the element - LogoutLink
+2013-02-21 19:02:55,503 78869 [pool-1-thread-2] INFO  roark.utilities.keywords.WebUI  - Waiting for PageLoad to complete,..after clicking on element - LogoutLink
+2013-02-21 19:02:58,819 82185 [pool-1-thread-2] INFO  roark.utilities.keywords.WebUI  - Pageload is complete within 0 seconds
+2013-02-21 19:02:58,820 82186 [pool-1-thread-2] INFO  roark.utilities.keywords.KeywordSelector  - Step Result ::PASS
+2013-02-21 19:02:58,820 82186 [pool-1-thread-2] INFO  roark.utilities.keywords.KeywordSelector  - Executing StepID : 3.2
+2013-02-21 19:02:58,820 82186 [pool-1-thread-2] INFO  roark.utilities.keywords.KeywordSelector  - KeywordType is set to WEBUI
+2013-02-21 19:02:58,820 82186 [pool-1-thread-2] INFO  roark.utilities.keywords.KeywordSelector  - Step Details - 
+{StepID=3.2, FieldName=LoginImageButton, FieldDefinition=//input[@name='Login'], Keyword=VerifyElementPresent, TestDataType=NOT_APPLICABLE, TestDataName=NA, TestDataValue=NOT_APPLICABLE, Checkpoint=Major}
+2013-02-21 19:02:58,820 82186 [pool-1-thread-2] INFO  roark.utilities.keywords.KeywordSelector  - switched to case - WEBUI in keywordSelector
+2013-02-21 19:02:58,838 82204 [pool-1-thread-2] INFO  roark.utilities.keywords.WebUI  - Element  is found on the page , fieldDefinition:://input[@name='Login']
+2013-02-21 19:02:58,856 82222 [pool-1-thread-2] INFO  roark.utilities.keywords.WebUI  - targetObject is set to ::[[FirefoxDriver: firefox on XP (6733ae3e-e291-42bb-a8ed-2b558db54642)] -> xpath: //input[@name='Login']]
+2013-02-21 19:02:58,899 82265 [pool-1-thread-2] INFO  roark.utilities.keywords.KeywordSelector  - Step Result ::PASS
+2013-02-21 19:02:58,900 82266 [pool-1-thread-2] INFO  roark.jelenium.TestSuite  - Execution completed for testcaseID::TCVTiger116
+2013-02-21 19:02:58,900 82266 [pool-1-thread-2] INFO  roark.jelenium.TestSuite  - Execution completed for TestSuite::[TCVTiger116]
+2013-02-21 19:02:58,916 82282 [pool-1-thread-2] INFO  roark.jelenium.TestSuite  - Webdriver session associated with the TestSuite SMOKE_Testsuite has been terminated - FirefoxDriver: firefox on XP (6733ae3e-e291-42bb-a8ed-2b558db54642)
+2013-02-21 19:02:58,917 82283 [pool-1-thread-2] INFO  roark.jelenium.TestSuite  - Testcase report ::TCVTiger116
+2013-02-21 19:02:58,917 82283 [pool-1-thread-2] INFO  roark.jelenium.TestSuite  - StepID::1.1 - Result ::PASS
+2013-02-21 19:02:58,917 82283 [pool-1-thread-2] INFO  roark.jelenium.TestSuite  - StepID::1.2 - Result ::PASS
+2013-02-21 19:02:58,917 82283 [pool-1-thread-2] INFO  roark.jelenium.TestSuite  - StepID::1.3 - Result ::PASS
+2013-02-21 19:02:58,917 82283 [pool-1-thread-2] INFO  roark.jelenium.TestSuite  - StepID::1.4 - Result ::PASS
+2013-02-21 19:02:58,917 82283 [pool-1-thread-2] INFO  roark.jelenium.TestSuite  - StepID::1.5 - Result ::PASS
+2013-02-21 19:02:58,917 82283 [pool-1-thread-2] INFO  roark.jelenium.TestSuite  - StepID::1.6 - Result ::PASS
+2013-02-21 19:02:58,917 82283 [pool-1-thread-2] INFO  roark.jelenium.TestSuite  - StepID::2.1 - Result ::PASS
+2013-02-21 19:02:58,917 82283 [pool-1-thread-2] INFO  roark.jelenium.TestSuite  - StepID::2.2 - Result ::PASS
+2013-02-21 19:02:58,917 82283 [pool-1-thread-2] INFO  roark.jelenium.TestSuite  - StepID::2.3 - Result ::PASS
+2013-02-21 19:02:58,917 82283 [pool-1-thread-2] INFO  roark.jelenium.TestSuite  - StepID::2.4 - Result ::PASS
+2013-02-21 19:02:58,917 82283 [pool-1-thread-2] INFO  roark.jelenium.TestSuite  - StepID::2.5 - Result ::PASS
+2013-02-21 19:02:58,917 82283 [pool-1-thread-2] INFO  roark.jelenium.TestSuite  - StepID::2.6 - Result ::PASS
+2013-02-21 19:02:58,918 82284 [pool-1-thread-2] INFO  roark.jelenium.TestSuite  - StepID::2.7 - Result ::PASS
+2013-02-21 19:02:58,918 82284 [pool-1-thread-2] INFO  roark.jelenium.TestSuite  - StepID::3.1 - Result ::PASS
+2013-02-21 19:02:58,918 82284 [pool-1-thread-2] INFO  roark.jelenium.TestSuite  - StepID::3.2 - Result ::PASS
+2013-02-21 19:03:08,111 91477 [pool-1-thread-1] ERROR roark.utilities.keywords.WebUI  - Element  is NOT found on the page , fieldDefinition:://span[@class='genHeaderSmall']
+2013-02-21 19:03:08,111 91477 [pool-1-thread-1] ERROR roark.utilities.keywords.WebUI  - targetObject is set to null , with xpath:://span[@class='genHeaderSmall']
+2013-02-21 19:03:08,111 91477 [pool-1-thread-1] ERROR roark.utilities.keywords.KeywordSelector  - Step Result ::FAIL , ErrorCode ::3
+2013-02-21 19:03:08,112 91478 [pool-1-thread-1] INFO  roark.utilities.keywords.KeywordSelector  - Executing StepID : 3.1
+2013-02-21 19:03:08,112 91478 [pool-1-thread-1] INFO  roark.utilities.keywords.KeywordSelector  - KeywordType is set to WEBUI
+2013-02-21 19:03:08,112 91478 [pool-1-thread-1] INFO  roark.utilities.keywords.KeywordSelector  - Step Details - 
+{StepID=3.1, FieldName=LogoutLink, FieldDefinition=//a[.='Sign Out'], Keyword=ClickAndWait, TestDataType=NOT_APPLICABLE, TestDataName=NA, TestDataValue=NOT_APPLICABLE, Checkpoint=Major}
+2013-02-21 19:03:08,112 91478 [pool-1-thread-1] INFO  roark.utilities.keywords.KeywordSelector  - switched to case - WEBUI in keywordSelector
+2013-02-21 19:03:08,174 91540 [pool-1-thread-1] INFO  roark.utilities.keywords.WebUI  - Element  is found on the page , fieldDefinition:://a[.='Sign Out']
+2013-02-21 19:03:08,233 91599 [pool-1-thread-1] INFO  roark.utilities.keywords.WebUI  - targetObject is set to ::[[ChromeDriver: chrome on XP (88014b55f54df60553d510b0501acce7)] -> xpath: //a[.='Sign Out']]
+2013-02-21 19:03:10,574 93940 [pool-1-thread-1] INFO  roark.utilities.data.EnvironmentVariables  - xmlFilePath:C:\Users\Bharath07\Documents\GitHub\roark\Roark_ver0218\TAF_Demo\Configuration\EnvironmentVariables.xml
+2013-02-21 19:03:10,580 93946 [pool-1-thread-1] INFO  roark.utilities.keywords.WebUI  - pageLoadtimeout is set to - 60
+2013-02-21 19:03:10,580 93946 [pool-1-thread-1] INFO  roark.utilities.keywords.WebUI  - clicked on the element - LogoutLink
+2013-02-21 19:03:10,580 93946 [pool-1-thread-1] INFO  roark.utilities.keywords.WebUI  - Waiting for PageLoad to complete,..after clicking on element - LogoutLink
+2013-02-21 19:03:10,676 94042 [pool-1-thread-1] INFO  roark.utilities.keywords.WebUI  - Pageload is complete within 0 seconds
+2013-02-21 19:03:10,676 94042 [pool-1-thread-1] INFO  roark.utilities.keywords.KeywordSelector  - Step Result ::PASS
+2013-02-21 19:03:10,676 94042 [pool-1-thread-1] INFO  roark.utilities.keywords.KeywordSelector  - Executing StepID : 3.2
+2013-02-21 19:03:10,676 94042 [pool-1-thread-1] INFO  roark.utilities.keywords.KeywordSelector  - KeywordType is set to WEBUI
+2013-02-21 19:03:10,676 94042 [pool-1-thread-1] INFO  roark.utilities.keywords.KeywordSelector  - Step Details - 
+{StepID=3.2, FieldName=LoginImageButton, FieldDefinition=//input[@name='Login'], Keyword=VerifyElementPresent, TestDataType=NOT_APPLICABLE, TestDataName=NA, TestDataValue=NOT_APPLICABLE, Checkpoint=Major}
+2013-02-21 19:03:10,676 94042 [pool-1-thread-1] INFO  roark.utilities.keywords.KeywordSelector  - switched to case - WEBUI in keywordSelector
+2013-02-21 19:03:10,760 94126 [pool-1-thread-1] INFO  roark.utilities.keywords.WebUI  - Element  is found on the page , fieldDefinition:://input[@name='Login']
+2013-02-21 19:03:10,827 94193 [pool-1-thread-1] INFO  roark.utilities.keywords.WebUI  - targetObject is set to ::[[ChromeDriver: chrome on XP (88014b55f54df60553d510b0501acce7)] -> xpath: //input[@name='Login']]
+2013-02-21 19:03:10,884 94250 [pool-1-thread-1] INFO  roark.utilities.keywords.KeywordSelector  - Step Result ::PASS
+2013-02-21 19:03:10,884 94250 [pool-1-thread-1] INFO  roark.jelenium.TestSuite  - Execution completed for testcaseID::TCVTiger111
+2013-02-21 19:03:10,884 94250 [pool-1-thread-1] INFO  roark.jelenium.TestSuite  - Execution completed for TestSuite::[TCVTiger111]
+2013-02-21 19:03:10,922 94288 [pool-1-thread-1] INFO  roark.jelenium.TestSuite  - Webdriver session associated with the TestSuite YES_Testsuite has been terminated - ChromeDriver: chrome on XP (88014b55f54df60553d510b0501acce7)
+2013-02-21 19:03:10,922 94288 [pool-1-thread-1] INFO  roark.jelenium.TestSuite  - Testcase report ::TCVTiger111
+2013-02-21 19:03:10,922 94288 [pool-1-thread-1] INFO  roark.jelenium.TestSuite  - StepID::1.1 - Result ::PASS
+2013-02-21 19:03:10,922 94288 [pool-1-thread-1] INFO  roark.jelenium.TestSuite  - StepID::1.2 - Result ::PASS
+2013-02-21 19:03:10,922 94288 [pool-1-thread-1] INFO  roark.jelenium.TestSuite  - StepID::1.3 - Result ::PASS
+2013-02-21 19:03:10,922 94288 [pool-1-thread-1] INFO  roark.jelenium.TestSuite  - StepID::1.4 - Result ::PASS
+2013-02-21 19:03:10,922 94288 [pool-1-thread-1] INFO  roark.jelenium.TestSuite  - StepID::1.5 - Result ::PASS
+2013-02-21 19:03:10,922 94288 [pool-1-thread-1] INFO  roark.jelenium.TestSuite  - StepID::1.6 - Result ::PASS
+2013-02-21 19:03:10,922 94288 [pool-1-thread-1] INFO  roark.jelenium.TestSuite  - StepID::2.1 - Result ::PASS
+2013-02-21 19:03:10,923 94289 [pool-1-thread-1] INFO  roark.jelenium.TestSuite  - StepID::2.2 - Result ::PASS
+2013-02-21 19:03:10,923 94289 [pool-1-thread-1] INFO  roark.jelenium.TestSuite  - StepID::2.3 - Result ::PASS
+2013-02-21 19:03:10,923 94289 [pool-1-thread-1] INFO  roark.jelenium.TestSuite  - StepID::2.4 - Result ::PASS
+2013-02-21 19:03:10,923 94289 [pool-1-thread-1] INFO  roark.jelenium.TestSuite  - StepID::2.5 - Result ::PASS
+2013-02-21 19:03:10,923 94289 [pool-1-thread-1] INFO  roark.jelenium.TestSuite  - StepID::2.9 - Result ::PASS
+2013-02-21 19:03:10,923 94289 [pool-1-thread-1] INFO  roark.jelenium.TestSuite  - StepID::2.10 - Result ::PASS
+2013-02-21 19:03:10,923 94289 [pool-1-thread-1] INFO  roark.jelenium.TestSuite  - StepID::2.11 - Result ::PASS
+2013-02-21 19:03:10,923 94289 [pool-1-thread-1] INFO  roark.jelenium.TestSuite  - StepID::2.12 - Result ::PASS
+2013-02-21 19:03:10,923 94289 [pool-1-thread-1] INFO  roark.jelenium.TestSuite  - StepID::2.13 - Result ::PASS
+2013-02-21 19:03:10,923 94289 [pool-1-thread-1] INFO  roark.jelenium.TestSuite  - StepID::2.14 - Result ::PASS
+2013-02-21 19:03:10,923 94289 [pool-1-thread-1] INFO  roark.jelenium.TestSuite  - StepID::2.15 - Result ::PASS
+2013-02-21 19:03:10,923 94289 [pool-1-thread-1] INFO  roark.jelenium.TestSuite  - StepID::2.16 - Result ::FAIL , errorCode::3
+2013-02-21 19:03:10,923 94289 [pool-1-thread-1] INFO  roark.jelenium.TestSuite  - StepID::3.1 - Result ::PASS
+2013-02-21 19:03:10,923 94289 [pool-1-thread-1] INFO  roark.jelenium.TestSuite  - StepID::3.2 - Result ::PASS

@@ -99,7 +99,7 @@ public class GenericKeywords {
 		boolean isAlertPresent;
 		try{
 			WebDriverWait waiter = new WebDriverWait(this.getWebdriver(), 30);
-			Alert x = waiter.until(ExpectedConditions.alertIsPresent());
+			waiter.until(ExpectedConditions.alertIsPresent());
 			isAlertPresent=true;
 		}catch(Exception e){
 			//e.printStackTrace();

@@ -346,61 +346,66 @@ public class ExcelUtilities {
 		return testdataSets;
 		}
 	public Map<String, List<Map<String, String>>> readLocators(List<String> locAppIDs){
-		EnvironmentVariables ev = EnvironmentVariables.getInstance();
 		Map<String, List<Map<String, String>>> locatorSets= new LinkedHashMap<String, List<Map<String, String>>>();
-		for (String appID : locAppIDs) {
-			Connection conn1 = null;
-			Statement stmnt = null;
-			String locsheetName= ev.getFieldDefnSheetName();
-		    String locfilePath= ev.getFieldDefnFilePathPrefix()+appID+ ev.getFileExtension();
-			try
-			{
-				ResultSet locTable = null;
-				conn1 = DriverManager.getConnection( "jdbc:odbc:Driver={Microsoft Excel Driver (*.xls, *.xlsx, *.xlsm, *.xlsb)};DBQ="+locfilePath+"");
-		 		stmnt = conn1.createStatement();
-		 		String locQuery = "select * from ["+locsheetName+"$];";
-				locTable = stmnt.executeQuery(locQuery);
-				List<Map<String, String>> locset = new ArrayList<Map<String, String>>();
-	
-				while(locTable.next()){
-					if(locatorSets.get(appID)== null){
-						
-						logger.info("reading LOCATORS- adding locators records to a new applicationID:"+appID);
-					    Map<String, String> locRecord = new HashMap<String, String>();
-					    locRecord.put("ScreenName", locTable.getString("ScreenName").trim());
-					    locRecord.put("FieldName", locTable.getString("FieldName").trim());
-					    locRecord.put("FieldDefinition", locTable.getString("FieldDefinition").trim());
-					    locset.add(locRecord);
-					    locatorSets.put(appID, locset);
-						
-					}else{
-						logger.info("reading LOCATORS - Updating  locators records to a new applicationID:"+appID);
-					    Map<String, String> locRecord = new HashMap<String, String>();
-					    locRecord.put("ScreenName", locTable.getString("ScreenName").trim());
-					    locRecord.put("FieldName", locTable.getString("FieldName").trim());
-					    locRecord.put("FieldDefinition", locTable.getString("FieldDefinition").trim());
-					    locatorSets.get(appID).add(locRecord);
+		if(locAppIDs.size()>0){
+			EnvironmentVariables ev = EnvironmentVariables.getInstance();
+			for (String appID : locAppIDs) {
+				Connection conn1 = null;
+				Statement stmnt = null;
+				String locsheetName= ev.getFieldDefnSheetName();
+			    String locfilePath= ev.getFieldDefnFilePathPrefix()+appID+ ev.getFileExtension();
+				try
+				{
+					ResultSet locTable = null;
+					conn1 = DriverManager.getConnection( "jdbc:odbc:Driver={Microsoft Excel Driver (*.xls, *.xlsx, *.xlsm, *.xlsb)};DBQ="+locfilePath+"");
+			 		stmnt = conn1.createStatement();
+			 		String locQuery = "select * from ["+locsheetName+"$];";
+					locTable = stmnt.executeQuery(locQuery);
+					List<Map<String, String>> locset = new ArrayList<Map<String, String>>();
+		
+					while(locTable.next()){
+						if(locatorSets.get(appID)== null){
+							
+							logger.info("reading LOCATORS- adding locators records to a new applicationID:"+appID);
+						    Map<String, String> locRecord = new HashMap<String, String>();
+						    locRecord.put("ScreenName", locTable.getString("ScreenName").trim());
+						    locRecord.put("FieldName", locTable.getString("FieldName").trim());
+						    locRecord.put("FieldDefinition", locTable.getString("FieldDefinition").trim());
+						    locset.add(locRecord);
+						    locatorSets.put(appID, locset);
+							
+						}else{
+							logger.info("reading LOCATORS - Updating  locators records to a new applicationID:"+appID);
+						    Map<String, String> locRecord = new HashMap<String, String>();
+						    locRecord.put("ScreenName", locTable.getString("ScreenName").trim());
+						    locRecord.put("FieldName", locTable.getString("FieldName").trim());
+						    locRecord.put("FieldDefinition", locTable.getString("FieldDefinition").trim());
+						    locatorSets.get(appID).add(locRecord);
+						}
+					}
+		
+				}catch(Exception e){
+					logger.error("Exception in reading locators \n stacktraceInfo::"+e.getMessage());
+				}finally{
+					try {
+						stmnt.close();
+					} catch (SQLException e) {
+						// TODO Auto-generated catch block
+						//e.printStackTrace();
+					}
+					try {
+						conn1.close();
+					} catch (SQLException e) {
+						// TODO Auto-generated catch block
+						//e.printStackTrace();
 					}
 				}
-	
-			}catch(Exception e){
-				logger.error("Exception in reading locators \n stacktraceInfo::"+e.getMessage());
-			}finally{
-				try {
-					stmnt.close();
-				} catch (SQLException e) {
-					// TODO Auto-generated catch block
-					//e.printStackTrace();
-				}
-				try {
-					conn1.close();
-				} catch (SQLException e) {
-					// TODO Auto-generated catch block
-					//e.printStackTrace();
-				}
 			}
+
+		}else{
+			logger.error("Error in reading Locators - appIDs List contains"+ locAppIDs.size() + " appIDs");
 		}
-		return locatorSets;
+				return locatorSets;
 		}
 
 

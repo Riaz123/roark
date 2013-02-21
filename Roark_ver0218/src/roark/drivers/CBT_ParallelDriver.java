@@ -1,15 +1,10 @@
 package roark.drivers;
 
-import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
-import java.util.Properties;
-
 import org.apache.log4j.Logger;
 import org.apache.log4j.PropertyConfigurator;
-import org.testng.annotations.BeforeSuite;
-import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 import org.testng.annotations.DataProvider;
 
@@ -58,8 +53,7 @@ public class CBT_ParallelDriver {
 					appts.setTestcaseQue(testcaseQue);
 					Map<String, List<Map<String, String>>> tdSets = util.readTestdata(appts.getTestSuiteInfo());
 					appts.setTestdataSets(tdSets);
-					List<String> locAppIDs = new ArrayList<String>();
-					locAppIDs.add("VTiger");
+					List<String> locAppIDs = appts.getAppIDList();
 					Map<String, List<Map<String, String>>> locSets = util.readLocators(locAppIDs);
 					appts.setLocatorSets(locSets);
 					appts.setRunTimeData(new HashMap<String, Map<String, String>>());

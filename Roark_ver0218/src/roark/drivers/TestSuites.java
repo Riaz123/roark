@@ -1,13 +1,11 @@
 package roark.drivers;
 
 
-import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 import org.apache.log4j.Logger;
 import org.apache.log4j.PropertyConfigurator;
-
 import roark.jelenium.TestSuite;
 import roark.jelenium.TestcaseStep;
 import roark.utilities.data.ExcelUtilities;
@@ -60,8 +58,7 @@ public class TestSuites implements Runnable {
 			appts.setTestcaseQue(testcaseQue);
 			Map<String, List<Map<String, String>>> tdSets = util.readTestdata(appts.getTestSuiteInfo());
 			appts.setTestdataSets(tdSets);
-			List<String> locAppIDs = new ArrayList<String>();
-			locAppIDs.add("VTiger");
+			List<String> locAppIDs = appts.getAppIDList();
 			Map<String, List<Map<String, String>>> locSets = util.readLocators(locAppIDs);
 			appts.setLocatorSets(locSets);
 			appts.setRunTimeData(new HashMap<String, Map<String, String>>());
@@ -91,8 +88,7 @@ public class TestSuites implements Runnable {
 				appts.setTestcaseQue(testcaseQue);
 				Map<String, List<Map<String, String>>> tdSets = util.readTestdata(appts.getTestSuiteInfo());
 				appts.setTestdataSets(tdSets);
-				List<String> locAppIDs = new ArrayList<String>();
-				locAppIDs.add("VTiger");
+				List<String> locAppIDs = appts.getAppIDList();
 				Map<String, List<Map<String, String>>> locSets = util.readLocators(locAppIDs);
 				appts.setLocatorSets(locSets);
 				appts.setRunTimeData(new HashMap<String, Map<String, String>>());
@@ -122,8 +118,7 @@ public class TestSuites implements Runnable {
 			appts.setTestcaseQue(testcaseQue);
 			Map<String, List<Map<String, String>>> tdSets = util.readTestdata(appts.getTestSuiteInfo());
 			appts.setTestdataSets(tdSets);
-			List<String> locAppIDs = new ArrayList<String>();
-			locAppIDs.add("VTiger");
+			List<String> locAppIDs = appts.getAppIDList();
 			Map<String, List<Map<String, String>>> locSets = util.readLocators(locAppIDs);
 			appts.setLocatorSets(locSets);
 			appts.setRunTimeData(new HashMap<String, Map<String, String>>());
