@@ -57,7 +57,7 @@ public class EnvironmentVariables {
 	 */
 	public void setFolderSettings(){
 		try{
-			String rootFolderPath= "C:\\Users\\Bharath07\\Documents\\GitHub\\roark\\Roark_ver0218\\TAF_Demo";
+			String rootFolderPath= "./TAF_Demo";
 			this.setFileExtension(".xls");
 		    this.setLogFileExtension(".txt");
 		    

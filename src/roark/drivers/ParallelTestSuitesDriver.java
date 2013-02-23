@@ -12,20 +12,17 @@ public class ParallelTestSuitesDriver {
         executor.execute(new TestSuites("TestcaseType", "SMOKE", "FIREFOX"));
         //executor.execute(new TestSuites("GOOGLECHROME"));
         executor.execute(new TestSuites("TestcaseType", "SMOKE", "FIREFOX"));
-
-
         //executor.execute(new TestSuites("GOOGLECHROME"));
         
-        System.out.println("Starting shutdown...");
         executor.shutdown();
  
         try {
             executor.awaitTermination(500, TimeUnit.SECONDS);
         } catch (InterruptedException ex) {
-            System.out.println("Interrupted...");
+           System.out.println("Execution is interrupted...");
         }
  
-        System.out.println("All done!");
+        System.out.println("Execution completed for all testsuites");
  
     }
 }

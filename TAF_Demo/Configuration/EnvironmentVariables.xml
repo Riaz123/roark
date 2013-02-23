@@ -6,7 +6,7 @@
          	<Parameter type="testparameter" name="AdminUserID" value="admin"/>
          	<Parameter type="testparameter" name="AdminUserPassword" value="admin"/>
          	<Parameter type="testparameter" name="PageloadTimeout" value="60"/>
-         	
+     	
      	</TestParameters>
    	 	<Browsers>
             <browser type="browser" name="FIREFOX" version= "" exePath="C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe"/>
@@ -14,9 +14,9 @@
          	<browser type="browser" name="GOOGLECHROME" version= "" exePath="C:\\Users\\Bharath07\\AppData\\Local\\Google\\Chrome\\Application\\chrome.exe"/>         	
      	</Browsers>
      	<BrowserDrivers>
-         	<browserDriver type="browserdriver" name="INTERNETEXPLORER" browsertype = "32bit" version= "" exePath="C:\\Users\\Bharath07\\Documents\\GitHub\\roark\\Roark_ver0218\\lib\\IEDriverServer_32.exe"/>
-         	<browserDriver type="browserdriver" name="INTERNETEXPLORER" browsertype = "64bit" version= "" exePath="C:\\Users\\Bharath07\\Documents\\GitHub\\roark\\Roark_ver0218D:\\workspace\\Roark_ver0214\\lib\\IEDriverServer_64.exe"/>
-   	     	<browserDriver type="browserdriver" name="GOOGLECHROME" version= "" exePath="C:\\Users\\Bharath07\\Documents\\GitHub\\roark\\Roark_ver0218\\lib\\chromedriver.exe"/>         	
+         	<browserDriver type="browserdriver" name="INTERNETEXPLORER" browsertype = "32bit" version= "" exePath="./lib/IEDriverServer_32.exe"/>
+         	<browserDriver type="browserdriver" name="INTERNETEXPLORER" browsertype = "64bit" version= "" exePath="./lib/IEDriverServer_64.exe"/>
+   	     	<browserDriver type="browserdriver" name="GOOGLECHROME" version= "" exePath="./lib/chromedriver.exe"/>         	
      	</BrowserDrivers>
      </Application>
 
