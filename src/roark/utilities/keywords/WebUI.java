@@ -1867,20 +1867,20 @@ public class WebUI {
 		}
 		return exitCode;		
 	}
-	public int storeTextFromElement(TestcaseStep testcaseStep, TestSuite testSuite) {
+	public int storeTextFromElement(TestcaseStep testcaseStep) {
 		int exitCode;
 		try{
 			WebElement targetElement = this.findElementByXpath(testcaseStep.getFieldDefinition());
 			if(targetElement!=null){
 				String textFromElement = targetElement.getText().trim();
 				try{
-					if(testSuite.getRunTimeData().get(testcaseStep.getTestcaseID())==null){
+					if(testcaseStep.getRunTimeData().get(testcaseStep.getTestcaseID())==null){
 						Map<String, String>runtimeDatarecord = new HashMap<String, String>();
 						runtimeDatarecord.put(testcaseStep.getTestDataName(), textFromElement);
-						testSuite.getRunTimeData().put(testcaseStep.getTestcaseID(), runtimeDatarecord);
+						testcaseStep.getRunTimeData().put(testcaseStep.getTestcaseID(), runtimeDatarecord);
 						exitCode = 0;
 					}else{
-						testSuite.getRunTimeData().get(testcaseStep.getTestcaseID()).put(testcaseStep.getTestcaseID(), textFromElement);
+						testcaseStep.getRunTimeData().get(testcaseStep.getTestcaseID()).put(testcaseStep.getTestcaseID(), textFromElement);
 						exitCode = 0;
 					}
 				}catch(Exception e){
@@ -1945,20 +1945,20 @@ public class WebUI {
 		// TODO Auto-generated method stub
 		
 	}
-	public int storeAttributeValueFromElement(TestcaseStep testcaseStep, TestSuite testSuite, String attributeName) {
+	public int storeAttributeValueFromElement(TestcaseStep testcaseStep,  String attributeName) {
 		int exitCode;
 		try{
 			WebElement targetElement = this.findElementByXpath(testcaseStep.getFieldDefinition());
 			if(targetElement!=null){
 				try{
 					String attValueFromElement = targetElement.getAttribute(attributeName).trim();
-					if(testSuite.getRunTimeData().get(testcaseStep.getTestcaseID().trim())==null){
+					if(testcaseStep.getRunTimeData().get(testcaseStep.getTestcaseID().trim())==null){
 						Map<String, String>runtimeDatarecord = new HashMap<String, String>();
 						runtimeDatarecord.put(testcaseStep.getTestDataName(), attValueFromElement);
-						testSuite.getRunTimeData().put(testcaseStep.getTestcaseID(), runtimeDatarecord);
+						testcaseStep.getRunTimeData().put(testcaseStep.getTestcaseID(), runtimeDatarecord);
 						exitCode = 0;
 					}else{
-						testSuite.getRunTimeData().get(testcaseStep.getTestcaseID()).put(testcaseStep.getTestcaseID(), attValueFromElement);
+						testcaseStep.getRunTimeData().get(testcaseStep.getTestcaseID()).put(testcaseStep.getTestcaseID(), attValueFromElement);
 						exitCode = 0;
 					}
 					logger.info("Attribute value for " +attributeName + " for target element is stored in to runtimedata - "+attValueFromElement );

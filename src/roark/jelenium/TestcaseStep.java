@@ -4,6 +4,7 @@ import java.util.LinkedHashMap;
 import java.util.Map;
 
 import org.apache.log4j.Logger;
+import org.openqa.selenium.WebDriver;
 
 import roark.utilities.keywords.KeywordSelector;
 
@@ -23,6 +24,8 @@ public class TestcaseStep {
 	private String 	stepResult;
 	private String	errDescription;
 	private int 		errorCode;
+	private WebDriver webappdriver ;
+	private Map<String, Map<String, String>> runTimeData;
 	
 	public TestcaseStep() {
 		
@@ -223,10 +226,20 @@ public class TestcaseStep {
 		this.parentFieldName = parentFieldName;
 	}
 
-	public void run(TestSuite testSuite) {
+	public void run() {
 		try{
 			KeywordSelector keySel =new  KeywordSelector();
-			keySel.executeKeyword(testSuite, this);
+			if(getTestDataType().equalsIgnoreCase("RUNTIMEVARIABLE")==true && getKeyword().startsWith("Store")==false){
+				String rtVarValue=getRuntimeDataValue();
+				if(rtVarValue.equalsIgnoreCase("TESTDATA_NOTFOUND")==false){
+					setTestDataValue(rtVarValue);
+					logger.info("Testdatavalue : '" +getTestDataValue()+"'  is updated for runtimevariable : "+getTestDataName() );
+				}else{
+					setTestDataValue("TESTDATA_NOTFOUND");
+					logger.error("Testdata not found for runtimevariable : "+getTestDataName());
+				}
+			}
+			keySel.executeKeyword(this);
 		}catch(Exception e){
 			logger.error("Exception in run- TestcaseStep \n stacktraceInfo::"+e.getMessage());
 			//e.printStackTrace();
@@ -234,12 +247,50 @@ public class TestcaseStep {
 		
 	}
 
+	public String getRuntimeDataValue() {
+		String rtDatavalue;
+		try{
+			if(	this.getRunTimeData().get(testcaseID)!=null){
+				if(this.getRunTimeData().get(testcaseID).containsKey(testDataName)){
+					rtDatavalue=this.getRunTimeData().get(testcaseID).get(testDataName);
+				}else{
+					rtDatavalue="TESTDATA_NOTFOUND";
+				}
+			}else{
+				rtDatavalue="TESTDATA_NOTFOUND";
+			}
+		}catch(Exception e){
+			//e.printStackTrace();
+			logger.error("Exception in getRuntimeDataValue \n stacktraceInfo ::"+e.getMessage());
+			rtDatavalue="TESTDATA_NOTFOUND";
+
+		}
+		
+		return rtDatavalue;
+	}
 	public int getErrorCode() {
 		return errorCode;
 	}
 
 	public void setErrorCode(int errorCode) {
 		this.errorCode = errorCode;
+	}
+
+	public WebDriver getWebappdriver() {
+		return webappdriver;
+	}
+
+	public void setWebappdriver(WebDriver webappdriver) {
+		this.webappdriver = webappdriver;
+	}
+
+
+	public Map<String, Map<String, String>> getRunTimeData() {
+		return runTimeData;
+	}
+
+	public void setRunTimeData(Map<String, Map<String, String>> runTimeData) {
+		this.runTimeData = runTimeData;
 	}
 
 

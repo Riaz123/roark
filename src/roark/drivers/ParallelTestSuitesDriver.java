@@ -3,10 +3,17 @@ package roark.drivers;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 import java.util.concurrent.TimeUnit;
+
+import org.apache.log4j.FileAppender;
+import org.apache.log4j.Level;
+import org.apache.log4j.Logger;
+import org.apache.log4j.PatternLayout;
  
 public class ParallelTestSuitesDriver {
- 
+	static Logger logger = Logger.getLogger(ParallelTestSuitesDriver.class);
+
     public static void main(String[] args) {
+
     	ExecutorService executor = Executors.newFixedThreadPool(5);
         executor.execute(new TestSuites("QueStatus", "YES", "GOOGLECHROME"));
         executor.execute(new TestSuites("TestcaseType", "SMOKE", "FIREFOX"));

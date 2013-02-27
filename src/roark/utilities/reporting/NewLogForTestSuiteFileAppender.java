@@ -2,12 +2,15 @@ package roark.utilities.reporting;
 
 import java.io.File;
 import java.io.IOException;
+import java.text.SimpleDateFormat;
+import java.util.Calendar;
+
 import org.apache.log4j.FileAppender;
 import org.apache.log4j.Layout;
 import org.apache.log4j.spi.ErrorCode;
 
 public class NewLogForTestSuiteFileAppender extends FileAppender {
-
+public static final String date = "dd-MM-yyy HH:mm:ss";
 public NewLogForTestSuiteFileAppender() {
 }
 
@@ -60,10 +63,22 @@ if (fileName != null) {
 	} else {
 		// the file name has no extension. So, just append the timestamp
 		// at the end.
-		newFileName = fileName + HIPHEN + System.currentTimeMillis();
+		//newFileName = fileName + HIPHEN + System.currentTimeMillis();
+		newFileName = fileName + HIPHEN + this.getDateTime();
 	}
+	System.out.println("logFilePath:"+logFile.getParent() + File.separator + newFileName );
 	return logFile.getParent() + File.separator + newFileName;
 }
 return null;
+}
+
+
+private String getDateTime(){
+	
+	Calendar calendar = Calendar.getInstance();
+	SimpleDateFormat dateFormat = new SimpleDateFormat(date);
+	String currDateTime = dateFormat.format(calendar.getTime());
+	return currDateTime.replace(":", ".").replace(" ", "_");
+	
 }
 }

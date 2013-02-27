@@ -1,5 +1,7 @@
 package roark.utilities.keywords;
 
+import java.util.Map;
+
 import org.apache.log4j.Logger;
 
 import roark.jelenium.TestSuite;
@@ -41,7 +43,7 @@ public class KeywordSelector {
 		VERIFYASCENDINGINTABLE, VERIFYELEMENTSPRESENT, VERIFYDESCENDINGINTABLE, VERIFYALLITEMS, CLEAR,  CLICKANDWAIT, WAITFORELEMENT  ;
 		
 	}
-	public void executeKeyword(TestSuite testSuite, TestcaseStep testcaseStep) {
+	public void executeKeyword( TestcaseStep testcaseStep) {
 		
 		String keyword= testcaseStep.getKeyword();
 		logger.info("Executing StepID : "+testcaseStep.getStepID());
@@ -56,16 +58,7 @@ public class KeywordSelector {
 			this.setKeywordType("GENERIC");
 		}
 		logger.info("KeywordType is set to " + this.getKeywordType() );
-		if(testcaseStep.getTestDataType().equalsIgnoreCase("RUNTIMEVARIABLE")==true && testcaseStep.getKeyword().startsWith("Store")==false){
-			String rtVarValue=testSuite.getRuntimeDataValue( testcaseStep.getTestcaseID(), testcaseStep.getTestDataName());
-			if(rtVarValue.equalsIgnoreCase("TESTDATA_NOTFOUND")==false){
-				testcaseStep.setTestDataValue(rtVarValue);
-				logger.info("Testdatavalue : '" +testcaseStep.getTestDataValue()+"'  is updated for runtimevariable : "+testcaseStep.getTestDataName() );
-			}else{
-				testcaseStep.setTestDataValue("TESTDATA_NOTFOUND");
-				logger.error("Testdata not found for runtimevariable : "+testcaseStep.getTestDataName());
-			}
-		}
+
 		
 		logger.info("Step Details - \n"+ testcaseStep.getStepDetails());
 		switch (keyWordType.valueOf(this.getKeywordType().toUpperCase())) {
@@ -75,7 +68,7 @@ public class KeywordSelector {
 			break;
 		case GENERIC:
 			GenericKeywords genKeywords = new GenericKeywords(); 
-			genKeywords.setWebdriver(testSuite.getWebappdriver());
+			genKeywords.setWebdriver(testcaseStep.getWebappdriver());
 			switch (genericKeywords.valueOf(keyword.toUpperCase())) {
 			case ACCEPTALERT:
 				try{
@@ -235,7 +228,7 @@ public class KeywordSelector {
 		case WEBUI:
 			logger.info("switched to case - WEBUI in keywordSelector");
 			WebUI ui_keywords=  new WebUI();
-			ui_keywords.setWebDriver(testSuite.getWebappdriver());
+			ui_keywords.setWebDriver(testcaseStep.getWebappdriver());
 			switch (webUIKeywords.valueOf(keyword.toUpperCase())) {
 			case CLEAR:
 				try{
@@ -347,7 +340,7 @@ public class KeywordSelector {
 				break;
 			case STORETEXT:
 				try{
-					ui_keywords.storeTextFromElement(testcaseStep, testSuite);
+					ui_keywords.storeTextFromElement(testcaseStep);
 				}catch(Exception e){
 					logger.error("Exception in the keyword "+keyword + "\n StackTraceInfo::" + e.getMessage() );
 					//e.printStackTrace();				
@@ -356,7 +349,7 @@ public class KeywordSelector {
 			case STOREVALUE:
 				try{
 					String attributeName= "value";
-					ui_keywords.storeAttributeValueFromElement(testcaseStep, testSuite, attributeName );
+					ui_keywords.storeAttributeValueFromElement(testcaseStep,  attributeName );
 				}catch(Exception e){
 					logger.error("Exception in the keyword "+keyword + "\n StackTraceInfo::" + e.getMessage() );
 					//e.printStackTrace();				

@@ -28,7 +28,7 @@ public class TestSuite {
 	private Map<String, List<Map<String, String>>> testdataSets =new LinkedHashMap<String, List<Map<String, String>>>();
 	private String execBrowserName;
 	private Map<String, Map<String, String>> runTimeData = new LinkedHashMap<String, Map<String, String>>(); 
-	public enum browserType{
+	public enum BrowserType{
 		FIREFOX, GOOGLECHROME,  SAFARI, INTERNETEXPLORER;
 	}
 	public TestSuite(){
@@ -251,18 +251,20 @@ public class TestSuite {
 	}
 
 	public void runAllTestcases() {
-		logger.info("TestcaseQue - Count "+ this.getTestcaseQue().keySet().size());
+		logger.info("TestcaseQue - Count "+ getTestcaseQue().keySet().size());
 		
 		try{
-			for(String tcID:this.getTestcaseQue().keySet() ){
+			for(String tcID : getTestcaseQue().keySet() ){
 				logger.info("Running Testcase ::"+tcID);
-				for(TestcaseStep tcStep : this.getTestcaseQue().get(tcID)){
-					tcStep.run(this);
+				for(TestcaseStep tcStep : getTestcaseQue().get(tcID)){
+					tcStep.setWebappdriver(getWebappdriver());
+					tcStep.setRunTimeData(runTimeData);
+					tcStep.run();
 				}
 				logger.info("Execution completed for testcaseID::"+ tcID);
 			}
 			logger.info("Execution completed for TestSuite::"+ this.getTestcaseQue().keySet().toString());
-			this.endSession(this);
+			endSession();
 		}catch(Exception e){
 			//e.printStackTrace();
 			logger.info("Exception in runAllTestcases - \n stacktrace ::"+e.getMessage());
@@ -271,9 +273,9 @@ public class TestSuite {
 		
 	}
 
-	private void endSession(TestSuite testSuite) {
+	private void endSession() {
 		try{
-			testSuite.getWebappdriver().close();
+			getWebappdriver().close();
 			//TODO :: ending session needs to handle multiple windows too if present 
 			logger.info("Webdriver session associated with the TestSuite "+this.getSuiteName()+  " has been terminated - "+this.getWebappdriver());
 		}catch(Exception e){
@@ -318,7 +320,7 @@ public class TestSuite {
 		String exepath =ev.getBrowserEXEpath(execBrowserName, "");
 		if(exepath.equalsIgnoreCase("NOT_FOUND")==false){
 			try{
-				switch (browserType.valueOf(this.getExecBrowserName().toUpperCase())) {
+				switch (BrowserType.valueOf(this.getExecBrowserName().toUpperCase())) {
 				case INTERNETEXPLORER:
 					try{
 						if(ev.getBrowserDriverEXEpath("INTERNETEXPLORER" ,"","").equalsIgnoreCase("NOT_FOUND")==false){
@@ -387,27 +389,7 @@ public class TestSuite {
 		this.runTimeData = runTimeData;
 	}
 
-	public String getRuntimeDataValue(String testcaseID, String testDataName) {
-		String rtDatavalue;
-		try{
-			if(	this.getRunTimeData().get(testcaseID)!=null){
-				if(this.getRunTimeData().get(testcaseID).containsKey(testDataName)){
-					rtDatavalue=this.getRunTimeData().get(testcaseID).get(testDataName);
-				}else{
-					rtDatavalue="TESTDATA_NOTFOUND";
-				}
-			}else{
-				rtDatavalue="TESTDATA_NOTFOUND";
-			}
-		}catch(Exception e){
-			//e.printStackTrace();
-			logger.error("Exception in getRuntimeDataValue \n stacktraceInfo ::"+e.getMessage());
-			rtDatavalue="TESTDATA_NOTFOUND";
 
-		}
-		
-		return rtDatavalue;
-	}
 
 
 	/**

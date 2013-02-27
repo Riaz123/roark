@@ -12,7 +12,7 @@ import roark.utilities.data.ExcelUtilities;
 
 
 public class TestSuites implements Runnable {
-	static Logger logger = Logger.getLogger(TestSuites.class);
+	private static Logger logger = Logger.getLogger(TestSuites.class);
 	private String suiteType;
 	private String suiteSelection;
 	private String browserName;
@@ -79,22 +79,22 @@ public class TestSuites implements Runnable {
 				 */
 				//PropertyConfigurator.configure("log4j.properties");
 				ExcelUtilities util = new ExcelUtilities();
-				TestSuite appts= new TestSuite();
-				appts = util.createTestSuiteByTestcaseType(testcaseType);
+				TestSuite typets= new TestSuite();
+				typets = util.createTestSuiteByTestcaseType(testcaseType);
 				
-				appts.setSuiteName(testcaseType+ "_Testsuite");
+				typets.setSuiteName(testcaseType+ "_Testsuite");
 					
-				Map<String, List<TestcaseStep>> testcaseQue = util.readTestcases(appts.getTestSuiteInfo());
-				appts.setTestcaseQue(testcaseQue);
-				Map<String, List<Map<String, String>>> tdSets = util.readTestdata(appts.getTestSuiteInfo());
-				appts.setTestdataSets(tdSets);
-				List<String> locAppIDs = appts.getAppIDList();
+				Map<String, List<TestcaseStep>> testcaseQue = util.readTestcases(typets.getTestSuiteInfo());
+				typets.setTestcaseQue(testcaseQue);
+				Map<String, List<Map<String, String>>> tdSets = util.readTestdata(typets.getTestSuiteInfo());
+				typets.setTestdataSets(tdSets);
+				List<String> locAppIDs = typets.getAppIDList();
 				Map<String, List<Map<String, String>>> locSets = util.readLocators(locAppIDs);
-				appts.setLocatorSets(locSets);
-				appts.setRunTimeData(new HashMap<String, Map<String, String>>());
-				appts.setExecBrowserName(browserName);
-				appts.runAllTestcases();
-				appts.generateTestReport();
+				typets.setLocatorSets(locSets);
+				typets.setRunTimeData(new HashMap<String, Map<String, String>>());
+				typets.setExecBrowserName(browserName);
+				typets.runAllTestcases();
+				typets.generateTestReport();
 			}catch (Exception e){
 				logger.error("Exception in Testsuite driver-"+ e.getMessage());
 				//e.printStackTrace();
@@ -110,21 +110,21 @@ public class TestSuites implements Runnable {
 			 */
 			//PropertyConfigurator.configure("log4j.properties");
 			ExcelUtilities util = new ExcelUtilities();
-			TestSuite appts= new TestSuite();
-			appts = util.createTestSuiteByExecutionQue(queStatus);
+			TestSuite quets= new TestSuite();
+			quets = util.createTestSuiteByExecutionQue(queStatus);
 			
-			appts.setSuiteName(queStatus+ "_Testsuite");
-			Map<String, List<TestcaseStep>> testcaseQue = util.readTestcases(appts.getTestSuiteInfo());
-			appts.setTestcaseQue(testcaseQue);
-			Map<String, List<Map<String, String>>> tdSets = util.readTestdata(appts.getTestSuiteInfo());
-			appts.setTestdataSets(tdSets);
-			List<String> locAppIDs = appts.getAppIDList();
+			quets.setSuiteName(queStatus+ "_Testsuite");
+			Map<String, List<TestcaseStep>> testcaseQue = util.readTestcases(quets.getTestSuiteInfo());
+			quets.setTestcaseQue(testcaseQue);
+			Map<String, List<Map<String, String>>> tdSets = util.readTestdata(quets.getTestSuiteInfo());
+			quets.setTestdataSets(tdSets);
+			List<String> locAppIDs = quets.getAppIDList();
 			Map<String, List<Map<String, String>>> locSets = util.readLocators(locAppIDs);
-			appts.setLocatorSets(locSets);
-			appts.setRunTimeData(new HashMap<String, Map<String, String>>());
-			appts.setExecBrowserName(browserName);
-			appts.runAllTestcases();
-			appts.generateTestReport();
+			quets.setLocatorSets(locSets);
+			quets.setRunTimeData(new HashMap<String, Map<String, String>>());
+			quets.setExecBrowserName(browserName);
+			quets.runAllTestcases();
+			quets.generateTestReport();
 		}catch (Exception e){
 			logger.error("Exception in Testsuite driver-"+ e.getMessage());
 			//e.printStackTrace();
