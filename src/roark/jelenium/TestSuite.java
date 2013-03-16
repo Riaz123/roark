@@ -1,6 +1,10 @@
 package roark.jelenium;
 
 import java.io.File;
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.ResultSet;
+import java.sql.Statement;
 import java.util.HashMap;
 import java.util.LinkedHashMap;
 import java.util.LinkedList;
@@ -154,95 +158,96 @@ public class TestSuite {
 			Map<String, List<Map<String, String>>> tdSets = this.getTestdataSets();
 			Map<String, List<TestcaseStep>> testcaseSteps = this.getTestcaseQue();
 			for(String tcID:testcaseSteps.keySet() ){
-				List<Map<String, String>> tdSet = tdSets.get(tcID);
-				for(TestcaseStep tcStep: testcaseSteps.get(tcID)){
-					String testdataValue;
-					try{
-						String tdType = tcStep.getTestDataType();
-						if(tdType.equalsIgnoreCase("NA")==false){
-							logger.info("UpdateTestdata value - \n TestcaseID:"+ tcID + " , StepID:"+tcStep.getStepID());
-							logger.info("TestdataName::" + tcStep.getTestDataName()+ " , TestdataType::"+tdType);
-							if(tdType.toUpperCase().equals("XLPARAMETER")==true){
-								try{
-									boolean tdnameFound = false;
-									for(Map<String, String> tdRow: tdSet){
+				if(getTestSuiteInfo().get(tcID).get("TestcaseType").equalsIgnoreCase("DATADRIVEN")==false){
+					List<Map<String, String>> tdSet = tdSets.get(tcID);
+						for(TestcaseStep tcStep: testcaseSteps.get(tcID)){
+							String testdataValue;
+							try{
+								String tdType = tcStep.getTestDataType();
+								if(tdType.equalsIgnoreCase("NA")==false){
+									logger.info("UpdateTestdata value - \n TestcaseID:"+ tcID + " , StepID:"+tcStep.getStepID());
+									logger.info("TestdataName::" + tcStep.getTestDataName()+ " , TestdataType::"+tdType);
+									if(tdType.toUpperCase().equals("XLPARAMETER")==true){
 										try{
-											if(tdRow.get("TestdataName").trim().equalsIgnoreCase(tcStep.getTestDataName().trim())==true){
-												testdataValue=tdRow.get("TestdataValue").trim();
+											boolean tdnameFound = false;
+											for(Map<String, String> tdRow: tdSet){
+												try{
+													if(tdRow.get("TestdataName").trim().equalsIgnoreCase(tcStep.getTestDataName().trim())==true){
+														testdataValue=tdRow.get("TestdataValue").trim();
+														tcStep.setTestDataValue(testdataValue);
+														logger.info("TestdataName -"+tcStep.getTestDataName() +  " is set to ::"+tdRow.get("TestdataValue"));
+														tdnameFound=true;
+														break;
+													}else{
+														tdnameFound=false;
+													}
+												}catch(Exception e){
+													tdnameFound=false;
+													logger.error("Exception in fetching testdatavalue for "+tcStep.getTestDataName() + "\n "+e.getMessage());
+												}
+											}
+											if(tdnameFound==false){
+												logger.error("TestdataName is not found in the testdataSets ");
+												testdataValue="TESTDATA_NOTFOUND";
 												tcStep.setTestDataValue(testdataValue);
-												logger.info("TestdataName -"+tcStep.getTestDataName() +  " is set to ::"+tdRow.get("TestdataValue"));
-												tdnameFound=true;
-												break;
-											}else{
-												tdnameFound=false;
 											}
 										}catch(Exception e){
-											tdnameFound=false;
-											logger.error("Exception in fetching testdatavalue for "+tcStep.getTestDataName() + "\n "+e.getMessage());
+											logger.error("Exception in updateTestdataValues for \n testdataname::"+tcStep.getTestDataName() +
+													"  in TestcaseID::"+ tcStep.getTestcaseID() + " at stepId:"+tcStep.getStepID());
+											logger.error("\n StacktraceInfo::"+e.getMessage());
+											testdataValue="TESTDATA_NOTFOUND";
+											tcStep.setTestDataValue(testdataValue);
 										}
-									}
-									if(tdnameFound==false){
-										logger.error("TestdataName is not found in the testdataSets ");
-										testdataValue="TESTDATA_NOTFOUND";
-										tcStep.setTestDataValue(testdataValue);
-									}
-								}catch(Exception e){
-									logger.error("Exception in updateTestdataValues for \n testdataname::"+tcStep.getTestDataName() +
-											"  in TestcaseID::"+ tcStep.getTestcaseID() + " at stepId:"+tcStep.getStepID());
-									logger.error("\n StacktraceInfo::"+e.getMessage());
-									testdataValue="TESTDATA_NOTFOUND";
-									tcStep.setTestDataValue(testdataValue);
-								}
-							
-							}else if(tdType.toUpperCase().equals("ENVIRONMENTVARIABLE")==true){
-								try{
-									logger.info("tdType is ENVIRONMENTVARIABLE @step#"+tcStep.getStepID() + " in TestcaseID#"+tcStep.getTestcaseID());
-									String evValue =ev.getTestParameterValue(tcStep.getApplicationID(), tcStep.getTestDataName());
-									if(evValue.equals("NOT_FOUND")==false){
-										tcStep.setTestDataValue(evValue);
-										logger.info("testdatavalue is set by env Variable- "+evValue);
+									
+									}else if(tdType.toUpperCase().equals("ENVIRONMENTVARIABLE")==true){
+										try{
+											logger.info("tdType is ENVIRONMENTVARIABLE @step#"+tcStep.getStepID() + " in TestcaseID#"+tcStep.getTestcaseID());
+											String evValue =ev.getTestParameterValue(tcStep.getApplicationID(), tcStep.getTestDataName());
+											if(evValue.equals("NOT_FOUND")==false){
+												tcStep.setTestDataValue(evValue);
+												logger.info("testdatavalue is set by env Variable- "+evValue);
+											}else{
+												logger.info("testdatavalue is not set by env Variable- "+evValue);
+												tcStep.setTestDataValue("TESTDATA_NOTFOUND");
+											}
+										}catch(Exception e){
+											logger.error("Exception in updateTestdataValues for \n testdataname::"+tcStep.getTestDataName() +
+													"  in TestcaseID::"+ tcStep.getTestcaseID() + " at stepId:"+tcStep.getStepID());
+											logger.error("\n StacktraceInfo::"+e.getMessage());
+											tcStep.setTestDataValue("TESTDATA_NOTFOUND");
+		
+										}
+									}else if(tdType.toUpperCase().equals("RUNTIMEVARIABLE")==true ){
+										logger.info("testdataType is runtimevariable, will be updated at teststep level");
+										if(tcStep.getKeyword().startsWith("Store")==true){
+											tcStep.setTestDataValue(tcStep.getTestDataName());
+										}else{
+											tcStep.setTestDataValue("TOBEUPDATED_RUNTIME");
+										}
+										
 									}else{
-										logger.info("testdatavalue is not set by env Variable- "+evValue);
+										tcStep.setTestDataType("INVALID");
+										logger.error("Invalid testdataType error \n testdataname::"+tcStep.getTestDataName() +
+												"  in TestcaseID::"+ tcStep.getTestcaseID() + " at stepId:"+tcStep.getStepID());
 										tcStep.setTestDataValue("TESTDATA_NOTFOUND");
 									}
-								}catch(Exception e){
-									logger.error("Exception in updateTestdataValues for \n testdataname::"+tcStep.getTestDataName() +
-											"  in TestcaseID::"+ tcStep.getTestcaseID() + " at stepId:"+tcStep.getStepID());
-									logger.error("\n StacktraceInfo::"+e.getMessage());
-									tcStep.setTestDataValue("TESTDATA_NOTFOUND");
-
-								}
-							}else if(tdType.toUpperCase().equals("RUNTIMEVARIABLE")==true ){
-								logger.info("testdataType is runtimevariable, will be updated at teststep level");
-								if(tcStep.getKeyword().startsWith("Store")==true){
-									tcStep.setTestDataValue(tcStep.getTestDataName());
 								}else{
-									tcStep.setTestDataValue("TOBEUPDATED_RUNTIME");
+									tcStep.setTestDataType("NOT_APPLICABLE");
+									tcStep.setTestDataValue("NOT_APPLICABLE");
+									logger.info("Testdata is not applicable  in TestcaseID::"+ tcStep.getTestcaseID() + " at stepId:"+tcStep.getStepID());
 								}
-								
-							}else{
-								tcStep.setTestDataType("INVALID");
-								logger.error("Invalid testdataType error \n testdataname::"+tcStep.getTestDataName() +
-										"  in TestcaseID::"+ tcStep.getTestcaseID() + " at stepId:"+tcStep.getStepID());
-								tcStep.setTestDataValue("TESTDATA_NOTFOUND");
-							}
-						}else{
-							tcStep.setTestDataType("NOT_APPLICABLE");
-							tcStep.setTestDataValue("NOT_APPLICABLE");
-							logger.info("Testdata is not applicable  in TestcaseID::"+ tcStep.getTestcaseID() + " at stepId:"+tcStep.getStepID());
+							}catch(Exception e){
+							logger.error("Exception in updateTestdataValues for \n testdataname::"+tcStep.getTestDataName() +
+									"  in TestcaseID::"+ tcStep.getTestcaseID() + " at stepId:"+tcStep.getStepID());
+							logger.error("\n StacktraceInfo::"+e.getMessage());
+							testdataValue="TESTDATA_NOTFOUND";
+							tcStep.setTestDataValue(testdataValue);
 						}
-					}catch(Exception e){
-						logger.error("Exception in updateTestdataValues for \n testdataname::"+tcStep.getTestDataName() +
-								"  in TestcaseID::"+ tcStep.getTestcaseID() + " at stepId:"+tcStep.getStepID());
-						logger.error("\n StacktraceInfo::"+e.getMessage());
-						testdataValue="TESTDATA_NOTFOUND";
-						tcStep.setTestDataValue(testdataValue);
+	
 					}
-
-				}
 			}
 			logger.info("DONE :: updateTestdataValues");
-
+		}
 		}catch(Exception e){
 			logger.error("Exception in updateTestdataValues - \n stackTraceInfo::"+e.getMessage());
 
@@ -256,12 +261,23 @@ public class TestSuite {
 		try{
 			for(String tcID : getTestcaseQue().keySet() ){
 				logger.info("Running Testcase ::"+tcID);
-				for(TestcaseStep tcStep : getTestcaseQue().get(tcID)){
-					tcStep.setWebappdriver(getWebappdriver());
-					tcStep.setRunTimeData(runTimeData);
-					tcStep.run();
+				if(getTestSuiteInfo().get(tcID).get("TestcaseType").equalsIgnoreCase("DATADRIVEN")){
+					logger.info("The testcase - "+tcID  + " is data driven ... ");
+					DatadrivenTest ddt = new DatadrivenTest();
+					ddt.setTestcaseID(tcID);
+					ddt.setTestcaseSteps(getTestcaseQue().get(tcID));
+					ddt.setTestSuite(this);
+					ddt.setTestdataTable(getTestdataTable(tcID));
+					ddt.runOnAllrows();
+				}else{
+					for(TestcaseStep tcStep : getTestcaseQue().get(tcID)){
+						tcStep.setWebappdriver(getWebappdriver());
+						tcStep.setRunTimeData(getRunTimeData());
+						tcStep.run();
+					}
+					logger.info("Execution completed for testcaseID::"+ tcID);
 				}
-				logger.info("Execution completed for testcaseID::"+ tcID);
+				
 			}
 			logger.info("Execution completed for TestSuite::"+ this.getTestcaseQue().keySet().toString());
 			endSession();
@@ -272,6 +288,47 @@ public class TestSuite {
 		
 		
 	}
+
+	private List<Map<String, String>> getTestdataTable(String tcID) {
+		EnvironmentVariables ev = EnvironmentVariables.getInstance();
+	    String ddtFilePath= ev.getTestDataFolderpath() +"\\DDT_"+tcID+ ev.getFileExtension() ;
+	    logger.info("Reading test data for the data driven test from the file :"+ddtFilePath );
+		String ddtsheetName = ev.getTestDataSheetName();
+		Connection conn1 = null;
+		Statement stmnt = null;
+		LinkedList<Map<String, String>> testdataSets = new LinkedList<Map<String, String>>();
+		try
+			{
+				//Class.forName( "sun.jdbc.odbc.JdbcOdbcDriver" );
+				conn1 = DriverManager.getConnection( "jdbc:odbc:Driver={Microsoft Excel Driver (*.xls, *.xlsx, *.xlsm, *.xlsb)};DBQ="+ddtFilePath+"");
+				logger.info("ddtFilePath -"+ddtFilePath);
+				stmnt = conn1.createStatement();
+				String ddtQuery = "select * from ["+ddtsheetName+"$];";
+				ResultSet ddtTable = stmnt.executeQuery(ddtQuery);
+				int columnCount= ddtTable.getMetaData().getColumnCount();
+				logger.info("The testcase has "+ columnCount + " column(s) for datadriven execution");
+				int rowCount=0;
+				while( ddtTable.next() )
+					{	
+						Map<String, String> testdataRow = new HashMap<String, String>();
+						rowCount= rowCount+1;
+						logger.info("Reading row-"+rowCount + " from testdata sheet");
+						for(int colIter=1; colIter<=columnCount;colIter++){
+							String testdataName = ddtTable.getMetaData().getColumnName(colIter).toUpperCase().trim();
+							String testdataValue= ddtTable.getString(testdataName);
+							testdataRow.put(testdataName, testdataValue.trim());
+							logger.info("Added-  \n testdataname:"+testdataName + "\n test data value:"
+								+ testdataValue);
+						}
+						testdataSets.add(testdataRow);
+					}
+			}catch(Exception e){
+				logger.error("Exception in reading test data for datadriven test , testcaseID:"+tcID+" - \n"+e.getMessage());
+			}
+		
+		return testdataSets;		
+	}
+
 
 	private void endSession() {
 		try{

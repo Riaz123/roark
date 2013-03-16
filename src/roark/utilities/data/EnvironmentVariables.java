@@ -31,6 +31,7 @@ public class EnvironmentVariables {
 	private String	testDataSheetName;
 	private String 	fieldDefnSheetName;
 	private String 	envVariablesXMLfilepath;
+	private String 	testDataFolderpath;
 	
 
 	private static EnvironmentVariables instance;
@@ -85,6 +86,7 @@ public class EnvironmentVariables {
 		    
 		    String testDataFoldername = "Testdata";
 		    String testDataFolderpath = rootFolderPath +"\\"+testDataFoldername;
+		    this.setTestDataFolderpath(testDataFolderpath);
 		    String testDataFilenamePrefix = "Testdata";
 		    String testDataFilePathPrefix = testDataFolderpath+ "\\"+testDataFilenamePrefix;
 		    this.setTestDataFilePathPrefix(testDataFilePathPrefix);
@@ -385,6 +387,12 @@ public class EnvironmentVariables {
 			browserDriverEXEpath="NOT_FOUND";
 		}
 	return browserDriverEXEpath;
+	}
+	public String getTestDataFolderpath() {
+		return testDataFolderpath;
+	}
+	public void setTestDataFolderpath(String testDataFolderpath) {
+		this.testDataFolderpath = testDataFolderpath;
 	}
 	
 }

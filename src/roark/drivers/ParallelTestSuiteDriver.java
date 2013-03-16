@@ -9,8 +9,8 @@ import org.apache.log4j.Level;
 import org.apache.log4j.Logger;
 import org.apache.log4j.PatternLayout;
  
-public class ParallelTestSuitesDriver {
-	static Logger logger = Logger.getLogger(ParallelTestSuitesDriver.class);
+public class ParallelTestSuiteDriver {
+	static Logger logger = Logger.getLogger(ParallelTestSuiteDriver.class);
 
     public static void main(String[] args) {
 

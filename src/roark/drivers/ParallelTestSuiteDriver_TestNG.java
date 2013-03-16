@@ -13,8 +13,8 @@ import roark.jelenium.TestcaseStep;
 import roark.utilities.data.ExcelUtilities;
 
 
-public class CBT_ParallelDriver {
-	static Logger logger = Logger.getLogger(CBT_ParallelDriver.class);
+public class ParallelTestSuiteDriver_TestNG {
+	static Logger logger = Logger.getLogger(ParallelTestSuiteDriver_TestNG.class);
 
 
 	  @DataProvider(parallel = true)

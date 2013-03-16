@@ -14,7 +14,7 @@ public class TestSuiteDriver {
 	public static void main(String[] args) throws Exception  {
 		PropertyConfigurator.configure("log4j.properties");
 		testSuiteDriver("firefox");
-		testSuiteDriver("googlechrome");
+		//testSuiteDriver("googlechrome");
 	}
 	
 	public static void testSuiteDriver(String browserName){
