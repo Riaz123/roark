@@ -1873,6 +1873,7 @@ public class WebUI {
 			WebElement targetElement = this.findElementByXpath(testcaseStep.getFieldDefinition());
 			if(targetElement!=null){
 				String textFromElement = targetElement.getText().trim();
+				//Map<String, Map<String, String>> x = testcaseStep.getRunTimeData();
 				try{
 					if(testcaseStep.getRunTimeData().get(testcaseStep.getTestcaseID())==null){
 						Map<String, String>runtimeDatarecord = new HashMap<String, String>();
@@ -1880,7 +1881,7 @@ public class WebUI {
 						testcaseStep.getRunTimeData().put(testcaseStep.getTestcaseID(), runtimeDatarecord);
 						exitCode = 0;
 					}else{
-						testcaseStep.getRunTimeData().get(testcaseStep.getTestcaseID()).put(testcaseStep.getTestcaseID(), textFromElement);
+						testcaseStep.getRunTimeData().get(testcaseStep.getTestcaseID()).put(testcaseStep.getTestDataName(), textFromElement);
 						exitCode = 0;
 					}
 				}catch(Exception e){
